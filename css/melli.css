@@ -221,7 +221,7 @@ animation: fondo 3s;
       list-style: none;
 }
 /*---------------------------------*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 792px) {
  .wrap1{
     margin-left:1%;
 }   
@@ -232,7 +232,7 @@ animation: fondo 3s;
     height: 200px;    
 }
 .flexmelli div{
-    width: 100px;   
+    width:      100px;   
 }
 .wrapmelli h3{
  
