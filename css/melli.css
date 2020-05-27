@@ -33,7 +33,7 @@ html{
 
 @media screen and (max-width: 800px) {
    .mercadopago{
-  
+  position: relative;
  margin-left:36%;  
 }
     }
@@ -256,8 +256,8 @@ animation: fondo 3s;
       list-style: none;
 }
 .flexdelivery ul li{
-    transform: scale(1.7);
-    line-height: 30px;
+    transform: scale(1.2);
+    line-height: 20px;
 }
 /*****************************--****/
 .botoncito{
