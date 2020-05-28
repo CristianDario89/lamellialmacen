@@ -348,7 +348,19 @@ animation: fondo 3s;
      
    margin-left: 37%;
 }
-    .wraptake{
-     margin-bottom: 60px;
- 
+    .wraptake{ margin-bottom: 60px;}
+     
+/*---------------------*/
+/*---------------------*/
+@media screen and (max-width: 600px) {
+    
+.flexmelli{    width: 300px;
+    height: 150px;    
 }
+.flexmelli div{
+    width:      96px;
+    border-radius: 8px;
+    margin-right:  2px;padding: 5px;
+}
+} 
+/*--2-------------------*/ 
