@@ -49,12 +49,19 @@ to{
      border-bottom: 1px solid grey;
     background-color: black;
 }
+#vuelan{
+    display: none;
+}
 /*---------------------*/
 /*---------------------*/
 @media screen and (max-width: 800px) {
+    #vuelan{
+    display: block;
+}
        .mercadopago{
        animation: left 5s;
      margin-left:17%;  
+           height: 42px;
     }
 
 .wrapcompras1{
