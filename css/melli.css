@@ -1,88 +1,125 @@
 html{
   scroll-behavior: smooth;
+} 
+@keyframes up{
+     0%{
+      transform: translate(0px, -120px);
+    }
+to{
+    transform: translate(0px, 0px);
+    }  
 }
-
-@keyframes fondo{
-    10%{
-      color: black;  
-    }
-50%{
-        color:white; 
-    }
-70%{
-        color:black; 
-    }
-
-}
+  
 /*
 @keyframes wiggle { 0%, 7% { transform: rotateZ(0); } 15% { transform: rotateZ(-15deg); } 20% { transform: rotateZ(10deg); } 25% { transform: rotateZ(-10deg); } 30% { transform: rotateZ(6deg); } 35% { transform: rotateZ(-4deg); } 40%, 100% { transform: rotateZ(0); } }
 */
+.margenicon{
+    margin-right: 10px;
+}
+.wrapredes{
+    display: flex; 
+} 
 .mercadopago{
-  position: absolute;
+   position: absolute;
   z-index: 11;
   width: 130px; 
   top: 20px;
- margin-left:45%; 
- 
-   
+ margin-left:35%;  
 }
  .mercadopago img{
   width: 100%;height: 100%;
       border-radius: 8px;
+     animation: up 4s;
 }
-
+.disnone{
+    display: none;
+}
+.wrapcompras1{
+     margin-left: 20%;
+    line-height: 60px;
+}
+.comprash1{
+    color: darkgoldenrod;
+    text-shadow: 2px 2px 1px black;
+}
+/*---------------------*/
+/*---------------------*/
 @media screen and (max-width: 800px) {
-   .mercadopago{
-  position: relative;
- margin-left:36%;  
-}
+       .mercadopago{
+       animation: left 5s;
+     margin-left:17%;  
     }
-.mpmenu{
-     
+
+.wrapcompras1{
+     margin-left: 0%;
+     line-height:44px;
+}
+ 
+.centrowsp{    border-bottom: 12px solid wheat;
+    position: relative;z-index: 1;
+    
+    } 
+.contmp{  border-bottom: 12px solid wheat; }
+.menucostado{ 
+      line-height: 30px;
+    transform: scale(1.6);
+}
+.tituscontacto{
+   color: white;
+     background-color: darkgoldenrod;
+    padding: 5px  0px;
+    text-shadow: 2px 2px 1px black;
+    font-family: "Playfair Display", serif;
+}
 } 
+/*--2-------------------*/
+/*---------------------*/
 .mpmenu img{
     dis
     width: 90px;height: 60px;
     position: absolute;
-    top: 6px;right: 200px;
+    top: 6px;right: 250px;
 } 
+  
 .contmp img{
     transform: translateY(-80px);
     width: 80%;height: 260px; 
+}  
+.menucostado{
+z-index: 1111;
+  text-shadow:  
+        -1px -1px 1px deepskyblue; 
+    font-weight: 700;
 }
+.centrowsp{    font-size: 20px;}
+
+
 /*--------------------------------*/
 .flexmelli{
     display: flex;flex-wrap: wrap;
     color: white;
-     width: 900px;
-    height: 200px;
+     width: 900px;  height: 200px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 50px;  
+}
+.flexmelli div{   width: 219px;  
+     border-radius: 8px;
+    margin:  2px;padding: 5px;
     
-}
-.flexmelli div{
-    width: 300px; 
-   
-}
-
-.wrapmelli{
-    border: 2px solid red
-}
+} 
+.wrapmelli{   border: 2px solid skyblue; }
 .wrapmelli img{
     width: 100%;
     height: 100px;
+    border-radius: 6px;
 }
 .wrapmelli h3{
    color: antiquewhite; text-shadow: 2px 2px 2px black;
     font-weight: 700;
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 26px;
 }
-.wrap1{
-    margin-left:20%;
-}
-
- 
+.wrap1{  margin-left:20%; }  
 .produtitu{
     display: ;    letter-spacing: 8px;
     text-shadow: 3px 3px 2px red;
@@ -265,14 +302,11 @@ animation: fondo 3s;
 }
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
-   
+ 
 .contmp img{
     transform: translateY(-10px);
     width: 100%;height: 160px; 
-} 
-    .contmp  {
-   
-} 
+}  
 .mpmenu{
      display: none;
 }
@@ -291,15 +325,17 @@ animation: fondo 3s;
 .h1menu{
       margin-left:35%;
 }    
-.flexmelli{    width: 300px;
+.flexmelli{    width: 440px;
     height: 200px;    
 }
 .flexmelli div{
-    width:      100px;   
+    width:      104px;
+    border-radius: 8px;
+    margin-right:  2px;padding: 5px;
 }
 .wrapmelli h3{
  
-    font-size: 11px;
+    font-size: 10px;
 }
     #fh5co-home .flexslider {
    padding-top: 
