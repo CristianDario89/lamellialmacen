@@ -80,11 +80,17 @@
   -o-transition: 0.3s;
   transition: 0.3s;      
 }
+
+@media screen and (max-width: 600px) {
+    
+ #fh5co-home .flexslider .fh5co-text h1 {
+    font-size: 40px;
+  }
+} 
 @media screen and (max-width: 768px) {
   #fh5co-home .flexslider .fh5co-text h2 {
     font-size: 20px;
-      
-  }
+ }
 }
 #fh5co-home .flexslider .fh5co-text h2 span {
   font-family: "Playfair Display", serif;
@@ -115,7 +121,7 @@
 
 .fh5co-main-nav {
   position: relative;
-  background: #fff;
+  background: #fff; 
 }
 .fh5co-main-nav.fh5co-shadow {
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
@@ -142,7 +148,7 @@
 .fh5co-main-nav .fh5co-logo {
   vertical-align: middle;
   float: left;
-  line-height: 0;
+  line-height: 0; 
 }
 .fh5co-main-nav .fh5co-menu-1 a,
 .fh5co-main-nav .fh5co-menu-2 a,

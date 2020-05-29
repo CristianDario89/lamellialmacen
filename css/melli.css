@@ -10,9 +10,7 @@ to{
     }  
 }
   
-/*
-@keyframes wiggle { 0%, 7% { transform: rotateZ(0); } 15% { transform: rotateZ(-15deg); } 20% { transform: rotateZ(10deg); } 25% { transform: rotateZ(-10deg); } 30% { transform: rotateZ(6deg); } 35% { transform: rotateZ(-4deg); } 40%, 100% { transform: rotateZ(0); } }
-*/
+
 .estesale{
     display: none;
 }
@@ -77,6 +75,7 @@ to{
 .menucostado{ 
       line-height: 30px;
     transform: scale(1.6);
+    
 }
 .tituscontacto{
    color: black;
@@ -312,6 +311,11 @@ animation: fondo 3s;
 .flexdelivery ul li{
     transform: scale(1.2);
     line-height: 20px;
+    
+}
+.cuadras{
+    letter-spacing: 2px;
+     text-align: left;
 }
 /*****************************--****/
 .botoncito{
@@ -319,7 +323,8 @@ animation: fondo 3s;
 }
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
- 
+  
+ /*------------------------*/
 .contmp img{
     transform: translateY(-10px);
     width: 100%;height: 160px; 
@@ -365,19 +370,34 @@ animation: fondo 3s;
      
    margin-left: 37%;
 }
-    .wraptake{ margin-bottom: 60px;}
-     
+.wraptake{ margin-bottom: 60px;}
+.cuadras{
+    letter-spacing: 1.3px;
+}   
+}
 /*---------------------*/
 /*---------------------*/
 @media screen and (max-width: 600px) {
     
 .flexmelli{    width: 300px;
-    height: 150px;    
+    height: 100px;    
 }
 .flexmelli div{
     width:      96px;
     border-radius: 8px;
     margin-right:  2px;padding: 5px;
 }
+    .  .mercadopago{
+     top: 50px;
+    }
+    
+.flexdelivery ul li{
+    transform: scale(1);
+    line-height: 20px;
+}
+ .cuadras{
+    letter-spacing: 1px;
+    
+}   
 } 
 /*--2-------------------*/ 
