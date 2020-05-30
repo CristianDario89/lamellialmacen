@@ -24,7 +24,7 @@
   height: 40px;
   background: #27ae60;
   bottom: 450px;
-  right: 50px;
+  right: 1px;
 
   text-decoration: none;
   text-align: center;
@@ -41,7 +41,7 @@
   height: 50px;
   background:red;
   bottom: 400px;
-  right: 50px;
+  right: 1px;
 
   text-decoration: none;
   text-align: center;
@@ -64,7 +64,7 @@
   height: 50px;
   background-color: chartreuse;
   bottom: 360px;
-  right: 50px;
+ right: 1px;
 
   text-decoration: none;
   text-align: center;
@@ -79,7 +79,7 @@
   height: 50px;
   background:brown;
   bottom: 320px;
-  right: 50px;
+ right: 1px;
 
   text-decoration: none;
   text-align: center;
@@ -94,7 +94,7 @@
   height: 50px;
   background-color: blueviolet;
   bottom:280px;
-  right: 50px;
+  right: 1px;
 
   text-decoration: none;
   text-align: center;
@@ -109,7 +109,7 @@
   height: 50px;
   background-color: aqua;
   bottom: 240px;
-  right: 50px;
+  right: 1px;
 
   text-decoration: none;
   text-align: center;
@@ -125,8 +125,7 @@
   height: 50px;
   background-color: darkcyan;
   bottom: 200px;
-  right: 50px;
-
+ right: 1px;
   text-decoration: none;
   text-align: center;
   line-height: 50px;
@@ -141,8 +140,7 @@
   height: 50px;
   background-color: wheat;
   bottom: 160px;
-  right: 50px;
-
+right: 1px;
   text-decoration: none;
   text-align: center;
   line-height: 50px;
@@ -157,7 +155,7 @@
   height: 50px;
   background-color: darkgoldenrod;
   bottom: 120px;
-  right: 50px;
+ right: 1px;
 
   text-decoration: none;
   text-align: center;
@@ -173,7 +171,7 @@
   height: 50px;
   background-color: darkorange;
   bottom: 80px;
-  right: 50px;
+ right: 1px;
 
   text-decoration: none;
   text-align: center;

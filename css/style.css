@@ -84,7 +84,8 @@
 @media screen and (max-width: 600px) {
     
  #fh5co-home .flexslider .fh5co-text h1 {
-    font-size: 40px;
+    font-size: 34px;
+     margin-top: 14px;
   }
 } 
 @media screen and (max-width: 768px) {
@@ -204,8 +205,8 @@
   font-size: 50px;
   font-style: italic;
   position: relative;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
     
 } 
 .listo{
@@ -213,7 +214,7 @@
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading .heading {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 .fh5co-heading .heading:after {
@@ -229,9 +230,7 @@
 .fh5co-heading .sub-heading {
   font-size: 20px;
   line-height: 1.5;
-  margin-bottom: 30px;
-    
- 
+  margin-bottom: 1px; 
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading .sub-heading {
@@ -395,7 +394,7 @@
 }
 
 #fh5co-featured {
-  padding: 7em 0;
+  padding: 0 0 3em 0;
   background: #130d08 url(../images/wood_1.png) repeat;
 }
 @media screen and (max-width: 768px) {
@@ -405,7 +404,7 @@
 }
 #fh5co-featured .fh5co-heading .heading {
   position: relative;
-  padding-top: 30px !important;
+  padding-top: 0px !important;
   color: #fff;
 }
 #fh5co-featured .fh5co-heading .heading:before, #fh5co-featured .fh5co-heading .heading::before {
@@ -627,7 +626,7 @@
 }
 #fh5co-menus .fh5co-heading .heading {
   position: relative;
-  padding-top: 30px !important;
+  padding-top: 10px !important;
 }/*
 #fh5co-menus .fh5co-heading .heading:before, #fh5co-menus .fh5co-heading .heading::before {
   height: 64px;
@@ -746,7 +745,7 @@
 }
 #fh5co-events .fh5co-heading .heading {
   position: relative;
-  padding-top: 30px !important;
+  padding-top: 10px !important;
   color: #fff;
 }/*
 #fh5co-events .fh5co-heading .heading:before, #fh5co-events .fh5co-heading .heading::before {

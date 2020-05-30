@@ -380,7 +380,7 @@ animation: fondo 3s;
 @media screen and (max-width: 600px) {
     
 .flexmelli{    width: 300px;
-    height: 100px;    
+    height: 60px;    
 }
 .flexmelli div{
     width:      96px;
@@ -388,7 +388,8 @@ animation: fondo 3s;
     margin-right:  2px;padding: 5px;
 }
     .  .mercadopago{
-     top: 50px;
+     top: 90px;
+        right: 20px;
     }
     
 .flexdelivery ul li{
@@ -396,7 +397,7 @@ animation: fondo 3s;
     line-height: 20px;
 }
  .cuadras{
-    letter-spacing: 1px;
+    letter-spacing: 0.1px;
     
 }   
 } 
