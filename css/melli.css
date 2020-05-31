@@ -367,7 +367,7 @@ animation: fondo 3s;
     margin-right:  2px;padding: 5px;
 }
      .mercadopago{
-      margin-top: 1px;
+      margin-top: 1px;display: none;
     }
     
 .flexdelivery ul li{
