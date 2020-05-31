@@ -42,7 +42,7 @@ table {
     font-size: 34px;
 }
 .section-padding{
-    padding: 60px 0px;
+    padding: 1px 0px;
 }
 .logo-name{
     font-family: 'Satisfy', sans-serif;
@@ -250,7 +250,7 @@ table {
     font-size: 24px;
 }
 .marb-35{
-    margin-bottom: 35px;
+    margin-bottom: -12px;
 }
 .details-list{
     margin-top: 20px;
@@ -367,7 +367,7 @@ table {
     color: #fff;
     text-transform: capitalize;
     letter-spacing: 1px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .gallery-trigger ul li a {
     padding: 10px 20px;

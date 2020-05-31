@@ -1,0 +1,114 @@
+.slide-container {
+  
+  height: 300px;
+   
+}
+.slider22 {
+  width: 650px;
+  height: 250px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  position: relative;
+  left: 200px;
+  overflow: hidden;
+}
+.slider22 .thumbs {
+  position: relative;
+  
+  width: 1950px;
+  counter-reset: subsection;
+  transition: transform 2s;
+}
+.slider22 .thumbs div {
+  width: 630px;
+  height: 220px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 4px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 3px;
+  float: left;
+  position: relative;
+  transition: all 2s;
+}
+
+
+
+.thumbs .first {
+  background-image: url(../img/banner-bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.thumbs .second {
+  background-image: url(../img/res01.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.thumbs .third {
+  background-image: url(../img/res02.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.slider22 .thumbs.move .first, .slider22 .thumbs.move .second, .slider22 .thumbs.move .third {
+  background-position: 20% 50% !important;
+}
+
+.next  {
+  top: 50%;
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  transform: translateX(-250px);
+  cursor: pointer;
+  outline: none;
+  color: darkgoldenrod;
+  transition: all 0.3s;
+}
+ .prev {
+  top: 50%;
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  left: 150px;
+  cursor: pointer;
+  outline: none;
+  color: darkgoldenrod;
+  transition: all 0.3s;
+}
+.next:hover, .prev:hover {
+  background-color: #333;
+}
+.next {
+  left: calc(100% - 40px);
+}
+
+/*---------------------------------*/
+@media screen and (max-width: 792px) {
+  
+.slider22 {
+  width: 530px;
+    left: -11px;
+} 
+.slider22 .thumbs div {
+  width: 565px;
+  
+}
+.next, .prev {
+ z-index: 111;
+     
+}
+    .next {
+   left: calc(100% + 210px);
+      
+}
+   .prev {
+ 
+   transform: translateX(-153px); 
+}
+}
+/*---------------------*/
+@media screen and (max-width: 600px) { 
+}  
+/*---------------------*/

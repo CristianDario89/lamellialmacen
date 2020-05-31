@@ -22,8 +22,8 @@ body{
 @media screen and (max-width: 800px) {
      
 .animated-text{
-  padding: 0 10px;
-    left: 260px;
+  padding: 0 5px;
+    left: 250px;
 } 
 } 
 /*--2-------------------*/

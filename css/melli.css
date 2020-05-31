@@ -1,6 +1,4 @@
-html{
-  scroll-behavior: smooth;
-} 
+html{  scroll-behavior: smooth;} 
 @keyframes up{
      0%{
       transform: translate(0px, -120px);
@@ -8,18 +6,10 @@ html{
 to{
     transform: translate(0px, 0px);
     }  
-}
-  
-
-.estesale{
-    display: none;
-}
-.margenicon{
-    margin-right: 10px;
-}
-.wrapredes{
-    display: flex; 
 } 
+.estesale{  display: none;}
+.margenicon{margin-right: 10px;}
+.wrapredes{    display: flex; } 
 .mercadopago{
    position: absolute;
   z-index: 11;
@@ -32,9 +22,7 @@ to{
       border-radius: 8px;
      animation: up 4s;
 }
-.disnone{
-    display: none;
-}
+.disnone{    display: none;}
 .wrapcompras1{
      margin-left: 20%;
     line-height: 60px;
@@ -47,30 +35,24 @@ to{
      border-bottom: 1px solid grey;
     background-color: black;
 }
-#vuelan{
-    display: none;
-}
+#vuelan{display: none;}
 /*---------------------*/
 /*---------------------*/
 @media screen and (max-width: 800px) {
-    #vuelan{
-    display: block;
-}
+    #vuelan{ display: block;}
        .mercadopago{
        animation: left 5s;
      margin-left:17%;  
            height: 42px;
+           margin-top: 20px;
     }
-
 .wrapcompras1{
      margin-left: 0%;
      line-height:44px;
 }
- 
 .centrowsp{    border-bottom: 12px solid deepskyblue;
     position: relative;z-index: 1;
-    
-    } 
+   } 
 .contmp{  border-bottom: 12px solid deepskyblue;  }
 .menucostado{ 
       line-height: 30px;
@@ -84,10 +66,7 @@ to{
     
     font-family: "Playfair Display", serif;
 }
-    
-.estesale{
-    display: block;
-}
+.estesale{display: block;}
 } 
 /*--2-------------------*/
 /*---------------------*/
@@ -373,7 +352,7 @@ animation: fondo 3s;
 .wraptake{ margin-bottom: 60px;}
 .cuadras{
     letter-spacing: 1.3px;
-}   
+}     
 }
 /*---------------------*/
 /*---------------------*/
@@ -387,9 +366,8 @@ animation: fondo 3s;
     border-radius: 8px;
     margin-right:  2px;padding: 5px;
 }
-    .  .mercadopago{
-     top: 90px;
-        right: 20px;
+     .mercadopago{
+      margin-top: 1px;
     }
     
 .flexdelivery ul li{
