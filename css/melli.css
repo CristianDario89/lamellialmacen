@@ -115,7 +115,7 @@ z-index: 1111;
     letter-spacing: 2px;
     font-size: 26px;
 }
-.wrap1{  margin-left:20%; }  
+.wrap1{   }  
 .produtitu{
     display: ;    letter-spacing: 8px;
       color:white;
@@ -321,7 +321,7 @@ animation: fondo 3s;
 }
     /*-----------------*/
  .wrap1{
-    margin-left:1%;
+    
 }   
 .h1menu{
       margin-left:35%;
@@ -356,7 +356,7 @@ animation: fondo 3s;
 }
 /*---------------------*/
 /*---------------------*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     
 .flexmelli{    width: 300px;
     height: 60px;    

@@ -80,6 +80,21 @@
   background-position: 50% 50%;
 }
 
+.thumbs .first4 {
+  background-image: url(../img/ciga/1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.thumbs .second4 {
+  background-image: url(../img/ciga/222.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.thumbs .third4 {
+  background-image: url(../img/ciga/333.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
 /*------------------------------*/
 
 
@@ -145,7 +160,8 @@
    transform: translateX(-153px); 
 }
     /*------------------------*/
-.disnone{display: block;height: 60px;
+.disnone{display: block;
+    transform: translateX(30px);
  }
 }
 /*---------------------*/

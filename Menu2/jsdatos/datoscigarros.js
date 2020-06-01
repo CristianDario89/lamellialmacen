@@ -1,6 +1,6 @@
-var datosBudines = [ {
+var ciga1 = [ {
     id:"",
-    marca: "lele",
+    marca: "<strong>Phillip Morris</strong> de 10",
     descripcion: "",
     precio: "$70",
     cantidad:"",
@@ -9,7 +9,7 @@ var datosBudines = [ {
 },
 {
     id:"",
-    marca: "Budin de chocolate",
+    marca: "<strong>Phillip Morris</strong>de 20",
     descripcion: "",
     cantidad:"",
     precio: "$110",
@@ -19,8 +19,8 @@ var datosBudines = [ {
 },
 {
     id:"",
-    marca: "keke",
-    descripcion: "",
+    marca: "<strong>Phillip Morris</strong> sabores",
+    descripcion: "menta - uva",
     precio: "$120",
     cantidad:"",
     seccion:"",
@@ -28,7 +28,7 @@ var datosBudines = [ {
 },
 {
     id:"",
-    marca: "Bud. Vainilla",
+    marca: "<strong>Malboro</strong> de 10",
     descripcion: "",
     cantidad:"",
     precio: "$310",
@@ -38,14 +38,24 @@ var datosBudines = [ {
 },
 {
     id:"",
-    marca: "Budin de vainilla <strong>ofofo</strong>",
+    marca: "<strong>Malboro</strong>de 20",
     descripcion: "puede variar el precio",
     cantidad:"",
     precio: "$310",
     cantidad:"",
     seccion:"",
     proveedor:"" 
-}
+},
+{
+    id:"",
+    marca: "<strong>Malboro</strong> sabores",
+    descripcion: "menta - uva",
+    precio: "$120",
+    cantidad:"",
+    seccion:"",
+    proveedor:""
+},
+             
 ];
 
 var datosFacturas = [ {
@@ -142,12 +152,13 @@ var over2 = function(atr,one,two, three) {
     }     
 
 
-over2("#p1", datosBudines[0].marca,datosBudines[0].precio,datosBudines[0].descripcion);
-over2("#p2", datosBudines[1].marca,datosBudines[1].precio,datosBudines[1].descripcion);
-over2("#p3", datosBudines[2].marca,datosBudines[2].precio,datosBudines[2].descripcion);
-over2("#p4", datosBudines[3].marca,datosBudines[3].precio,datosBudines[3].descripcion);
+over2("#p1", ciga1[0].marca,ciga1[0].precio,ciga1[0].descripcion);
+over2("#p2", ciga1[1].marca,ciga1[1].precio,ciga1[1].descripcion);
+over2("#p3", ciga1[2].marca,ciga1[2].precio,ciga1[2].descripcion);
+over2("#p4", ciga1[3].marca,ciga1[3].precio,ciga1[3].descripcion);
+over2("#p5", ciga1[4].marca,ciga1[4].precio,ciga1[4].descripcion);
+over2("#p6", ciga1[5].marca,ciga1[5].precio,ciga1[5].descripcion);
 
-over2("#p5", datosBudines[4].marca,datosBudines[4].precio,datosBudines[4].descripcion);
 
 
 
