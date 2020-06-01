@@ -33,20 +33,56 @@
 
 
 .thumbs .first {
-  background-image: url(../img/banner-bg.jpg);
+  background-image: url(../img/golo/98350011_1096752870707423_6611155425435844608_n.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 .thumbs .second {
-  background-image: url(../img/res01.jpg);
+  background-image: url(../img/golo/98355194_566830354250660_4045982247939997696_n.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 .thumbs .third {
-  background-image: url(../img/res02.jpg);
+  background-image: url(../img/golo/fbphotp.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
+/*--------------------------*/ 
+.thumbs .first2 {
+  background-image: url(../img/galle/1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.thumbs .second2 {
+  background-image: url(../img/galle/2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.thumbs .third2 {
+  background-image: url(../img/galle/1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.thumbs .first3 {
+  background-image: url(../img/bebi/11.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.thumbs .second3 {
+  background-image: url(../img/bebi/22.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.thumbs .third3 {
+  background-image: url(../img/bebi/33.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/*------------------------------*/
+
+
 .slider22 .thumbs.move .first, .slider22 .thumbs.move .second, .slider22 .thumbs.move .third {
   background-position: 20% 50% !important;
 }
@@ -83,7 +119,8 @@
 .next {
   left: calc(100% - 40px);
 }
-
+/*------------------------*/
+.disnone{display: none;}
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
   
@@ -107,6 +144,9 @@
  
    transform: translateX(-153px); 
 }
+    /*------------------------*/
+.disnone{display: block;height: 60px;
+ }
 }
 /*---------------------*/
 @media screen and (max-width: 600px) { 
