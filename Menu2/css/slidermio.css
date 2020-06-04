@@ -136,6 +136,7 @@
 }
 /*------------------------*/
 .disnone{display: none;}
+ 
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
   
@@ -161,9 +162,12 @@
 }
     /*------------------------*/
 .disnone{display: block;
-    transform: translateX(30px);
+    margin: auto;
+    font-weight: 700; 
  }
+   
 }
+ 
 /*---------------------*/
 @media screen and (max-width: 600px) { 
 }  

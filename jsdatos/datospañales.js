@@ -1,84 +1,95 @@
-var datosDulces = [ {
+var datosBudines = [ {
     id:"",
-    marca: "<strong>Don Satur</strong>",
+    marca: "lele",
     descripcion: "",
-    precio: "$40",
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: "../../images/gad4.jpg"
-},
-{
-    id:"",
-    marca: "<strong>Pitusas</strong>",
-    descripcion: "Limon-chocolate-vainilla-frutilla",
-    cantidad:"",
-    precio: "$40",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}, 
-{
-    id:"",
-    marca: "Mantecadas",
-    descripcion: "",
-    precio: "$40",
+    precio: "$70",
     cantidad:"",
     seccion:"",
     proveedor:""
 },
 {
     id:"",
-    marca: "Pepitas",
+    marca: "Budin de chocolate",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: "$110",
     cantidad:"",
     seccion:"",
     proveedor:"" 
 },
 {
     id:"",
-    marca: "bananas con chocolate",
+    marca: "keke",
+    descripcion: "",
+    precio: "$120",
+    cantidad:"",
+    seccion:"",
+    proveedor:""
+},
+{
+    id:"",
+    marca: "Bud. Vainilla",
     descripcion: "",
     cantidad:"",
-    precio: "$45",
+    precio: "$310",
     cantidad:"",
     seccion:"",
     proveedor:"" 
 },
 {
     id:"",
-    marca: "<strong>coronitas</strong>",
-    descripcion: "",
+    marca: "Budin de vainilla <strong>ofofo</strong>",
+    descripcion: "puede variar el precio",
     cantidad:"",
-    precio: "$40",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-},
-{
-    id:"",
-    marca: "pepas <strong>trio</strong>",
-    descripcion: "",
-    cantidad:"",
-    precio: "$45",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-},
-{
-    id:"",
-    marca: "pepas <strong>pepin</strong>",
-    descripcion: "membrillo-batata",
-    cantidad:"",
-    precio: "$40",
+    precio: "$310",
     cantidad:"",
     seccion:"",
     proveedor:"" 
 }
 ];
-/*-----------------------------*/
+
+var aceesorios = [ {
+    id:"1",
+    marca: "mamadera",
+    descripcion: "",
+    precio: "$50",
+    cantidad:"",
+    seccion:"",
+    proveedor:""
+},
+{
+    id:"2",
+    marca: "chupete",
+    descripcion: "",
+    cantidad:"",
+    precio: "%",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+}
+];
+
+var datosDulces = [ {
+    id:"",
+    marca: " ",
+    descripcion: "",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:""
+},
+{
+    id:"",
+    marca: " ",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+}
+];
+
 var datosSaladas = [ {
     id:"",
     marca: " ",
@@ -99,50 +110,6 @@ var datosSaladas = [ {
     proveedor:"" 
 }
 ]  
-
-var datosFacturas = [ {
-    id:"",
-    marca: "Mantecadas",
-    descripcion: "",
-    precio: "$40",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"",
-    marca: "Pepitas",
-    descripcion: "",
-    cantidad:"",
-    precio: "$40",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-];
-
-var datosBudines = [ {
-    id:"",
-    marca: " ",
-    descripcion: "",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"",
-    marca: " ",
-    descripcion: "",
-    cantidad:"",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-];
-
-
 /*--------------------------------*/
 var galletitas = [ {
     id:"",
@@ -175,11 +142,13 @@ var over2 = function(atr,one,two, three) {
     }     
 
 
-over2("#p1", datosDulces[0].marca,datosDulces[0].precio,datosDulces[0].descripcion);
-over2("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].descripcion);
-over2("#p3", datosDulces[2].marca,datosDulces[2].precio,datosDulces[2].descripcion);
-over2("#p4", datosDulces[3].marca,datosDulces[3].precio,datosDulces[3].descripcion);
-over2("#p5", datosDulces[4].marca,datosDulces[4].precio,datosDulces[4].descripcion);
-over2("#p6", datosDulces[5].marca,datosDulces[5].precio,datosDulces[5].descripcion);
-over2("#p7", datosDulces[6].marca,datosDulces[6].precio,datosDulces[6].descripcion);
-over2("#p8", datosDulces[7].marca,datosDulces[7].precio,datosDulces[7].descripcion);
+over2("#p1", datosBudines[0].marca,datosBudines[0].precio,datosBudines[0].descripcion);
+over2("#p2", datosBudines[1].marca,datosBudines[1].precio,datosBudines[1].descripcion);
+over2("#p3", datosBudines[2].marca,datosBudines[2].precio,datosBudines[2].descripcion);
+over2("#p4", datosBudines[3].marca,datosBudines[3].precio,datosBudines[3].descripcion);
+
+over2("#p5", datosBudines[4].marca,datosBudines[4].precio,datosBudines[4].descripcion);
+
+
+
+ 
