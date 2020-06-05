@@ -71,22 +71,21 @@ to{
 /*--2-------------------*/
 /*---------------------*/
 .mpmenu img{
-    dis
-    width: 90px;height: 60px;
-    position: absolute;
-    top: 6px;right: 250px;
+dis
+width: 90px;height: 60px;
+position: absolute;
+top: 6px;right: 250px;
 } 
   
 .contmp img{
-    transform: translateY(-80px);
-    width: 80%;height: 260px; 
+transform: translateY(-80px);
+width: 80%;height: 260px; 
 }  
 .menucostado{
 z-index: 1111;
-  text-shadow:  
-        -1px -1px 1px deepskyblue; 
-    font-weight: 700;
-}
+text-shadow:  -1px -1px 1px deepskyblue; 
+font-weight: 700; 
+} 
 .centrowsp{    font-size: 20px;}
 
 

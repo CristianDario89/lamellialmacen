@@ -125,7 +125,7 @@ var chocolates = [ {
     precio: "$70",
     cantidad:"",
     seccion:"",
-    proveedor:""
+    img:""
 },
 {
     id:"2",
@@ -135,7 +135,7 @@ var chocolates = [ {
     precio: "$70",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"../images/golo/gol9.jpg" 
 },
 {
     id:"3",
@@ -144,7 +144,7 @@ var chocolates = [ {
     precio: "$60",
     cantidad:"",
     seccion:"",
-    proveedor:""
+    img:""
 },
 {
     id:"4",
@@ -154,7 +154,7 @@ var chocolates = [ {
     precio: "$70",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
 {
     id:"5",
@@ -164,7 +164,7 @@ var chocolates = [ {
     precio: "$60",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"../images/golo/gol7.jpg" 
 },
                  {
     id:"6",
@@ -174,7 +174,7 @@ var chocolates = [ {
     precio: "$310",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
 {
     id:"7",
@@ -184,7 +184,7 @@ var chocolates = [ {
     precio: "$50",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
 {
     id:"8",
@@ -194,7 +194,7 @@ var chocolates = [ {
     precio: "$20",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
 {
     id:"9",
@@ -224,7 +224,7 @@ var chocolates = [ {
     precio: "$40",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"../images/golo/gol4.jpg" 
 },
 {
     id:"12",
@@ -234,7 +234,7 @@ var chocolates = [ {
     precio: "$80",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
  {
     id:"13",
@@ -244,7 +244,7 @@ var chocolates = [ {
     precio: "$310",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
  {
     id:"14",
@@ -254,7 +254,7 @@ var chocolates = [ {
     precio: "$50",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
  {
     id:"16",
@@ -264,17 +264,17 @@ var chocolates = [ {
     precio: "$50",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
  {
     id:"17",
-    marca: "<strong>cofler block </strong>170g",
+    marca: "<strong>cofler block </strong> 170g",
     descripcion: "",
     cantidad:"",
     precio: "215",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"../images/golo/gol8.jpg" 
 } 
 ];
 /*--------------------------*/ 
@@ -335,7 +335,7 @@ over2("#p10", alfajores[9].marca,alfajores[9].precio,alfajores[9].descripcion);
 
 */
 
-over2("#pg5", chocolates[0].marca,chocolates[0].precio,chocolates[0].img);
+over2("#pg5", chocolates[4].marca,chocolates[4].precio,chocolates[4].img);
 over2("#pg6", chocolates[1].marca,chocolates[1].precio,chocolates[1].img);
 over2("#pg7", chocolates[2].marca,chocolates[2].precio,chocolates[2].img);
 over2("#pg8", chocolates[3].marca,chocolates[3].precio,chocolates[3].img);
