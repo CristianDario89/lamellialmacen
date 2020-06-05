@@ -37,7 +37,7 @@ id:"4",
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "" 
+    img: "images/bebi/bb3.jpg" 
 },                
 {
     id:"5",
@@ -152,7 +152,7 @@ var jugos = [ {
     precio: "$20",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"images/bebi/bb1.jpg" 
 },
 {
     id:"4",
@@ -162,7 +162,7 @@ var jugos = [ {
     precio: "$20",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"images/bebi/cer3.jpg" 
 },
 {
     id:"5",
@@ -192,7 +192,7 @@ var jugos = [ {
     precio: "$120",
     cantidad:"",
     seccion:"",
-    img:"" 
+    img:"images/bebi/bb5.jpg" 
 },
 {
     id:"8",

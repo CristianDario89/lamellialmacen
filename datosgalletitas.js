@@ -1,5 +1,5 @@
 var datosDulces = [ {
-    id:"",
+    id:"1",
     marca: "<strong>Don Satur</strong>",
     descripcion: "",
     precio: "$40",
@@ -9,7 +9,7 @@ var datosDulces = [ {
     img: "images/galle/g2.jpg"
 },
 {
-    id:"",
+    id:"2",
     marca: "<strong>Pitusas</strong>",
     descripcion: "Limon-chocolate-vainilla-frutilla",
     cantidad:"",
@@ -21,7 +21,7 @@ var datosDulces = [ {
     
 }, 
 {
-    id:"",
+    id:"3",
     marca: "Mantecadas",
     descripcion: "",
     precio: "$40",
@@ -31,7 +31,7 @@ var datosDulces = [ {
     img: "images/galle/mante.jpg"
 },
 {
-    id:"",
+    id:"4",
     marca: "Pepitas",
     descripcion: "",
     cantidad:"",
@@ -42,7 +42,7 @@ var datosDulces = [ {
     img: "images/galle/pepi.jpg" 
 },
 {
-    id:"",
+    id:"5",
     marca: "bananas con chocolate",
     descripcion: "",
     cantidad:"",
@@ -50,10 +50,10 @@ var datosDulces = [ {
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: ""
+    img: "images/galle/gg1.webp"
 },
 {
-    id:"",
+    id:"6",
     marca: "<strong>coronitas</strong>",
     descripcion: "",
     cantidad:"",
@@ -64,7 +64,7 @@ var datosDulces = [ {
     img: "images/galle/gad4.jpg" 
 },
 {
-    id:"",
+    id:"7",
     marca: "pepas <strong>trio</strong>",
     descripcion: "",
     cantidad:"",
@@ -75,7 +75,7 @@ var datosDulces = [ {
     img: "images/galle/gad6.jpg" 
 },
 {
-    id:"",
+    id:"8",
     marca: "pepas <strong>pepin</strong>",
     descripcion: "membrillo-batata",
     cantidad:"",
@@ -84,6 +84,17 @@ var datosDulces = [ {
     seccion:"",
     proveedor:"",
     img: "images/galle/gad5.jpg"
+},
+{
+    id:"9",
+    marca: "surtidas <strong>bagley</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: "$100",
+    cantidad:"",
+    seccion:"",
+    proveedor:"",
+    img: "" 
 }
 ];
 /*-----------------------------*/

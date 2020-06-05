@@ -71,14 +71,18 @@
     <link rel="stylesheet" href="css/all.css">
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-		
+	
+	
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-    <!-- Firestore
+   
+         <!-- Firestore -->
     <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
+
+
 	</head>
 	<body>
 
@@ -133,13 +137,13 @@
                         <a href="#precioshela" > <h3>HELADOS</h3></a>
                         <img src="images/2/helatasty1.jpeg">
                     </div>
-                    <div class="wrapmelli">
+                    <div class="wrapmelli estesale">
                         <h3>TARJETAS</h3>
                         <img src="images/2/iccel1.png">
                     </div>
-                    <div class="wrapmelli estesale">
-                          <a href="#preciosgalle" > <h3>GALLETITAS</h3></a>
-                        <img src="images/galle/g2.jpg">
+                    <div class="wrapmelli">
+                          <a href="#preciosalma" > <h3>ALMACEN</h3></a>
+                        <img src="images/alma/a3.webp">
                     </div>
 				</div>
 
@@ -477,6 +481,60 @@
 </div>
             
 <p class="text-center botoncito"><a href="Menu2/index.html" class="btn btn-primary btn-outline">VER MAS</a></p>
+<!------------------------------------------>
+ <div class="text-center wraptitu">
+              <h1 class="produtitu" id="preciosalma">ALMACEN</h1> 
+</div>
+<div class="row row-padded wrap1" data-section="golosinas">
+                	<div class="col-md-6 col-lg-3  ">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="fh5co-drinks">Lacteos</h2>
+						  <ul>
+                                    <li id="pa1">	</li>
+                                    <li id="pa2">	</li>
+                                    <li id="pa3">	</li>
+                                    <li id="pa4">	</li>
+                          </ul>	
+                        </div>
+					</div>
+               
+				  	<div class="col-md-6 col-lg-3">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="fh5co-dishes">Mate</h2>
+						  <ul>
+                                    <li id="pa5">	</li>
+                                    <li id="pa6">	</li>
+                                    <li id="pa7">	</li>
+                                    <li id="pa8">	</li>
+                          </ul>		
+                          </div>
+                 	</div>
+				    
+				    <div class="col-md-6 col-lg-3">
+						<div class="fh5co-food-menu to-animate-2">
+						    <ul>
+                                    <li id="pa11">	</li>
+                                    <li id="pa12">	</li>
+                                    <li id="pa13">	</li>
+                                    <li id="pa14">	</li>
+                          </ul>		
+                          	</div>
+                  	</div>
+                  	
+                  		<div class="col-md-6 col-lg-3  ">
+						<div class="fh5co-food-menu to-animate-2">
+						  <ul>
+                                    <li id="pa15">	</li>
+                                    <li id="pa16">	</li>
+                                    <li id="pa17">	</li>
+                                    <li id="pa18">	</li>
+                          </ul>		
+                          	</div>
+					</div>
+</div>
+            
+<p class="text-center botoncito"><a href="Menu2/golosinas.html" class="btn btn-primary btn-outline">VER MAS</a></p>
+ <!------------------------------------------>
  <!------------------------------------------>
  <div class="text-center wraptitu">
               <h1 class="produtitu" id="preciosgolo">GOLOSINAS</h1> 
@@ -651,7 +709,7 @@
 						</div>
 						<div class="form-group">
 							<label for="occation" class="sr-only">Occation</label>
-							<select class="form-control" id="occation">
+							<select class="form-control" id="entrega" >
 								<option>Seleccionar tipo de entrega</option>
 							  <option>Delivery</option>
 							  <option>Take away</option>
@@ -659,7 +717,7 @@
 						</div>
                         	<div class="form-group">
 							<label for="occation" class="sr-only">Occation</label>
-							<select class="form-control" id="occation">
+							<select class="form-control" id="pago">
 								<option>Forma de pago</option>
 							  <option>Efectivo</option>
 							  <option>Mercado pago</option>
@@ -677,7 +735,7 @@
 							<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Lista de codigos/productos"></textarea>
 						</div>
 						<div class="form-group ">
-							<input class="btn btn-primary" onclick="takeInput()" value="Realizar pedido" type="submit">
+							<input class="btn btn-primary" onclick="guardar()" value="Realizar pedido" type="submit">
 						</div>
 						</div>
 				</div>
@@ -686,7 +744,7 @@
 		
 </div>
 <!----------------------------------->
-<a class="gotopbtn" href="#"> <i class=" "></i></a>
+<a class="gotopbtn" href="#"> <i class=""></i>^</a>
          <a class="gotopbtn2"  href="#preciosgalle">GALLETITAS</a>
          <a class="gotopbtn3" href="#preciosbebidas">BEBIDAS </a>
          <a class="gotopbtn4" href="#precioscigarro">CIGARRILLOS </a>
@@ -694,7 +752,7 @@
          <a class="gotopbtn6" href="#preciosgolo">GOLOSINAS</a>
           <a class="gotopbtn7" href="#precioshela">HELADOS </a>
          <a class="gotopbtn8" href="#">PAÑALES </a>
-         <a class="gotopbtn9" href="#">TARJETA </a>
+         <a class="gotopbtn9" href="#preciosalma">ALMACEN </a>
          <a class="gotopbtn10" href="#message">AGREGAR</a>
 
 <div id="fh5co-footer">
@@ -716,8 +774,9 @@
 			</div>
 		</div>
 	</div> 
-	
-<script src="datosgalletitas.js"></script>	
+		<script src="jsdatos/app.js"></script>
+    <script src="datosalmacen.js"></script>
+    <script src="datosgalletitas.js"></script>	
 	<script src="datosbebidas.js"></script>	
 	<script src="datoscigarros.js"></script>
     <script src="datosgolosinas.js"></script>

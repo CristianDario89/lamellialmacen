@@ -1,4 +1,4 @@
-var articulos = [ {
+var alma1 = [ {
     id:"1",
     marca: "leche <strong>la serenisima</strong> ",
     descripcion: "",
@@ -28,7 +28,7 @@ var articulos = [ {
 },
 {
     id:"4",
-    marca: "<strong>armonia</strong> 200ml",
+    marca: "leche <strong>armonia</strong> 200ml",
     descripcion: "",
     cantidad:"",
     precio: "$310",
@@ -44,6 +44,43 @@ var articulos = [ {
     cantidad:"",
     seccion:"",
     proveedor:""
+},
+{
+    id:"6",
+    marca: "azucar <strong>ledesma</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: "$60",
+    cantidad:"",
+    seccion:"",
+    img:"images/alma/a3.webp" 
+},
+{
+    id:"7",
+    marca: "yerba <strong>taragui</strong> ",
+    descripcion: "",
+    precio: "$120",
+    cantidad:"",
+    seccion:"",
+    img:""
+},
+{
+    id:"8",
+    marca: "matecocido <strong>taragui</strong>",
+    descripcion: "",
+    precio: "$40",
+    cantidad:"",
+    seccion:"",
+    img:"images/alma/a6.jpg"
+},
+{
+    id:"9",
+    marca: "te <strong>taragui</strong>",
+    descripcion: "",
+    precio: "$60",
+    cantidad:"",
+    seccion:"",
+    img:"images/alma/a4.jpg"
 }
 ];
 
@@ -185,6 +222,15 @@ var otros = [ {
     cantidad:"",
     seccion:"",
     proveedor:"" 
+},
+{
+    id:"11",
+    marca: " <strong>actron</strong>",
+    descripcion: "",
+    precio: "$20",
+    cantidad:"",
+    seccion:"",
+    img:"images/alma/a2.png"
 }
              
 ];
@@ -218,21 +264,32 @@ var over2 = function(atr,one,two, three) {
     }     
 
 
-over2("#pl1", articulos[0].marca,articulos[0].precio,articulos[0].img);
-over2("#pl2", articulos[1].marca,articulos[1].precio,articulos[1].img);
-over2("#pl3", articulos[2].marca,articulos[2].precio,articulos[2].img);
-over2("#pl4", articulos[3].marca,articulos[3].precio,articulos[3].img);
+over2("#pa1", alma1[0].marca,alma1[0].precio,alma1[0].img);
+over2("#pa2", alma1[1].marca,alma1[1].precio,alma1[1].img);
+over2("#pa3", alma1[2].marca,alma1[2].precio,alma1[2].img);
+over2("#pa4", alma1[3].marca,alma1[3].precio,alma1[3].img);
 
-over2("#pl5", desoH[0].marca,desoH[0].precio,desoH[0].img);
-over2("#pl6", desoH[1].marca,desoH[1].precio,desoH[1].img);
-over2("#pl7", desoH[2].marca,desoH[2].precio,desoH[2].img);
-over2("#pl8", desoH[3].marca,desoH[3].precio,desoH[3].img);
+over2("#pa5", alma1[4].marca,alma1[4].precio,alma1[4].img);
+over2("#pa6", alma1[5].marca,alma1[5].precio,alma1[5].img);
+over2("#pa7", alma1[6].marca,alma1[6].precio,alma1[6].img);
+over2("#pa8", alma1[7].marca,alma1[7].precio,alma1[7].img);
 
 
+over2("#pa11", otros[0].marca,otros[0].precio,otros[0].img);
+over2("#pa12", otros[1].marca,otros[1].precio,otros[1].img);
+over2("#pa13", otros[2].marca,otros[2].precio,otros[2].img);
+over2("#pa14", otros[3].marca,otros[3].precio,otros[3].img);
+
+over2("#pa15", otros[4].marca,otros[4].precio,otros[4].img);
+over2("#pa16", otros[5].marca,otros[5].precio,otros[5].img);
+over2("#pa17", otros[9].marca,otros[9].precio,otros[9].img);
+over2("#pa18", otros[10].marca,otros[10].precio,otros[10].img);
+
+/*
 over2("#pl9", desoM[0].marca,desoM[0].precio,desoM[0].img);
 over2("#pl10", desoM[1].marca,desoM[1].precio,desoM[1].img);
 over2("#pl11", desoM[2].marca,desoM[2].precio,desoM[2].img);
-over2("#pl12", desoM[3].marca,desoM[3].precio,desoM[3].img);
+over2("#pl12", desoM[3].marca,desoM[3].precio,desoM[3].img);*/
   
   
 

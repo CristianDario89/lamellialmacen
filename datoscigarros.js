@@ -38,7 +38,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/c1.jpg"  
+    img: "images/ciga/c4.png"  
 },
 {
     id:"5",
@@ -59,7 +59,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/ciga44.jpg" 
+    img: "images/ciga/c3.webp" 
 },
 {
     id:"7",
@@ -102,7 +102,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/cigachester.jpg"  
+    img: "images/ciga/c1.png"  
 },
 {
     id:"11",
@@ -112,7 +112,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "img/2/ciga44.jpg" 
+    img: "img/2/cigachester.jpg" 
 },
 {
     id:"12",

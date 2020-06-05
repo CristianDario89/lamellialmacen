@@ -15,7 +15,7 @@ var articulos = [ {
     precio: "$110",
     cantidad:"",
     seccion:"",
-    img:"" 
+    img:"images/limpi/ll1.jpg" 
 },
 {
     id:"3",
@@ -34,7 +34,7 @@ var articulos = [ {
     precio: "$10",
     cantidad:"",
     seccion:"",
-    img:"" 
+    img:"images/limpi/ll3.webp" 
 }
 ];
 
@@ -115,7 +115,7 @@ var desoH = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    img:""
+    img:"images/limpi/ll5.webp"
 },
 {
     id:"4",
@@ -125,7 +125,7 @@ var desoH = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    img:"" 
+    img:"images/limpi/ll5.webp " 
 }
              
 ];
