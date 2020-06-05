@@ -299,7 +299,7 @@ animation: fondo 3s;
   position: relative;bottom:70px;
 }
 /*---------------------------------*/
-@media screen and (max-width: 792px) {
+@media screen and (max-width: 719px) {
   .mercadopago {
         height: 40px;
         top: 100px;
