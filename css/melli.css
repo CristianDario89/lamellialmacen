@@ -19,7 +19,7 @@ to{
     
 }
  .mercadopago img{
-  width: 130px;height: 100%;
+  width: 130px;height: 40px;
       border-radius: 8px;
      animation: up 4s;
 }
@@ -302,11 +302,11 @@ animation: fondo 3s;
 @media screen and (max-width: 792px) {
   .mercadopago {
         height: 40px;
-        top: 160px;
-      left: -50px;
+        top: 100px;
+      left: -80px;
     }
      .mercadopago img{
-      margin-left: 40px;
+      margin-left: 55px;
       
     }  
  /*------------------------*/
