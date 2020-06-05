@@ -6,7 +6,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/ciga1.png" 
+    img: "img/2/ciga1.png" 
 },
 {
     id:"2",
@@ -17,7 +17,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/ciga1.png"  
+    img: "img/2/ciga1.png"  
 },
 {
     id:"3",
@@ -27,7 +27,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/ciga4.jpg" 
+    img: "img/2/ciga4.jpg" 
 },
 {
     id:"4",
@@ -49,7 +49,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/c2.jpg"  
+    img: "img/2/c2.jpg"  
 },
 {
     id:"6",
@@ -70,7 +70,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/cigared2.jpg"  
+    img: "img/2/cigared2.jpg"  
 },             
 {
     id:"8",
@@ -91,7 +91,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/ciga44.jpg" 
+    img: "img/2/ciga44.jpg" 
 },
 {
     id:"10",
@@ -112,7 +112,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/ciga44.jpg" 
+    img: "img/2/ciga44.jpg" 
 },
 {
     id:"12",
@@ -122,7 +122,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/cigachester.jpg" 
+    img: "img/2/cigachester.jpg" 
 },
 {
     id:"13",
@@ -133,7 +133,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/cigachester.jpg"  
+    img: ""  
 },
 {
     id:"14",
@@ -143,7 +143,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/ciga44.jpg" 
+    img: "" 
 },
 {
     id:"15",
@@ -153,7 +153,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/cigachester.jpg" 
+    img: "" 
 },
 {
     id:"16",
@@ -163,7 +163,7 @@ var ciga1 = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/cigachester.jpg" 
+    img: "" 
 }
              
 ];

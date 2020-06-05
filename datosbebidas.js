@@ -6,7 +6,7 @@ var cervezas = [ {
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/bebi/b4.jpg" 
+    img: "" 
 },
 {
     id:"2",
@@ -17,7 +17,7 @@ var cervezas = [ {
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/bebi/cer22.jpg"  
+    img: ""  
 },
 {
 id:"3",
@@ -27,7 +27,7 @@ id:"3",
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/bebi/cer3.jpg" 
+    img: "images/bebi/cer3.jpg" 
 }, 
 {
 id:"4",
@@ -37,7 +37,7 @@ id:"4",
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/bebi/b5.jpg" 
+    img: "" 
 },                
 {
     id:"5",
@@ -47,7 +47,7 @@ id:"4",
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/bebi/b1.jpg" 
+    img: "images/bebi/b1.jpg" 
 },
 {
     id:"6",
@@ -58,7 +58,7 @@ id:"4",
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/bebi/b1.jpg"  
+    img: "images/bebi/b1.jpg"  
 },
 {
     id:"7",
@@ -69,7 +69,7 @@ id:"4",
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/bebi/b4.jpg"  
+    img: "images/bebi/b4.jpg"  
 },
 {
     id:"8",
@@ -80,7 +80,7 @@ id:"4",
     cantidad:"",
     seccion:"",
     proveedor:""  ,
-    img: "../images/bebi/b7.jpg" 
+    img: "images/bebi/cer1.jpg" 
 },
 {
     id:"9",
@@ -91,7 +91,7 @@ id:"4",
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/galle/gas1.jpg"  
+    img: "images/galle/gas1.jpg"  
 }
 ];
 
@@ -102,7 +102,7 @@ var vinos = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    img:"../images/bebi/vinos1.jpg"
+    img:"images/bebi/vinos1.jpg"
 },
 {
     id:"2",
@@ -112,7 +112,7 @@ var vinos = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    img:"../images/bebi/vinos2.jpg"
+    img:"images/bebi/vinos2.jpg"
 },
 {
     id:"3",
@@ -121,7 +121,7 @@ var vinos = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    img:"../images/bebi/vinos3.jpg"
+    img:"images/bebi/vinos3.jpg"
 }
 ];
 
@@ -132,7 +132,7 @@ var jugos = [ {
     precio: "$75",
     cantidad:"",
     seccion:"",
-    img:"../images/bebi/b9.webp"
+    img:"images/bebi/b9.webp"
 },
 {
     id:"2",
@@ -142,7 +142,7 @@ var jugos = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    img:"../images/bebi/b8.jpg" 
+    img:"images/bebi/b8.jpg" 
 },
 {
     id:"3",
@@ -172,7 +172,7 @@ var jugos = [ {
     precio: "$120",
     cantidad:"",
     seccion:"",
-    img:"../images/bebi/b3.png" 
+    img:"images/bebi/b3.png" 
 },
 {
     id:"6",
@@ -182,7 +182,7 @@ var jugos = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    img:"../images/bebi/gase1.jpg" 
+    img:"images/bebi/gase1.jpg" 
 },
 {
     id:"7",
@@ -202,7 +202,7 @@ var jugos = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    img:"../images/bebi/b2.jpg" 
+    img:"images/bebi/b2.jpg" 
 }
 ];
 

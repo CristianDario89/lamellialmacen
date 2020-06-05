@@ -6,7 +6,7 @@ var heladosagua = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/hela2.png"
+    img: "img/2/hela2.png"
 },
 {
     id:"",
@@ -17,7 +17,7 @@ var heladosagua = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/hela1.png" 
+    img: "img/2/hela1.png" 
 },
 {
     id:"",
@@ -27,7 +27,7 @@ var heladosagua = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/hela4.jpg"
+    img: "img/2/hela4.jpg"
 },
 {
     id:"",
@@ -38,7 +38,7 @@ var heladosagua = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/hedagua1.jpg" 
+    img: "img/2/hedagua1.jpg" 
 }
 ];
 
@@ -50,7 +50,7 @@ var heladostasty = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/hela6.png"
+    img: "img/2/hela6.png"
 },
 {
     id:"",
@@ -61,7 +61,7 @@ var heladostasty = [ {
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../img/2/helatasty1.jpeg"
+    img: "img/2/helatasty1.jpeg"
 },
 {
     id:"",
@@ -71,7 +71,7 @@ var heladostasty = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/hela6.png"
+    img: "img/2/hela6.png"
 },
 {
     id:"",
@@ -82,7 +82,7 @@ var heladostasty = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/helatasty1.jpeg" 
+    img: "img/2/helatasty1.jpeg" 
 }
 ];
 

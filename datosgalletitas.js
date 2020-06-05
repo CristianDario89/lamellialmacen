@@ -6,7 +6,7 @@ var datosDulces = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../images/galle/g2.jpg"
+    img: "images/galle/g2.jpg"
 },
 {
     id:"",
@@ -17,7 +17,7 @@ var datosDulces = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../images/galle/gad11.jpg"
+    img: "images/galle/gad11.jpg"
     
 }, 
 {
@@ -28,7 +28,7 @@ var datosDulces = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../images/galle/mante.jpg"
+    img: "images/galle/mante.jpg"
 },
 {
     id:"",
@@ -39,7 +39,7 @@ var datosDulces = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../images/galle/pepi.jpg" 
+    img: "images/galle/pepi.jpg" 
 },
 {
     id:"",
@@ -50,7 +50,7 @@ var datosDulces = [ {
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/gad4.jpg"
+    img: ""
 },
 {
     id:"",
@@ -61,7 +61,7 @@ var datosDulces = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../images/galle/gad4.jpg" 
+    img: "images/galle/gad4.jpg" 
 },
 {
     id:"",
@@ -72,7 +72,7 @@ var datosDulces = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../images/galle/gad6.jpg" 
+    img: "images/galle/gad6.jpg" 
 },
 {
     id:"",
@@ -83,7 +83,7 @@ var datosDulces = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../images/galle/gad5.jpg"
+    img: "images/galle/gad5.jpg"
 }
 ];
 /*-----------------------------*/
@@ -95,7 +95,7 @@ var datosSaladas = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../images/galle/gad6.jpg" 
+    img: "images/galle/gad6.jpg" 
 },
 {
     id:"",
@@ -106,7 +106,7 @@ var datosSaladas = [ {
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/galle/gad6.jpg" 
+    img: "images/galle/gad6.jpg" 
 },
 {
     id:"",
@@ -117,7 +117,7 @@ var datosSaladas = [ {
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "../images/galle/gas1.jpg" 
+    img: "images/galle/gas1.jpg" 
 }
 ]  
 
@@ -129,7 +129,7 @@ var snacks = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img:"../images/galle/snack1.jpg"
+    img:"images/galle/snack1.jpg"
 },
 {
     id:"2",
@@ -139,7 +139,7 @@ var snacks = [ {
     precio: "$40",
     cantidad:"",
     seccion:"",
-    img:"../images/galle/snack2.jpg" 
+    img:"images/galle/snack2.jpg" 
 },
 {
     id:"3",
@@ -149,7 +149,7 @@ var snacks = [ {
     precio: "$40",
     cantidad:"",
     seccion:"",
-    img:"../images/galle/snack3.jpg" 
+    img:"images/galle/snack3.jpg" 
 },
 {
     id:"4",
@@ -159,7 +159,7 @@ var snacks = [ {
     precio: "$40",
     cantidad:"",
     seccion:"",
-    img:"../images/galle/snack4.jpg" 
+    img:"images/galle/snack4.jpg" 
 },
 {
     id:"5",

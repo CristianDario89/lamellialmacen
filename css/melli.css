@@ -71,7 +71,7 @@ to{
 /*--2-------------------*/
 /*---------------------*/
 .mpmenu img{
-dis
+ 
 width: 90px;height: 60px;
 position: absolute;
 top: 6px;right: 250px;
@@ -113,8 +113,7 @@ font-weight: 700;
     font-weight: 700;
     letter-spacing: 2px;
     font-size: 26px;
-}
-.wrap1{   }  
+} 
 .produtitu{
     display: ;    letter-spacing: 8px;
       color:white;
@@ -361,7 +360,7 @@ animation: fondo 3s;
 /*---------------------*/
 @media screen and (max-width:500px) {
   .mercadopago {
-       display: none;
+      
     }
        
 .flexmelli{   

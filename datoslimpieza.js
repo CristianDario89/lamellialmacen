@@ -5,7 +5,7 @@ var articulos = [ {
     precio: "$70",
     cantidad:"",
     seccion:"",
-    img:"../images/limpi/l1.jpg"
+    img:"images/limpi/l1.jpg"
 },
 {
     id:"2",
@@ -45,7 +45,7 @@ var higiene = [ {
     precio: "",
     cantidad:"$100",
     seccion:"",
-    img:"../images/limpi/l5.jpg"
+    img:"images/limpi/l5.jpg"
 },
 {
     id:"2",
@@ -55,7 +55,7 @@ var higiene = [ {
     precio: "$35",
     cantidad:"",
     seccion:"",
-    img:"../images/limpi/l7.jpg" 
+    img:"images/limpi/l7.jpg" 
 },
 {
     id:"3",
@@ -65,7 +65,7 @@ var higiene = [ {
     precio: "$85",
     cantidad:"",
     seccion:"",
-    img:"../images/limpi/l3.jpg" 
+    img:"images/limpi/l3.jpg" 
 },
 {
     id:"4",
@@ -75,7 +75,7 @@ var higiene = [ {
     precio: "$80",
     cantidad:"",
     seccion:"",
-    img:"../images/limpi/l8.jpg" 
+    img:"images/limpi/l8.jpg" 
 },
 {
     id:"5",
@@ -85,7 +85,7 @@ var higiene = [ {
     precio: "$80",
     cantidad:"",
     seccion:"",
-    img:"../images/limpi/l6.jpg" 
+    img:"images/limpi/l6.jpg" 
 }
 ];
 
@@ -96,7 +96,7 @@ var desoH = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    img:"../images/limpi/l10.jpg"
+    img:"images/limpi/l10.jpg"
 },
 {
     id:"2",

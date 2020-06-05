@@ -34,7 +34,7 @@ var alfajores = [ {
     precio: "$70",
     cantidad:"",
     seccion:"",
-    img:"../images/golo/gol6.jpg" 
+    img:"images/golo/gol6.jpg" 
 },
 {
     id:"5",
@@ -84,7 +84,7 @@ var alfajores = [ {
     precio: "$70",
     cantidad:"",
     seccion:"",
-    img:"../images/golo/gol3.jpg" 
+    img:"images/golo/gol3.jpg" 
 },
 {
     id:"10",
@@ -114,7 +114,7 @@ var alfajores = [ {
     precio: "$70",
     cantidad:"",
     seccion:"",
-    img:"../images/golo/gol5.png" 
+    img:"images/golo/gol5.png" 
 }
 ];
 /*----------------------------*/
@@ -135,7 +135,7 @@ var chocolates = [ {
     precio: "$70",
     cantidad:"",
     seccion:"",
-    img:"../images/golo/gol9.jpg" 
+    img:"images/golo/gol9.jpg" 
 },
 {
     id:"3",
@@ -164,9 +164,9 @@ var chocolates = [ {
     precio: "$60",
     cantidad:"",
     seccion:"",
-    img:"../images/golo/gol7.jpg" 
+    img:"images/golo/gol7.jpg" 
 },
-                 {
+{
     id:"6",
     marca: "<strong>milka </strong> oreo",
     descripcion: "",
@@ -204,7 +204,7 @@ var chocolates = [ {
     precio: "$30",
     cantidad:"",
     seccion:"",
-    img:"../images/golo/gol1.jpg" 
+    img:"images/golo/gol1.jpg" 
 },
                  {
     id:"10",
@@ -214,7 +214,7 @@ var chocolates = [ {
     precio: "$30",
     cantidad:"",
     seccion:"",
-    img:"../images/golo/gol2.jpg" 
+    img:"images/golo/gol2.jpg" 
 },
 {
     id:"11",
@@ -224,7 +224,7 @@ var chocolates = [ {
     precio: "$40",
     cantidad:"",
     seccion:"",
-    img:"../images/golo/gol4.jpg" 
+    img:"images/golo/gol4.jpg" 
 },
 {
     id:"12",
@@ -274,7 +274,7 @@ var chocolates = [ {
     precio: "215",
     cantidad:"",
     seccion:"",
-    img:"../images/golo/gol8.jpg" 
+    img:"images/golo/gol8.jpg" 
 } 
 ];
 /*--------------------------*/ 
