@@ -301,8 +301,9 @@ animation: fondo 3s;
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
   .mercadopago {
-        height: 54px;
-        top: 20px;
+        height: 40px;
+        top: 60px;
+      left: -50px;
     }
      
  /*------------------------*/
@@ -359,9 +360,7 @@ animation: fondo 3s;
 /*---------------------*/
 /*---------------------*/
 @media screen and (max-width:500px) {
-  .mercadopago {
-      
-    }
+   
        
 .flexmelli{   
     margin-top: 70px;
