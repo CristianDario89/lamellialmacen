@@ -7,6 +7,11 @@ body {
     font-weight: 400;
     overflow-x: hidden; 
 }
+
+#licolor{
+    background-color: orange; border: 1px solid black;
+}
+/*----------------------*/
 ol, ul {
 	list-style: none;
 }
@@ -340,6 +345,13 @@ table {
     margin-left: .6rem;
     margin-right: .6rem;
 }
+.menu-restaurant .menu-line2 {
+    position: absolute;
+    bottom: 6px;
+    border-bottom: 1px dotted rgba(0,0,0,.3);
+  
+   
+}
 .menu-restaurant .menu-price {
     font-weight: 600;
     position: absolute;
@@ -356,6 +368,11 @@ table {
 .menu-restaurant span.clearfix {
     position: relative;
     display: block;
+}
+.clearfix img{
+    width: 70px;height: 30px;
+    position: relative; 
+    
 }
 .gallery-trigger ul li a.active, .gallery-trigger ul li a:hover {
     background: #FFB03B;
@@ -389,8 +406,8 @@ table {
 }
 
 .footer .footer-top {
-    padding-top: 9rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .footer .widget-title, .footer .widget-title a {
     font-size: 1.4rem;

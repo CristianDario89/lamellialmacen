@@ -65,7 +65,7 @@ id:"4",
     marca: "<strong>Quilmes</strong> lata ",
     descripcion: " ",
     cantidad:"",
-    precio: "$30",
+    precio: "$70",
     cantidad:"",
     seccion:"",
     proveedor:"" ,
@@ -344,7 +344,7 @@ var over1 = function(atrr,on,tw, thre) {
 
 
 
-over1("#pb1", cervezas[6].marca,cervezas[6].precio,cervezas[6].img);
+
 over1("#pb2", cervezas[7].marca,cervezas[7].precio,cervezas[7].img);
 over1("#pb3", cervezas[2].marca,cervezas[2].precio,cervezas[2].img);
 over1("#pb4", cervezas[3].marca,cervezas[3].precio,cervezas[3].img);
@@ -367,6 +367,26 @@ over1("#pb16", vinos[1].marca,vinos[1].precio,vinos[1].img);
 over1("#pb17", vinos[2].marca,vinos[2].precio,vinos[2].img); 
 
 
+ var over2 = function(atrr,on,tw, thre,four) {
+	    var contenido2 = document.querySelector(atrr)
+	        contenido2.innerHTML = `
+    <div class="fh5co-food-desc " >
+										<figure>
+											<img src="${thre}" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>${on}</h3>
+											<p>${four}</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										${tw}
+									</div>
+   `
+    }  
+
+ over2("#pb1", cervezas[6].marca,cervezas[6].precio,cervezas[6].img,"Botella 720ml <strong>$ 110</strong>");
+over2("#pb3", cervezas[2].marca,cervezas[2].precio,cervezas[2].img,"Botella 720ml <strong>$ 130</strong>" );
 
 
  

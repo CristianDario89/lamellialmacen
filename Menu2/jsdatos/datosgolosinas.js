@@ -78,7 +78,7 @@ var alfajores = [ {
 },
 {
     id:"9",
-    marca: "alfajor <strong>tifu</strong>",
+    marca: "alfajor <strong>tofi</strong>",
     descripcion: "",
     cantidad:"",
     precio: "$70",
@@ -88,20 +88,20 @@ var alfajores = [ {
 },
 {
     id:"10",
-    marca: "<strong>guaymallen</strong>",
-    descripcion: "simple chocolate - dulce de leche",
+    marca: "<strong>guaymallen</strong> simple",
+    descripcion: " chocolate - dulce de leche",
     cantidad:"",
-    precio: "$30",
+    precio: "$10",
     cantidad:"",
     seccion:"",
     proveedor:"" 
 },
 {
     id:"11",
-    marca: "alfajor <strong>jorgito</strong>",
-    descripcion: "",
+    marca: "alfajor <strong>jorgito</strong> simple",
+    descripcion: "blanco / negro",
     cantidad:"",
-    precio: "$40",
+    precio: "$33",
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -126,77 +126,7 @@ var alfajores = [ {
     seccion:"",
     img:"" 
 }
-];
-/*----------------------------
-var chocolates = [ {
-    id:"1",
-    marca: "<strong>milka </strong> dulce de leche",
-    descripcion: "",
-    precio: "$70",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"2",
-    marca: "<strong>milka leger </strong> combinado",
-    descripcion: "",
-    cantidad:"",
-    precio: "$70",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-},
-{
-    id:"3",
-    marca: "<strong>milka leger </strong> almendras",
-    descripcion: "",
-    precio: "$60",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"4",
-    marca: "<strong>milka leger </strong> leche",
-    descripcion: "",
-    cantidad:"",
-    precio: "$70",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-},
-{
-    id:"5",
-    marca: "<strong>milka </strong> bis",
-    descripcion: "",
-    cantidad:"",
-    precio: "$60",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-},
-                 {
-    id:"6",
-    marca: "<strong>milka </strong> oreo",
-    descripcion: "",
-    cantidad:"",
-    precio: "$310",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-},
-{
-    id:"7",
-    marca: "<strong>milka </strong> blanco - negro",
-    descripcion: "",
-    cantidad:"",
-    precio: "$50",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-];
+]; 
 /*--------------------------*/
 var chocolates = [ {
     id:"1",
@@ -212,7 +142,7 @@ var chocolates = [ {
     marca: "<strong>milka leger </strong> combinado",
     descripcion: "",
     cantidad:"",
-    precio: "$70",
+    precio: "$200",
     cantidad:"",
     seccion:"",
     img:"images/golo/gol9.jpg" 
@@ -221,7 +151,7 @@ var chocolates = [ {
     id:"3",
     marca: "<strong>milka leger </strong> almendras",
     descripcion: "",
-    precio: "$60",
+    precio: "$200",
     cantidad:"",
     seccion:"",
     img:"images/golo/ggol4.png"
@@ -231,7 +161,7 @@ var chocolates = [ {
     marca: "<strong>milka leger </strong> leche",
     descripcion: "",
     cantidad:"",
-    precio: "$70",
+    precio: "$200",
     cantidad:"",
     seccion:"",
     img:"images/golo/ll.png" 
@@ -308,20 +238,20 @@ var chocolates = [ {
 },
 {
     id:"12",
-    marca: "<strong>Kinder</strong> ",
+    marca: "<strong>Kinder</strong> huevo",
     descripcion: "",
     cantidad:"",
-    precio: "$80",
+    precio: "$115",
     cantidad:"",
     seccion:"",
     img:"" 
 },
  {
     id:"13",
-    marca: "<strong>Ferrero roger </strong> caja",
-    descripcion: "",
+    marca: "<strong>Ferrero roger </strong> 100g",
+    descripcion: "x 3 unidades $120",
     cantidad:"",
-    precio: "$310",
+    precio: "$370",
     cantidad:"",
     seccion:"",
     img:"" 
@@ -375,7 +305,137 @@ var chocolates = [ {
     cantidad:"",
     seccion:"",
     img:"" 
-} 
+},
+ {
+    id:"20",
+    marca: "<strong>cofler </strong> aireado 55g",
+    descripcion: "blanco / negro",
+    cantidad:"",
+    precio: "$100",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+} ,
+ {
+    id:"21",
+    marca: "<strong>cofler</strong>fullmani 120g",
+    descripcion: "",
+    cantidad:"",
+    precio: "$90",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"22",
+    marca: "<strong>cofler</strong>fullmani 160g",
+    descripcion: "",
+    cantidad:"",
+    precio: "$120",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+ {
+    id:"21",
+    marca: "<strong>cardbury</strong> c/almendras",
+    descripcion: "",
+    cantidad:"",
+    precio: "$140",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+} ,
+ {
+    id:"22",
+    marca: "<strong>mushy</strong> 50g",
+    descripcion: "",
+    cantidad:"",
+    precio: "$55",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+ {
+    id:"23",
+    marca: "<strong>mushy</strong> 25g",
+    descripcion: "",
+    cantidad:"",
+    precio: "$30",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+ {
+    id:"24",
+    marca: "<strong>milka</strong> aireado 100g",
+    descripcion: "",
+    cantidad:"",
+    precio: "$200",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+ {
+    id:"25",
+    marca: "<strong>milka</strong> aireado 45g",
+    descripcion: "lece / combinado /almendras",
+    cantidad:"",
+    precio: "$115",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+} ,
+ {
+    id:"26",
+    marca: "<strong>milka</strong> rigido 55g",
+    descripcion: "oreo blanco / oreo negro / leche / c/almendras",
+    cantidad:"",
+    precio: "$115",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+} ,
+ {
+    id:"27",
+    marca: "<strong>milka</strong> rigido 100g",
+    descripcion: "dulce de leche / oreo",
+    cantidad:"",
+    precio: "$250",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},   
+ {
+    id:"28",
+    marca: "<strong>milka</strong> rigido 67,5g",
+    descripcion: "dulce de leche",
+    cantidad:"",
+    precio: "$120",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},   
+ {
+    id:"29",
+    marca: "<strong>milka</strong> frutilla 27g",
+    descripcion: "dulce de leche",
+    cantidad:"",
+    precio: "$60",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},   
+ {
+    id:"30",
+    marca: "<strong>hamlet</strong> chico",
+    descripcion: "blanco / negro / frutilla ",
+    cantidad:"",
+    precio: "$25",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+}      
 ];
 /*--------------------*/
 var dulces1 = [ {
@@ -491,6 +551,175 @@ var dulces1 = [ {
     cantidad:"",
     seccion:"",
     img:"" 
+},
+{
+    id:"13",
+    marca: "<strong>pico dulce</strong> chupetin",
+    descripcion: "",
+    precio: "$10",
+    cantidad:"",
+    seccion:"",
+    img:""
+},
+{
+    id:"15",
+    marca: "<strong>mantecol</strong> 110g",
+    descripcion: "",
+    cantidad:"",
+    precio: "$100",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"16",
+    marca: "<strong>mantecol</strong> 80g",
+    descripcion: "",
+    cantidad:"",
+    precio: "$60",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"17",
+    marca: "<strong>mantecol</strong> 63g",
+    descripcion: "",
+    cantidad:"",
+    precio: "$45",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"18",
+    marca: "<strong>sapito</strong> ",
+    descripcion: "",
+    cantidad:"",
+    precio: "$10",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"19",
+    marca: "<strong>baby doll</strong> ",
+    descripcion: "",
+    cantidad:"",
+    precio: "$10",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"20",
+    marca: "<strong>bubalo</strong> ",
+    descripcion: "menta / banana / frutilla / uva / tuti",
+    cantidad:"",
+    precio: "$5",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"21",
+    marca: "<strong>bazooka</strong> ",
+    descripcion: "menta / frutilla",
+    cantidad:"",
+    precio: "$3",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"22",
+    marca: "<strong>halls</strong> ",
+    descripcion: "cherry / strong / mentoliptus",
+    cantidad:"",
+    precio: "$30",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"23",
+    marca: "<strong>sugus</strong> confitado",
+    descripcion: "",
+    cantidad:"",
+    precio: "$48",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"24",
+    marca: "<strong>billiken</strong> confitado",
+    descripcion: "",
+    cantidad:"",
+    precio: "$35",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"25",
+    marca: "<strong>billiken</strong> acido",
+    descripcion: "",
+    cantidad:"",
+    precio: "$45",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"26",
+    marca: "<strong>twist pop</strong> acido",
+    descripcion: "",
+    cantidad:"",
+    precio: "$20",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"27",
+    marca: "<strong>yummi</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: "$18",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"28",
+    marca: "<strong>bull dog</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: "$17",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"29",
+    marca: "<strong>fizz</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: "$17",
+    cantidad:"",
+    seccion:"",
+    img:"" 
+},
+{
+    id:"29",
+    marca: "<strong>crazy chips</strong>",
+    descripcion: "frutilla / uva",
+    cantidad:"",
+    precio: "$30",
+    cantidad:"",
+    seccion:"",
+    img:"" 
 }
 ];
 /*--------------------------------*/
@@ -563,6 +792,16 @@ over2("#pc9", chocolates[1].marca,chocolates[1].precio,chocolates[1].descripcion
 over2("#pc10", chocolates[2].marca,chocolates[2].precio,chocolates[2].descripcion);
 over2("#pc11", chocolates[3].marca,chocolates[3].precio,chocolates[3].descripcion);
 over2("#pc12", chocolates[4].marca,chocolates[4].precio,chocolates[4].descripcion); 
+
+/*--nuevos chocos----*/
+ over2("#p222", chocolates[21].marca,chocolates[21].precio,chocolates[21].descripcion);
+over2("#p23", chocolates[22].marca,chocolates[22].precio,chocolates[22].descripcion);
+over2("#p24", chocolates[23].marca,chocolates[23].precio,chocolates[23].descripcion);
+over2("#p25", chocolates[24].marca,chocolates[24].precio,chocolates[24].descripcion);
+over2("#p26", chocolates[25].marca,chocolates[25].precio,chocolates[25].descripcion);
+over2("#p27", chocolates[26].marca,chocolates[26].precio,chocolates[26].descripcion);
+
+
 /*--------------------*/
 
 over2("#pd1", dulces1[0].marca,dulces1[0].precio,dulces1[0].descripcion);
@@ -575,6 +814,17 @@ over2("#pd7", dulces1[6].marca,dulces1[6].precio,dulces1[6].descripcion);
 over2("#pd8", dulces1[7].marca,dulces1[7].precio,dulces1[7].descripcion);
 over2("#pd9", dulces1[8].marca,dulces1[8].precio,dulces1[8].descripcion);
 over2("#pd10", dulces1[9].marca,dulces1[9].precio,dulces1[9].descripcion);
+ 
+over2("#pd11", dulces1[10].marca,dulces1[10].precio,dulces1[10].descripcion);
+over2("#pd12", dulces1[11].marca,dulces1[11].precio,dulces1[11].descripcion);
+over2("#pd13", dulces1[12].marca,dulces1[12].precio,dulces1[12].descripcion);
+over2("#pd14", dulces1[13].marca,dulces1[13].precio,dulces1[13].descripcion);
+over2("#pd15", dulces1[14].marca,dulces1[14].precio,dulces1[14].descripcion);
+over2("#pd16", dulces1[15].marca,dulces1[15].precio,dulces1[15].descripcion);
+over2("#pd17", dulces1[16].marca,dulces1[16].precio,dulces1[16].descripcion);
+over2("#pd18", dulces1[17].marca,dulces1[17].precio,dulces1[17].descripcion);
+over2("#pd19", dulces1[18].marca,dulces1[18].precio,dulces1[18].descripcion);
+over2("#pd20", dulces1[19].marca,dulces1[19].precio,dulces1[19].descripcion);
 
 
 

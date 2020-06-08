@@ -5,7 +5,7 @@ var alma1 = [ {
     precio: "$70",
     cantidad:"",
     seccion:"",
-    proveedor:""
+    img:"images/limpi/l2.png"
 },
 {
     id:"2",
@@ -15,7 +15,7 @@ var alma1 = [ {
     precio: "$110",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"images/limpi/l3.webp" 
 },
 {
     id:"3",
@@ -24,7 +24,7 @@ var alma1 = [ {
     precio: "$120",
     cantidad:"",
     seccion:"",
-    proveedor:""
+    img:"images/limpi/le5.jpg"
 },
 {
     id:"4",
@@ -34,7 +34,7 @@ var alma1 = [ {
     precio: "$310",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"images/limpi/le6.jpg" 
 },
 {
     id:"5",
@@ -43,7 +43,7 @@ var alma1 = [ {
     precio: "$120",
     cantidad:"",
     seccion:"",
-    proveedor:""
+    img:"images/limpi/cer3.jpg"
 },
 {
     id:"6",
@@ -62,7 +62,7 @@ var alma1 = [ {
     precio: "$120",
     cantidad:"",
     seccion:"",
-    img:""
+    img:"images/limpi/y1.jpeg"
 },
 {
     id:"8",
@@ -132,7 +132,7 @@ var otros = [ {
     precio: "$60",
     cantidad:"",
     seccion:"",
-    proveedor:""
+    img:"images/limpi/al1.webp"
 },
 {
     id:"2",
@@ -142,7 +142,7 @@ var otros = [ {
     precio: "$50",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"images/limpi/al2.jpg" 
 },
              {
     id:"3",
@@ -151,7 +151,7 @@ var otros = [ {
     precio: "$60",
     cantidad:"",
     seccion:"",
-    proveedor:""
+    img:""
 },
 {
     id:"4",
@@ -161,7 +161,7 @@ var otros = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
 {
     id:"5",
@@ -171,7 +171,7 @@ var otros = [ {
     precio: "$50",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"images/limpi/al3.jpg" 
 },
 {
     id:"6",
@@ -181,7 +181,7 @@ var otros = [ {
     precio: "$50",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
 {
     id:"7",
@@ -191,7 +191,7 @@ var otros = [ {
     precio: "$40",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
 {
     id:"8",
@@ -201,7 +201,7 @@ var otros = [ {
     precio: "$40",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
 {
     id:"9",
@@ -211,7 +211,7 @@ var otros = [ {
     precio: "$40",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 },
 {
     id:"10",
@@ -221,7 +221,7 @@ var otros = [ {
     precio: "$40",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"images/limpi/al4.jpg" 
 },
 {
     id:"11",
@@ -290,6 +290,8 @@ over2("#pl9", desoM[0].marca,desoM[0].precio,desoM[0].img);
 over2("#pl10", desoM[1].marca,desoM[1].precio,desoM[1].img);
 over2("#pl11", desoM[2].marca,desoM[2].precio,desoM[2].img);
 over2("#pl12", desoM[3].marca,desoM[3].precio,desoM[3].img);*/
+
+
   
   
 

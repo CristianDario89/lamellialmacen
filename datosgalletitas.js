@@ -11,9 +11,9 @@ var datosDulces = [ {
 {
     id:"2",
     marca: "<strong>Pitusas</strong>",
-    descripcion: "Limon-chocolate-vainilla-frutilla",
+    descripcion: "Mouse-Limon-chocolate-vainilla-frutilla",
     cantidad:"",
-    precio: "$40",
+    precio: "$45",
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -43,10 +43,10 @@ var datosDulces = [ {
 },
 {
     id:"5",
-    marca: "bananas con chocolate",
+    marca: "<strong>celosas</strong> bananas con chocolate 230g",
     descripcion: "",
     cantidad:"",
-    precio: "$45",
+    precio: "$55",
     cantidad:"",
     seccion:"",
     proveedor:"" ,
@@ -99,15 +99,43 @@ var datosDulces = [ {
 ];
 /*-----------------------------*/
 var datosSaladas = [ {
-    id:"",
+    id:"1",
     marca: "<strong>Don Satur</strong>",
     descripcion: "",
     precio: "$40",
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "images/galle/gad6.jpg" 
+    img: "images/galle/g3.jpg" 
 },
+{
+    id:"2",
+    marca: "<strong>media tarde</strong>  x 3",
+    descripcion: "$28 c/u",
+    precio: "$73",
+    cantidad:"",
+    seccion:"",
+    img:"images/galle/g4.webp"
+}, 
+{
+    id:"3",
+    marca: "<strong>media tarde</strong>  x 3 sandwich",
+    descripcion: "$30 c/u",
+    precio: "$83",
+    cantidad:"",
+    seccion:"",
+    img:""
+},
+{
+    id:"4",
+    marca: "<strong>criollitas</strong> x 3",
+    descripcion: "$35 c/u",
+    cantidad:"",
+    precio: "$90",
+    cantidad:"",
+    seccion:"",
+    img:"images/galle/g5.webp" 
+},                    
 {
     id:"",
     marca: "<strong>Jorgito</strong>Bizcochitos ",
@@ -118,24 +146,13 @@ var datosSaladas = [ {
     seccion:"",
     proveedor:"" ,
     img: "images/galle/gad6.jpg" 
-},
-{
-    id:"",
-    marca: "<strong>Criollitas</strong> ",
-    descripcion: "",
-    cantidad:"",
-    precio: "$40",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: "images/galle/gas1.jpg" 
 }
 ]  
 
 var snacks = [ {
     id:"1",
     marca: "<strong>lays</strong>",
-    descripcion: "",
+    descripcion: "doritos / cheetos / 3d",
     precio: "$60",
     cantidad:"",
     seccion:"",
@@ -144,53 +161,43 @@ var snacks = [ {
 },
 {
     id:"2",
-    marca: "<strong>cheetos</strong> ",
-    descripcion: "",
-    cantidad:"",
-    precio: "$40",
-    cantidad:"",
-    seccion:"",
-    img:"images/galle/snack2.jpg" 
-},
-{
-    id:"3",
-    marca: "<strong>doritos</strong>",
-    descripcion: "",
-    cantidad:"",
-    precio: "$40",
-    cantidad:"",
-    seccion:"",
-    img:"images/galle/snack3.jpg" 
-},
-{
-    id:"4",
-    marca: "<strong>3d</strong>",
-    descripcion: "",
-    cantidad:"",
-    precio: "$40",
-    cantidad:"",
-    seccion:"",
-    img:"images/galle/snack4.jpg" 
-},
-{
-    id:"5",
     marca: "<strong>saladix</strong>",
     descripcion: "",
     cantidad:"",
     precio: "$40",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"images/galle/g8.jpg" 
 },
 {
-    id:"6",
+    id:"3",
+    marca: "<strong>Kranchitos</strong> papas",
+    descripcion: "",
+    cantidad:"",
+    precio: "$55",
+    cantidad:"",
+    seccion:"",
+    img:"images/galle/sn2.webp" 
+},
+{
+    id:"4",
+    marca: "<strong>twistos</strong> chico",
+    descripcion: "",
+    cantidad:"",
+    precio: "$55",
+    cantidad:"",
+    seccion:"",
+    img:"images/galle/g6.jpg" 
+},
+{
+    id:"5",
     marca: "<strong>rex</strong>",
     descripcion: "",
     cantidad:"",
     precio: "$40",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"" 
 }
 ];
 
@@ -255,29 +262,50 @@ var over1 = function(atrr,on,tw, thre) {
 
 
 
-over1("#p1", datosDulces[0].marca,datosDulces[0].precio,datosDulces[0].img);
-over1("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].img);
+over1("#p8", datosDulces[0].marca,datosDulces[0].precio,datosDulces[0].img);
 over1("#p3", datosDulces[2].marca,datosDulces[2].precio,datosDulces[2].img);
 over1("#p4", datosDulces[3].marca,datosDulces[3].precio,datosDulces[3].img); 
 over1("#p5", datosDulces[4].marca,datosDulces[4].precio,datosDulces[4].img);
 
 over1("#p6", datosDulces[5].marca,datosDulces[5].precio,datosDulces[5].img);
 over1("#p7", datosDulces[6].marca,datosDulces[6].precio,datosDulces[6].img);
-over1("#p8", datosDulces[7].marca,datosDulces[7].precio,datosDulces[7].img);
+over1("#p1", datosDulces[8].marca,datosDulces[8].precio,datosDulces[8].img);
 
 /*-------------------------------------------*/
 
 over1("#ps1", datosSaladas[0].marca,datosSaladas[0].precio,datosSaladas[0].img);
 over1("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].img);
 over1("#ps3", datosSaladas[2].marca,datosSaladas[2].precio,datosSaladas[2].img);
-/*--------*/
+over1("#ps4", datosSaladas[3].marca,datosSaladas[3].precio,datosSaladas[3].img);
+/*-------
 
 over1("#p9", snacks[0].marca,snacks[0].precio,snacks[0].img);
-over1("#p10", snacks[1].marca,snacks[1].precio,snacks[1].img);
 over1("#p11", snacks[2].marca,snacks[2].precio,snacks[2].img);
+-*/
+over1("#p10", snacks[1].marca,snacks[1].precio,snacks[1].img);
 over1("#p12", snacks[3].marca,snacks[3].precio,snacks[3].img);  
 
- 
+ var over2 = function(atrr,on,tw, thre,four) {
+	    var contenido2 = document.querySelector(atrr)
+	        contenido2.innerHTML = `
+    <div class="fh5co-food-desc " >
+										<figure>
+											<img src="${thre}" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>${on}</h3>
+											<p>${four}</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										${tw}
+									</div>
+   `
+    }  
 
+over2("#p9", snacks[0].marca,snacks[0].precio,snacks[0].img,"cheetos - 3d - doritos");
+over2("#p11", snacks[2].marca,snacks[2].precio,snacks[2].img,"ketchup/cheedar <strong> $ 60</strong>"); 
 
- 
+over2("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].img, "media tarde Sandwich <strong> $ 83</strong>");
+
+over2("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].img,"Mouse - Limon - chocolate - vainilla - frutilla");

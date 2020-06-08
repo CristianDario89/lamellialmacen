@@ -690,6 +690,7 @@
   float: left;
   position: relative;
   margin-right: 4%;
+    display: flex;
 }
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure img {
   max-width: 100%;

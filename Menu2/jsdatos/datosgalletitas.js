@@ -2,7 +2,7 @@ var datosDulces = [ {
     id:"1",
     marca: "<strong>Don Satur</strong>",
     descripcion: "",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -13,7 +13,7 @@ var datosDulces = [ {
     marca: "<strong>Pitusas</strong>",
     descripcion: "Limon-chocolate-vainilla-frutilla",
     cantidad:"",
-    precio: "$45",
+    precio: 45,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -22,7 +22,7 @@ var datosDulces = [ {
     id:"3",
     marca: "<strong>Mantecadas</strong>",
     descripcion: "",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -32,7 +32,7 @@ var datosDulces = [ {
     marca: "<strong>Pepitas</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -42,7 +42,7 @@ var datosDulces = [ {
     marca: "<strong>celosas</strong> bananas con chocolate 230g",
     descripcion: "",
     cantidad:"",
-    precio: "$55",
+    precio: 55,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -52,7 +52,7 @@ var datosDulces = [ {
     marca: "<strong>coronitas</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -62,7 +62,7 @@ var datosDulces = [ {
     marca: "pepas <strong>trio</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$35",
+    precio: 35,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -72,7 +72,7 @@ var datosDulces = [ {
     marca: "pepas <strong>pepin</strong>",
     descripcion: "membrillo-batata",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -82,7 +82,7 @@ var datosDulces = [ {
     marca: "<strong>oreo</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$75",
+    precio: 75,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -92,7 +92,7 @@ var datosDulces = [ {
     marca: "<strong>desfile</strong> surtidas",
     descripcion: "",
     cantidad:"",
-    precio: "$90",
+    precio: 90,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -103,7 +103,7 @@ var datosDulces = [ {
     marca: " <strong>terepin</strong> 400g",
     descripcion: "membrillo-batata",
     cantidad:"",
-    precio: "$65",
+    precio: 65,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -114,7 +114,7 @@ var datosDulces = [ {
     marca: "<strong>marmoladas</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$45",
+    precio: 45,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -125,7 +125,7 @@ var datosDulces = [ {
     marca: " <strong>fun chips</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$45",
+    precio: 45,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -136,7 +136,7 @@ var datosDulces = [ {
     marca: "<strong>opera</strong> 60g",
     descripcion: "",
     cantidad:"",
-    precio: "$60",
+    precio: 60,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -147,7 +147,7 @@ var datosDulces = [ {
     marca: "<strong>pepitos</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$75",
+    precio: 75,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -158,7 +158,7 @@ var datosDulces = [ {
     marca: " <strong>opera</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$60",
+    precio: 60,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -169,7 +169,7 @@ var datosDulces = [ {
     marca: "<strong>opera</strong> chica",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -180,7 +180,7 @@ var datosDulces = [ {
     marca: "<strong>suavecitas</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -191,7 +191,7 @@ var datosDulces = [ {
     marca: " <strong>terepin</strong> 200g",
     descripcion: "",
     cantidad:"",
-    precio: "$35",
+    precio: 35,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -202,7 +202,7 @@ var datosDulces = [ {
     marca: "<strong>opera</strong> 60g",
     descripcion: "",
     cantidad:"",
-    precio: "$60",
+    precio: 60,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -213,7 +213,7 @@ var datosDulces = [ {
     marca: "<strong>chocolinas</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$75",
+    precio: 75,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -224,7 +224,7 @@ var datosDulces = [ {
     marca: "<strong>magdalenas rellenas</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$80",
+    precio: 80,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -236,7 +236,7 @@ var datosSaladas = [ {
     id:"1",
     marca: "<strong>media tarde</strong>  x 3",
     descripcion: "$28 c/u",
-    precio: "$73",
+    precio: 73,
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -245,7 +245,7 @@ var datosSaladas = [ {
     id:"2",
     marca: "<strong>media tarde</strong>  x 3 sandwich",
     descripcion: "$30 c/u",
-    precio: "$83",
+    precio: 83,
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -255,7 +255,7 @@ var datosSaladas = [ {
     marca: "<strong>criollitas</strong> x 3",
     descripcion: "$35 c/u",
     cantidad:"",
-    precio: "$90",
+    precio: 90,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -265,56 +265,134 @@ var datosSaladas = [ {
     marca: "<strong>saladix</strong> sobre",
     descripcion: "",
     cantidad:"",
-    precio: "$30",
+    precio: 30,
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"5",
+    marca: "<strong>pipas</strong> chica",
+    descripcion: "grande $30",
+    cantidad:"",
+    precio: 12,
     cantidad:"",
     seccion:"",
     proveedor:"" 
 }
 ]  
-
-var datosFacturas = [ {
-    id:"",
-    marca: "Mantecadas",
+  
+var snacks = [ {
+    id:"1",
+    marca: "<strong>lays</strong>",
     descripcion: "",
-    precio: "$40",
+    precio: 60,
     cantidad:"",
     seccion:"",
-    proveedor:""
+    proveedor:"",
+    img:"images/galle/snack1.jpg"
 },
 {
-    id:"",
-    marca: "Pepitas",
+    id:"2",
+    marca: "<strong>cheetos</strong> ",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
+    cantidad:"",
+    seccion:"",
+    img:"images/galle/snack2.jpg" 
+},
+{
+    id:"3",
+    marca: "<strong>doritos</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: 40,
+    cantidad:"",
+    seccion:"",
+    img:"images/galle/snack3.jpg" 
+},
+{
+    id:"4",
+    marca: "<strong>3d</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: 40,
+    cantidad:"",
+    seccion:"",
+    img:"images/galle/snack4.jpg" 
+},
+{
+    id:"5",
+    marca: "<strong>saladix</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: 40,
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"6",
+    marca: "<strong>rex</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: 40,
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"7",
+    marca: "<strong>twistos</strong> chico",
+    descripcion: "",
+    cantidad:"",
+    precio: 55,
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"8",
+    marca: "<strong>Kranchitos</strong> papas",
+    descripcion: "jamon - corte americano",
+    cantidad:"",
+    precio: 55,
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"9",
+    marca: "<strong>Kranchitos</strong> papas",
+    descripcion: "ketchup / chedar",
+    cantidad:"",
+    precio: 60,
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"10",
+    marca: "<strong>nikito</strong> papas",
+    descripcion: "jamon / cheedar",
+    cantidad:"",
+    precio: 55,
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"11",
+    marca: "<strong>nikito</strong> papas",
+    descripcion: "clasico",
+    cantidad:"",
+    precio: 50,
     cantidad:"",
     seccion:"",
     proveedor:"" 
 }
 ];
-
-var datosBudines = [ {
-    id:"",
-    marca: " ",
-    descripcion: "",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"",
-    marca: " ",
-    descripcion: "",
-    cantidad:"",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-];
-
-
 /*--------------------------------*/
 var galletitas = [ {
     id:"",
@@ -340,7 +418,7 @@ var over2 = function(atr,one,two, three) {
       <span class="clearfix">
                         <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">${one}</a>
                         <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">${two}</span>
+            <span class="menu-price">$ ${two}</span>
             </span>
             <span class="menu-subtitle">${three}</span>
    `
@@ -378,3 +456,37 @@ over2("#ps1", datosSaladas[0].marca,datosSaladas[0].precio,datosSaladas[0].descr
 over2("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].descripcion);
 over2("#ps3", datosSaladas[2].marca,datosSaladas[2].precio,datosSaladas[2].descripcion);
 over2("#ps4", datosSaladas[3].marca,datosSaladas[3].precio,datosSaladas[3].descripcion);
+/*--------------SNACKS-------------*/
+
+over2("#psn1", snacks[0].marca,snacks[0].precio,snacks[0].descripcion);
+over2("#psn2", snacks[1].marca,snacks[1].precio,snacks[1].descripcion);
+over2("#psn3", snacks[2].marca,snacks[2].precio,snacks[2].descripcion);
+over2("#psn4", snacks[3].marca,snacks[3].precio,snacks[3].descripcion);  
+over2("#psn5", snacks[4].marca,snacks[4].precio,snacks[4].descripcion);
+over2("#psn6", snacks[5].marca,snacks[5].precio,snacks[5].descripcion);
+over2("#psn7", snacks[6].marca,snacks[6].precio,snacks[6].descripcion);
+over2("#psn8", snacks[7].marca,snacks[7].precio,snacks[7].descripcion);  
+
+over2("#psn9", snacks[8].marca,snacks[8].precio,snacks[8].descripcion);
+over2("#psn10", snacks[9].marca,snacks[9].precio,snacks[9].descripcion);
+over2("#psn11", snacks[10].marca,snacks[10].precio,snacks[10].descripcion); 
+
+var precios1 = snacks.filter(function(value){
+ 
+       return (value.precio > 50 && value.precio < 100)
+   
+});
+var precios2 = snacks.filter(function(value){
+ 
+       return  value.precio <= 50 
+   
+});
+var precios3 = snacks.filter(function(value){
+ 
+       return  value.precio > 100 
+   
+});
+console.log(precios2);
+console.log(precios1);
+console.log(precios3);
+ 

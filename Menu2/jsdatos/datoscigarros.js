@@ -1,6 +1,6 @@
 var ciga1 = [ {
-    id:"",
-    marca: "<strong>Phillip Morris</strong> de 10",
+    id:"1",
+    marca: "<strong>Phillip Morris</strong> 10",
     descripcion: "",
     precio: "$70",
     cantidad:"",
@@ -8,8 +8,8 @@ var ciga1 = [ {
     proveedor:""
 },
 {
-    id:"",
-    marca: "<strong>Phillip Morris</strong>de 20",
+    id:"2",
+    marca: "<strong>Phillip Morris</strong> 20",
     descripcion: "",
     cantidad:"",
     precio: "$110",
@@ -18,7 +18,7 @@ var ciga1 = [ {
     proveedor:"" 
 },
 {
-    id:"",
+    id:"3",
     marca: "<strong>Phillip Morris</strong> sabores",
     descripcion: "menta - uva",
     precio: "$120",
@@ -27,8 +27,8 @@ var ciga1 = [ {
     proveedor:""
 },
 {
-    id:"",
-    marca: "<strong>Malboro</strong> de 10",
+    id:"4",
+    marca: "<strong>Malboro</strong> 10",
     descripcion: "",
     cantidad:"",
     precio: "$310",
@@ -37,8 +37,8 @@ var ciga1 = [ {
     proveedor:"" 
 },
 {
-    id:"",
-    marca: "<strong>Malboro</strong>de 20",
+    id:"5",
+    marca: "<strong>Malboro</strong> 20",
     descripcion: "puede variar el precio",
     cantidad:"",
     precio: "$310",
@@ -47,7 +47,7 @@ var ciga1 = [ {
     proveedor:"" 
 },
 {
-    id:"",
+    id:"6",
     marca: "<strong>Malboro</strong> sabores",
     descripcion: "menta - uva",
     precio: "$120",
@@ -55,73 +55,98 @@ var ciga1 = [ {
     seccion:"",
     proveedor:""
 },
+{
+    id:"7",
+    marca: "<strong>chesterfield</strong> 10",
+    descripcion: "",
+    cantidad:"",
+    precio: "$310",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"8",
+    marca: "<strong>chesterfield</strong> 20",
+    descripcion: "puede variar el precio",
+    cantidad:"",
+    precio: "$310",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"9",
+    marca: "<strong>chesterfield</strong> sabores",
+    descripcion: "menta - uva",
+    precio: "$120",
+    cantidad:"",
+    seccion:"",
+    proveedor:""
+},
+{
+    id:"10",
+    marca: "<strong>red point</strong> 10",
+    descripcion: "",
+    cantidad:"",
+    precio: "$310",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"11",
+    marca: "<strong>red point</strong> 20",
+    descripcion: "puede variar el precio",
+    cantidad:"",
+    precio: "$310",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"12",
+    marca: "<strong>red point</strong> sabores",
+    descripcion: "menta - uva",
+    precio: "$120",
+    cantidad:"",
+    seccion:"",
+    proveedor:""
+},
+{
+    id:"13",
+    marca: "<strong>lucky</strong> de 10",
+    descripcion: "",
+    cantidad:"",
+    precio: "$310",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"14",
+    marca: "<strong>lucky</strong> de 20",
+    descripcion: "puede variar el precio",
+    cantidad:"",
+    precio: "$310",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"15",
+    marca: "<strong>lucky</strong> sabores",
+    descripcion: "menta - uva",
+    precio: "$120",
+    cantidad:"",
+    seccion:"",
+    proveedor:""
+}
              
 ];
-
-var datosFacturas = [ {
-    id:"",
-    marca: " ",
-    descripcion: "",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"",
-    marca: " ",
-    descripcion: "",
-    cantidad:"",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-];
-
-var datosDulces = [ {
-    id:"",
-    marca: " ",
-    descripcion: "",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"",
-    marca: " ",
-    descripcion: "",
-    cantidad:"",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-];
-
-var datosSaladas = [ {
-    id:"",
-    marca: " ",
-    descripcion: "",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"",
-    marca: " ",
-    descripcion: "",
-    cantidad:"",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-]  
+ 
 /*--------------------------------*/
-var galletitas = [ {
+var cigarros = [ {
     id:"",
     secciones:["budines","facturas","dulces","saladas"],
     descripcion: "",
@@ -158,6 +183,15 @@ over2("#p3", ciga1[2].marca,ciga1[2].precio,ciga1[2].descripcion);
 over2("#p4", ciga1[3].marca,ciga1[3].precio,ciga1[3].descripcion);
 over2("#p5", ciga1[4].marca,ciga1[4].precio,ciga1[4].descripcion);
 over2("#p6", ciga1[5].marca,ciga1[5].precio,ciga1[5].descripcion);
+over2("#p7", ciga1[6].marca,ciga1[6].precio,ciga1[6].descripcion);
+over2("#p8", ciga1[7].marca,ciga1[7].precio,ciga1[7].descripcion);
+
+over2("#p9", ciga1[8].marca,ciga1[8].precio,ciga1[8].descripcion);
+over2("#p10", ciga1[9].marca,ciga1[9].precio,ciga1[9].descripcion);
+over2("#p11", ciga1[10].marca,ciga1[10].precio,ciga1[10].descripcion);
+over2("#p12", ciga1[11].marca,ciga1[11].precio,ciga1[11].descripcion);
+over2("#p13", ciga1[12].marca,ciga1[12].precio,ciga1[12].descripcion);
+over2("#p14", ciga1[13].marca,ciga1[13].precio,ciga1[13].descripcion);
 
 
 

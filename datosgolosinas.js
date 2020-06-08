@@ -64,7 +64,7 @@ var alfajores = [ {
     precio: "$50",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"images/golo/gol5.png" 
 },
 {
     id:"8",
@@ -108,13 +108,13 @@ var alfajores = [ {
 },
 {
     id:"12",
-    marca: "alfajor <strong>Jorgelin</strong>",
-    descripcion: "",
+    marca: "alfajor <strong>bombom</strong> simple",
+    descripcion: "blanco y negro",
     cantidad:"",
-    precio: "$50",
+    precio: "$45",
     cantidad:"",
     seccion:"",
-    img:"images/golo/gol5.png" 
+    img:"images/golo/gol6.webp" 
 }
 ];
 /*----------------------------*/
@@ -129,22 +129,23 @@ var chocolates = [ {
 },
 {
     id:"2",
-    marca: "<strong>milka leger </strong> combinado",
+    marca: "<strong>milka leger </strong> combinado 45g",
     descripcion: "",
     cantidad:"",
-    precio: "$70",
+    precio: "$115",
     cantidad:"",
     seccion:"",
     img:"images/golo/gol9.jpg" 
 },
 {
     id:"3",
-    marca: "<strong>milka leger </strong> almendras",
-    descripcion: "",
-    precio: "$60",
+    marca: "<strong>cofler </strong> aireado 55g",
+    descripcion: "blanco / negro",
+    cantidad:"",
+    precio: "$100",
     cantidad:"",
     seccion:"",
-    img:"images/golo/ggol4.png"
+    img:"images/golo/ch2.jpg" 
 },
 {
     id:"4",
@@ -257,7 +258,7 @@ var chocolates = [ {
     img:"" 
 },
  {
-    id:"16",
+    id:"15",
     marca: "<strong>cardbury </strong> almendras",
     descripcion: "",
     cantidad:"",
@@ -267,7 +268,7 @@ var chocolates = [ {
     img:"" 
 },
  {
-    id:"17",
+    id:"16",
     marca: "<strong>cofler block </strong> 180g",
     descripcion: "",
     cantidad:"",
@@ -277,7 +278,7 @@ var chocolates = [ {
     img:"images/golo/gol8.jpg" 
 },
  {
-    id:"18",
+    id:"17",
     marca: "<strong>cofler block </strong> 120g",
     descripcion: "",
     cantidad:"",
@@ -285,16 +286,16 @@ var chocolates = [ {
     cantidad:"",
     seccion:"",
     img:"" 
-} ,
- {
-    id:"19",
+},
+{
+    id:"18",
     marca: "<strong>cofler block </strong> 38g",
     descripcion: "",
     cantidad:"",
     precio: "$50",
     cantidad:"",
     seccion:"",
-    img:"" 
+    img:"images/golo/ch1.jpg" 
 } 
 ];
 /*--------------------------*/ 
@@ -345,8 +346,8 @@ over2("#pg4", alfajores[3].marca,alfajores[3].precio,alfajores[3].img);
 
 over2("#pg15", alfajores[8].marca,alfajores[8].precio,alfajores[8].img);
 over2("#pg16", alfajores[11].marca,alfajores[11].precio,alfajores[11].img); 
-over2("#pg17", alfajores[12].marca,alfajores[12].precio,alfajores[12].img); 
-over2("#pg18", alfajores[13].marca,alfajores[13].precio,alfajores[13].img); 
+over2("#pg17", alfajores[6].marca,alfajores[6].precio,alfajores[6].img); 
+over2("#pg18", alfajores[7].marca,alfajores[7].precio,alfajores[7].img); 
 /*
 over2("#p5", alfajores[4].marca,alfajores[4].precio,alfajores[4].descripcion);
 over2("#p6", alfajores[5].marca,alfajores[5].precio,alfajores[5].descripcion);
@@ -358,9 +359,8 @@ over2("#p10", alfajores[9].marca,alfajores[9].precio,alfajores[9].descripcion);
 */
 
 over2("#pg5", chocolates[4].marca,chocolates[4].precio,chocolates[4].img);
-over2("#pg6", chocolates[1].marca,chocolates[1].precio,chocolates[1].img);
+
 over2("#pg7", chocolates[2].marca,chocolates[2].precio,chocolates[2].img);
-over2("#pg8", chocolates[3].marca,chocolates[3].precio,chocolates[3].img);
 
 over2("#pg9", chocolates[7].marca,chocolates[7].precio,chocolates[7].img);
 over2("#pg10", chocolates[8].marca,chocolates[8].precio,chocolates[8].img);
@@ -368,7 +368,27 @@ over2("#pg11", chocolates[9].marca,chocolates[9].precio,chocolates[9].img);
 over2("#pg12", chocolates[10].marca,chocolates[10].precio,chocolates[10].img);
 
 
+ var over2 = function(atrr,on,tw, thre,four) {
+	    var contenido2 = document.querySelector(atrr)
+	        contenido2.innerHTML = `
+    <div class="fh5co-food-desc " >
+										<figure>
+											<img src="${thre}" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>${on}</h3>
+											<p>${four}</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										${tw}
+									</div>
+   `
+    }  
 
+over2("#pg6", chocolates[1].marca,chocolates[1].precio,chocolates[1].img,"leche - almendras - aireado");
+over2("#pg7", chocolates[2].marca,chocolates[2].precio,chocolates[2].img, "fullmani 160g <strong>$120</strong> - 120g <strong>$90</strong>");
+over2("#pg8", chocolates[17].marca,chocolates[17].precio,chocolates[17].img,"120g <strong>$120</strong> - 180g <strong>$215</strong>");
 
 
  
