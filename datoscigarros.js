@@ -10,78 +10,78 @@ var ciga1 = [ {
 },
 {
     id:"2",
-    marca: "<strong>Phillip Morris</strong> de 20",
+    marca: "<strong>Malboro</strong> de 10",
     descripcion: "",
     cantidad:"",
     precio: "$110",
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "img/2/ciga1.png"  
+    img: "images/ciga/c4.png"  
 },
 {
     id:"3",
-    marca: "<strong>Phillip Morris</strong> sabores",
+    marca: "<strong>Red point</strong> de 10",
     descripcion: "menta - uva",
     precio: "$120",
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "img/2/ciga4.jpg" 
+    img: "img/2/cigared2.jpg" 
 },
 {
     id:"4",
-    marca: "<strong>Malboro</strong> de 10",
+    marca: "<strong>Chesterfield</strong> de 10",
     descripcion: "",
     cantidad:"",
     precio: "$310",
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "images/ciga/c4.png"  
+    img: "images/ciga/c1.png"  
 },
 {
     id:"5",
-    marca: "<strong>Malboro</strong> de 20",
+    marca: "<strong>lucky strike</strong> de 10",
     descripcion: "puede variar el precio",
     cantidad:"",
     precio: "$310",
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "img/2/c2.jpg"  
+    img: "images/ciga/c8.png"  
 },
 {
     id:"6",
-    marca: "<strong>Malboro</strong> sabores",
+    marca: "<strong>master</strong> de 20",
     descripcion: "menta - uva",
     precio: "$120",
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "images/ciga/c3.webp" 
+    img: "images/ciga/c7.jpg" 
 },
 {
     id:"7",
-    marca: "<strong>Red point</strong> de 10",
+    marca: "<strong>benson</strong> de 20",
     descripcion: "",
     cantidad:"",
     precio: "$310",
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "img/2/cigared2.jpg"  
+    img: "images/ciga/c9.png"  
 },             
 {
     id:"8",
-    marca: "<strong>Red point</strong> de 20",
+    marca: "<strong>L&M</strong> de 20",
     descripcion: "",
     cantidad:"",
     precio: "$310",
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "../img/2/cigared2.jpg"  
+    img: "images/ciga/c6.jpg"  
 },
 {
     id:"9",
@@ -123,80 +123,6 @@ var ciga1 = [ {
     seccion:"",
     proveedor:"",
     img: "img/2/cigachester.jpg" 
-},
-{
-    id:"13",
-    marca: "<strong>lucky strike</strong> de 10",
-    descripcion: "",
-    cantidad:"",
-    precio: "$310",
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: ""  
-},
-{
-    id:"14",
-    marca: "<strong>lucky strike</strong> de 20",
-    descripcion: "",
-    precio: "$120",
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: "" 
-},
-{
-    id:"15",
-    marca: "<strong>Chesterfield</strong> Sabores",
-    descripcion: "",
-    precio: "$120",
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: "" 
-},
-{
-    id:"16",
-    marca: "<strong>tabaco</strong> ",
-    descripcion: "",
-    precio: "$140",
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: "" 
-},
-{
-    id:"17",
-    marca: "<strong>master</strong> de 20",
-    descripcion: "",
-    cantidad:"",
-    precio: "$110",
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: ""  
-},
-{
-    id:"18",
-    marca: "<strong>benson</strong> de 20",
-    descripcion: "",
-    cantidad:"",
-    precio: "$130",
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: ""  
-},
-{
-    id:"19",
-    marca: "<strong>L&M</strong> de 20",
-    descripcion: "",
-    cantidad:"",
-    precio: "$130",
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: ""  
 }
              
 ];
@@ -240,11 +166,11 @@ var over2 = function(atr,one,two, three) {
 
 
 
-
+/*
 over2("#pc9", ciga1[2].marca,ciga1[2].precio,ciga1[2].img);
 over2("#pc10", ciga1[5].marca,ciga1[5].precio,ciga1[5].img);
 over2("#pc11", ciga1[8].marca,ciga1[8].precio,ciga1[8].img);
-over2("#pc12", ciga1[11].marca,ciga1[11].precio,ciga1[11].img);
+over2("#pc12", ciga1[11].marca,ciga1[11].precio,ciga1[11].img);*/
 
 var over1 = function(atrr,on,tw, thre,four) {
 	    var contenido2 = document.querySelector(atrr)
@@ -266,12 +192,12 @@ var over1 = function(atrr,on,tw, thre,four) {
 over1("#pc1", ciga1[0].marca,ciga1[0].precio,ciga1[0].img,"de 20 <strong>$220</strong> / menta - uva <strong>$230</strong>");
  
 
-over1("#pc2", ciga1[3].marca,ciga1[3].precio,ciga1[3].img,"de 20 <strong>$220</strong> / menta - uva <strong>$230</strong>");
-over1("#pc3", ciga1[6].marca,ciga1[2].precio,ciga1[2].img,"de 20 <strong>$220</strong> / menta - uva <strong>$230</strong>");
-over1("#pc4", ciga1[9].marca,ciga1[9].precio,ciga1[9].img,"de 20 <strong>$220</strong> / menta - uva <strong>$230</strong>");
+over1("#pc2", ciga1[1].marca,ciga1[1].precio,ciga1[1].img,"de 20 <strong>$220</strong> / menta - uva <strong>$230</strong>");
+over1("#pc3", ciga1[2].marca,ciga1[2].precio,ciga1[2].img,"de 20 <strong>$220</strong> / menta - uva <strong>$230</strong>");
+over1("#pc4", ciga1[3].marca,ciga1[3].precio,ciga1[3].img,"de 20 <strong>$220</strong> / menta - uva <strong>$230</strong>");
 
 
-over1("#pc5", ciga1[1].marca,ciga1[1].precio,ciga1[1].img,"de 20 <strong>$200</strong>");
-over1("#pc6", ciga1[16].marca,ciga1[16].precio,ciga1[16].img,"de 20 <strong>$200</strong>");
-over1("#pc7", ciga1[17].marca,ciga1[17].precio,ciga1[17].img,"de 20 <strong>$200</strong>");
-over1("#pc8", ciga1[18].marca,ciga1[18].precio,ciga1[18].img,"de 20 <strong>$200</strong>");
+over1("#pc5", ciga1[4].marca,ciga1[4].precio,ciga1[4].img,"de 20 <strong>$200</strong>");
+over1("#pc6", ciga1[5].marca,ciga1[5].precio,ciga1[5].img,"de 20 <strong>$200</strong>");
+over1("#pc7", ciga1[6].marca,ciga1[6].precio,ciga1[6].img,"de 20 <strong>$200</strong>");
+over1("#pc8", ciga1[7].marca,ciga1[7].precio,ciga1[7].img,"de 20 <strong>$200</strong>");

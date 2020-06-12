@@ -655,7 +655,16 @@
     float: left;
     width: 100%;
     clear: none !important;
-  }
+  } 
+    
+#fh5co-menus .fh5co-food-menu h2.fh5co-dishes {
+ padding: 6px 0px;
+     text-align: left;text-shadow: 1px 1px 1px orange;
+      background-color: white; color: black;
+      border: 2px solid black;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
 }
 #fh5co-menus .fh5co-food-menu h2 {
   margin-bottom: 20px;
@@ -663,10 +672,11 @@
   position: relative;
 }
 #fh5co-menus .fh5co-food-menu h2.fh5co-drinks {
-  padding-left: 50px;
+  padding-left: 10px;
 }
 #fh5co-menus .fh5co-food-menu h2.fh5co-dishes {
   padding-left: 80px;
+    
 }
 #fh5co-menus .fh5co-food-menu ul {
   padding: 0;

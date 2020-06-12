@@ -94,7 +94,7 @@ var datosDulces = [ {
     cantidad:"",
     seccion:"",
     proveedor:"",
-    img: "" 
+    img: "images/galle/gd1.jpg" 
 }
 ];
 /*-----------------------------*/
@@ -119,12 +119,12 @@ var datosSaladas = [ {
 }, 
 {
     id:"3",
-    marca: "<strong>media tarde</strong>  x 3 sandwich",
-    descripcion: "$30 c/u",
-    precio: "$83",
+    marca: "<strong>Jorgito</strong> Bizcochitos",
+    descripcion: "",
+    precio: "$50",
     cantidad:"",
     seccion:"",
-    img:""
+    img:"images/galle/gd2.png"
 },
 {
     id:"4",

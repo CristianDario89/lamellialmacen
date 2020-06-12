@@ -38,12 +38,12 @@ var alma1 = [ {
 },
 {
     id:"5",
-    marca: "yogur <strong>ilolay</strong> queso untable",
+    marca: "te <strong>taragui</strong> caja",
     descripcion: "jamon",
     precio: "$120",
     cantidad:"",
     seccion:"",
-    img:"images/limpi/cer3.jpg"
+    img:"images/alma/a4.jpg"
 },
 {
     id:"6",
@@ -151,7 +151,7 @@ var otros = [ {
     precio: "$60",
     cantidad:"",
     seccion:"",
-    img:""
+    img:"images/alma/a7.webp"
 },
 {
     id:"4",
@@ -161,7 +161,7 @@ var otros = [ {
     precio: "",
     cantidad:"",
     seccion:"",
-    img:"" 
+    img:"images/alma/a8.png" 
 },
 {
     id:"5",

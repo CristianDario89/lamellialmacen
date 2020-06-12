@@ -46,7 +46,7 @@ var alfajores = [ {
     seccion:"",
     proveedor:"" 
 },
-                 {
+ {
     id:"6",
     marca: "alfajor <strong>bon-o-bon</strong>",
     descripcion: "triple",
@@ -74,7 +74,7 @@ var alfajores = [ {
     precio: "$60",
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    img:"images/golo/a1.png" 
 },
 {
     id:"9",
