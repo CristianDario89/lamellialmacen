@@ -4,6 +4,7 @@ body{
 }
 
 .animated-text{
+    width: 230px;
   font-family: montserrat,sans-serif;   
   color: #fff;
   position: absolute;
@@ -12,20 +13,36 @@ body{
   transform: translate(-50%,-50%);
   background: #2980b9;
     border-radius: 8px;
-  padding: 0 30px;
+  padding: 0 10px;
   height: 60px;
   overflow: hidden;
 }
 
+.animated-text2{
+    width: 100%;
+  font-family: montserrat,sans-serif;   
+  color: goldenrod;
+  position: absolute; 
+  background-color: dimgrey;     
+  height: 50px;
+  overflow: hidden;  
+    transform: translateY(-10px);
+}
 /*---------------------*/
 /*---------------------*/
 @media screen and (max-width: 800px) {
      
 .animated-text{
   padding: 0 2px;
-   
+    left: 320px;
     
       height: 44px;
+} 
+       
+.animated-text2{
+  padding: 0 2px; 
+  margin-top: 4px;
+     transform: translateY(-14px);
 } 
 } 
 /*--2-------------------*/
@@ -40,6 +57,16 @@ body{
 
 .line:first-child{
   animation: anim 12s infinite;
+}
+.line2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.line2:first-child{
+  animation: anim 16s infinite;
 }
 
 @keyframes anim {

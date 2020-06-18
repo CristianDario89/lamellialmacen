@@ -2,7 +2,7 @@ var datosDulces = [ {
     id:"1",
     marca: "<strong>Don Satur</strong>",
     descripcion: "",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -13,7 +13,7 @@ var datosDulces = [ {
     marca: "<strong>Pitusas</strong>",
     descripcion: "Mouse-Limon-chocolate-vainilla-frutilla",
     cantidad:"",
-    precio: "$45",
+    precio: 45,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -24,7 +24,7 @@ var datosDulces = [ {
     id:"3",
     marca: "Mantecadas",
     descripcion: "",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -35,7 +35,7 @@ var datosDulces = [ {
     marca: "Pepitas",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -46,7 +46,7 @@ var datosDulces = [ {
     marca: "<strong>celosas</strong> bananas con chocolate 230g",
     descripcion: "",
     cantidad:"",
-    precio: "$55",
+    precio: 55,
     cantidad:"",
     seccion:"",
     proveedor:"" ,
@@ -57,7 +57,7 @@ var datosDulces = [ {
     marca: "<strong>coronitas</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -68,7 +68,7 @@ var datosDulces = [ {
     marca: "pepas <strong>trio</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$45",
+    precio: 45,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -79,7 +79,7 @@ var datosDulces = [ {
     marca: "pepas <strong>pepin</strong>",
     descripcion: "membrillo-batata",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -90,7 +90,7 @@ var datosDulces = [ {
     marca: "surtidas <strong>bagley</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$100",
+    precio: 100,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -102,7 +102,7 @@ var datosSaladas = [ {
     id:"1",
     marca: "<strong>Don Satur</strong>",
     descripcion: "",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -112,7 +112,7 @@ var datosSaladas = [ {
     id:"2",
     marca: "<strong>media tarde</strong>  x 3",
     descripcion: "$28 c/u",
-    precio: "$73",
+    precio: 73,
     cantidad:"",
     seccion:"",
     img:"images/galle/g4.webp"
@@ -121,7 +121,7 @@ var datosSaladas = [ {
     id:"3",
     marca: "<strong>Jorgito</strong> Bizcochitos",
     descripcion: "",
-    precio: "$50",
+    precio: 50,
     cantidad:"",
     seccion:"",
     img:"images/galle/gd2.png"
@@ -131,7 +131,7 @@ var datosSaladas = [ {
     marca: "<strong>criollitas</strong> x 3",
     descripcion: "$35 c/u",
     cantidad:"",
-    precio: "$90",
+    precio: 90,
     cantidad:"",
     seccion:"",
     img:"images/galle/g5.webp" 
@@ -141,7 +141,7 @@ var datosSaladas = [ {
     marca: "<strong>Jorgito</strong>Bizcochitos ",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     proveedor:"" ,
@@ -153,7 +153,7 @@ var snacks = [ {
     id:"1",
     marca: "<strong>lays</strong>",
     descripcion: "doritos / cheetos / 3d",
-    precio: "$60",
+    precio: 60,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -164,7 +164,7 @@ var snacks = [ {
     marca: "<strong>saladix</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     img:"images/galle/g8.jpg" 
@@ -184,7 +184,7 @@ var snacks = [ {
     marca: "<strong>twistos</strong> chico",
     descripcion: "",
     cantidad:"",
-    precio: "$55",
+    precio: 55,
     cantidad:"",
     seccion:"",
     img:"images/galle/g6.jpg" 
@@ -194,7 +194,7 @@ var snacks = [ {
     marca: "<strong>rex</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     img:"" 
@@ -255,7 +255,7 @@ var over1 = function(atrr,on,tw, thre) {
 										</div>
 									</div>
 									<div class="fh5co-food-pricing">
-										${tw}
+										$ ${tw}
 									</div>
    `
     }  
@@ -298,7 +298,7 @@ over1("#p12", snacks[3].marca,snacks[3].precio,snacks[3].img);
 										</div>
 									</div>
 									<div class="fh5co-food-pricing">
-										${tw}
+										$ ${tw}
 									</div>
    `
     }  

@@ -2,7 +2,7 @@ var articulos = [ {
     id:"1",
     marca: "<strong>ayudin</strong> lavandina",
     descripcion: "",
-    precio: "$70",
+    precio: 70,
     cantidad:"",
     seccion:"",
     img:"images/limpi/l1.jpg"
@@ -12,7 +12,7 @@ var articulos = [ {
     marca: "<strong>ala</strong> detergente",
     descripcion: "",
     cantidad:"",
-    precio: "$110",
+    precio: 110,
     cantidad:"",
     seccion:"",
     img:"images/limpi/ll1.jpg" 
@@ -21,7 +21,7 @@ var articulos = [ {
     id:"3",
     marca: "<strong>raid</strong> matacucarachas",
     descripcion: "",
-    precio: "$120",
+    precio: 120,
     cantidad:"",
     seccion:"",
     img:""
@@ -31,7 +31,7 @@ var articulos = [ {
     marca: "desodorante de ambiente",
     descripcion: "",
     cantidad:"",
-    precio: "$10",
+    precio: 10,
     cantidad:"",
     seccion:"",
     img:"images/limpi/ll3.webp" 
@@ -43,7 +43,7 @@ var higiene = [ {
     marca: " <strong>shampoo</strong> plusbelle",
     descripcion: "",
     precio: "",
-    cantidad:"$100",
+    cantidad:100,
     seccion:"",
     img:"images/limpi/l5.jpg"
 },
@@ -52,7 +52,7 @@ var higiene = [ {
     marca: "jabon",
     descripcion: "",
     cantidad:"",
-    precio: "$35",
+    precio: 35,
     cantidad:"",
     seccion:"",
     img:"images/limpi/l7.jpg" 
@@ -62,7 +62,7 @@ var higiene = [ {
     marca: "alcohol en gel",
     descripcion: "",
     cantidad:"",
-    precio: "$85",
+    precio: 85,
     cantidad:"",
     seccion:"",
     img:"images/limpi/l3.jpg" 
@@ -72,7 +72,7 @@ var higiene = [ {
     marca: "barbijos",
     descripcion: "",
     cantidad:"",
-    precio: "$80",
+    precio: 80,
     cantidad:"",
     seccion:"",
     img:"images/limpi/l8.jpg" 
@@ -82,7 +82,7 @@ var higiene = [ {
     marca: "Jabon en polvo <strong>Vanish</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$80",
+    precio: 80,
     cantidad:"",
     seccion:"",
     img:"images/limpi/l6.jpg" 
@@ -193,7 +193,7 @@ var over2 = function(atr,one,two, three) {
 										</div>
 									</div>
 									<div class="fh5co-food-pricing">
-										${two}
+										$ ${two}
    </div>
    `
     }     

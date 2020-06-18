@@ -6,7 +6,7 @@ var cervezas = [ {
     cantidad:"",
     seccion:"",
     proveedor:"" ,
-    img: "" 
+    img: "images/bebi/b10.png" 
 },
 {
     id:"2",
@@ -180,7 +180,7 @@ var jugos = [ {
     precio: 55,
     cantidad:"",
     seccion:"",
-    img:"images/bebi/gase1.jpg" 
+    img:"images/bebi/gase2.jpg" 
 },
 {
     id:"7",
@@ -382,8 +382,8 @@ over1("#pb18", vinos[3].marca,vinos[3].precio,vinos[3].img);
 
  over2("#pb1", cervezas[6].marca,cervezas[6].precio,cervezas[6].img,"Botella 720ml <strong>$ 110</strong>");
 over2("#pb2", cervezas[4].marca,cervezas[4].precio,cervezas[4].img,"Botella 720ml <strong>$ 110</strong>");
-over2("#pb3", cervezas[2].marca,cervezas[2].precio,cervezas[2].img,"Lata 710ml <strong>$ 140</strong>" );
-over2("#pb4", cervezas[0].marca,cervezas[0].precio,cervezas[0].img, "Lata 710ml <strong>$ 100</strong>");
+over2("#pb3", cervezas[2].marca,cervezas[2].precio,cervezas[2].img,"Botella 710ml <strong>$ 140</strong>" );
+over2("#pb4", cervezas[0].marca,cervezas[0].precio,cervezas[0].img, "");
 
 
 over1("#pbj1", jugos[0].marca,jugos[0].precio,jugos[0].img);

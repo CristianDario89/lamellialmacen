@@ -10,6 +10,9 @@ var db = firebase.firestore();
 //Agregar documentos
 function guardar(){
     var nombre = document.getElementById('name').value;
+    
+     var dire = document.getElementById('dire').value;
+    
     var email = document.getElementById('email').value;
     var mensaje = document.getElementById('message').value;
     var entrega = document.getElementById('entrega').value;
@@ -19,6 +22,7 @@ function guardar(){
     db.collection("pedidoreya").add({
          correo: email,
        nombre: nombre,
+         dire: dire,
           entrega: entrega,
        pago: pago,
         fechahora: fechahora,
@@ -28,6 +32,8 @@ function guardar(){
         console.log("Document written with ID: ", docRef.id);
         prompt("Enviado. pronto te responderemos...");
         document.getElementById('name').value = '';
+        document.getElementById('dire').value = '';
+     
         document.getElementById('email').value = '';
         document.getElementById('message').value = '';
           document.getElementById('entrega').value = '';

@@ -2,8 +2,7 @@ var alfajores = [ {
     id:"1",
     marca: "alfajor <strong>milka</strong>",
     descripcion: "dulce de leche - Mousse",
-    precio: "$70",
-    cantidad:"",
+    precio: 70,
     seccion:"",
     img:"images/golo/ggol3.jpeg"
 },
@@ -12,8 +11,7 @@ var alfajores = [ {
     marca: "<strong>coffler </strong>block",
     descripcion: "",
     cantidad:"",
-    precio: "$60",
-    cantidad:"",
+    precio: 60,
     seccion:"",
     img:"images/golo/ggol1.jpeg" 
 },
@@ -21,8 +19,7 @@ var alfajores = [ {
     id:"3",
     marca: "<strong>aguila </strong>minitorta",
     descripcion: "",
-    precio: "$60",
-    cantidad:"",
+    precio: 60,
     seccion:"",
     img:"images/golo/ggol2.webp"
 },
@@ -31,8 +28,7 @@ var alfajores = [ {
     marca: "alfajor <strong>tri-shot</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$60",
-    cantidad:"",
+    precio: 60,
     seccion:"",
     img:"images/golo/gol6.jpg" 
 },
@@ -41,8 +37,7 @@ var alfajores = [ {
     marca: "alfajor <strong>bon-o-bon</strong>",
     descripcion: "blanco - negro",
     cantidad:"",
-    precio: "$60",
-    cantidad:"",
+    precio: 60,
     seccion:"",
     proveedor:"" 
 },
@@ -51,8 +46,7 @@ var alfajores = [ {
     marca: "alfajor <strong>bon-o-bon</strong>",
     descripcion: "triple",
     cantidad:"",
-    precio: "60",
-    cantidad:"",
+    precio:60,
     seccion:"",
     proveedor:"" 
 },
@@ -61,8 +55,7 @@ var alfajores = [ {
     marca: "alfajor <strong>jorgelin</strong>",
     descripcion: "blanco - negro",
     cantidad:"",
-    precio: "$50",
-    cantidad:"",
+    precio: 50,
     seccion:"",
     img:"images/golo/gol5.png" 
 },
@@ -71,8 +64,7 @@ var alfajores = [ {
     marca: "alfajor <strong>oreo pepitos</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$60",
-    cantidad:"",
+    precio: 60,
     seccion:"",
     img:"images/golo/a1.png" 
 },
@@ -81,8 +73,7 @@ var alfajores = [ {
     marca: "alfajor <strong>tofi</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$70",
-    cantidad:"",
+    precio: 70,
     seccion:"",
     img:"images/golo/gol3.jpg" 
 },
@@ -91,8 +82,7 @@ var alfajores = [ {
     marca: "<strong>guaymallen</strong>",
     descripcion: "simple chocolate - dulce de leche",
     cantidad:"",
-    precio: "$30",
-    cantidad:"",
+    precio: 30,
     seccion:"",
     proveedor:"" 
 },
@@ -101,8 +91,7 @@ var alfajores = [ {
     marca: "alfajor <strong>jorgito</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
-    cantidad:"",
+    precio: 40,
     seccion:"",
     proveedor:"" 
 },
@@ -111,8 +100,7 @@ var alfajores = [ {
     marca: "alfajor <strong>bombom</strong> simple",
     descripcion: "blanco y negro",
     cantidad:"",
-    precio: "$45",
-    cantidad:"",
+    precio: 45,
     seccion:"",
     img:"images/golo/gol6.webp" 
 }
@@ -122,7 +110,7 @@ var chocolates = [ {
     id:"1",
     marca: "<strong>milka </strong> dulce de leche",
     descripcion: "",
-    precio: "$70",
+    precio: 70,
     cantidad:"",
     seccion:"",
     img:""
@@ -132,8 +120,7 @@ var chocolates = [ {
     marca: "<strong>milka leger </strong> combinado 45g",
     descripcion: "",
     cantidad:"",
-    precio: "$115",
-    cantidad:"",
+    precio: 115,
     seccion:"",
     img:"images/golo/gol9.jpg" 
 },
@@ -142,8 +129,7 @@ var chocolates = [ {
     marca: "<strong>cofler </strong> aireado 55g",
     descripcion: "blanco / negro",
     cantidad:"",
-    precio: "$100",
-    cantidad:"",
+    precio: 100,
     seccion:"",
     img:"images/golo/ch2.jpg" 
 },
@@ -152,8 +138,7 @@ var chocolates = [ {
     marca: "<strong>milka leger </strong> leche",
     descripcion: "",
     cantidad:"",
-    precio: "$70",
-    cantidad:"",
+    precio: 70,
     seccion:"",
     img:"images/golo/ll.png" 
 },
@@ -162,8 +147,7 @@ var chocolates = [ {
     marca: "<strong>milka </strong> bis",
     descripcion: "",
     cantidad:"",
-    precio: "$60",
-    cantidad:"",
+    precio: 60,
     seccion:"",
     img:"images/golo/gol7.jpg" 
 },
@@ -172,8 +156,7 @@ var chocolates = [ {
     marca: "<strong>milka </strong> oreo",
     descripcion: "",
     cantidad:"",
-    precio: "$310",
-    cantidad:"",
+    precio: 310,
     seccion:"",
     img:"" 
 },
@@ -182,8 +165,7 @@ var chocolates = [ {
     marca: "<strong>milka </strong> blanco - negro",
     descripcion: "",
     cantidad:"",
-    precio: "$50",
-    cantidad:"",
+    precio: 50,
     seccion:"",
     img:"" 
 },
@@ -192,8 +174,7 @@ var chocolates = [ {
     marca: "<strong>Bon o bom</strong>",
     descripcion: "dulce de leche - blanco",
     cantidad:"",
-    precio: "$16",
-    cantidad:"",
+    precio: 16,
     seccion:"",
     img:"images/golo/ggol6.jpg" 
 },
@@ -202,8 +183,7 @@ var chocolates = [ {
     marca: "<strong>rodhesia </strong> ",
     descripcion: "",
     cantidad:"",
-    precio: "$30",
-    cantidad:"",
+    precio: 30,
     seccion:"",
     img:"images/golo/gol1.jpg" 
 },
@@ -212,8 +192,7 @@ var chocolates = [ {
     marca: "<strong>tita </strong> ",
     descripcion: "",
     cantidad:"",
-    precio: "$30",
-    cantidad:"",
+    precio: 30,
     seccion:"",
     img:"images/golo/gol2.jpg" 
 },
@@ -222,8 +201,7 @@ var chocolates = [ {
     marca: "<strong>tofi</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
-    cantidad:"",
+    precio: 40,
     seccion:"",
     img:"images/golo/gol4.jpg" 
 },
@@ -232,8 +210,7 @@ var chocolates = [ {
     marca: "<strong>Kinder</strong> ",
     descripcion: "",
     cantidad:"",
-    precio: "$80",
-    cantidad:"",
+    precio: 80,
     seccion:"",
     img:"" 
 },
@@ -242,8 +219,7 @@ var chocolates = [ {
     marca: "<strong>Ferrero roger </strong> caja",
     descripcion: "",
     cantidad:"",
-    precio: "$310",
-    cantidad:"",
+    precio: 310,
     seccion:"",
     img:"" 
 },
@@ -252,8 +228,7 @@ var chocolates = [ {
     marca: "<strong>rocklets </strong> 20g",
     descripcion: "",
     cantidad:"",
-    precio: "$22",
-    cantidad:"",
+    precio: 22,
     seccion:"",
     img:"" 
 },
@@ -262,8 +237,7 @@ var chocolates = [ {
     marca: "<strong>cardbury </strong> almendras",
     descripcion: "",
     cantidad:"",
-    precio: "$50",
-    cantidad:"",
+    precio: 50,
     seccion:"",
     img:"" 
 },
@@ -272,8 +246,7 @@ var chocolates = [ {
     marca: "<strong>cofler block </strong> 180g",
     descripcion: "",
     cantidad:"",
-    precio: "$215",
-    cantidad:"",
+    precio: 215,
     seccion:"",
     img:"images/golo/gol8.jpg" 
 },
@@ -282,8 +255,7 @@ var chocolates = [ {
     marca: "<strong>cofler block </strong> 120g",
     descripcion: "",
     cantidad:"",
-    precio: "$120",
-    cantidad:"",
+    precio: 120,
     seccion:"",
     img:"" 
 },
@@ -292,8 +264,7 @@ var chocolates = [ {
     marca: "<strong>cofler block </strong> 38g",
     descripcion: "",
     cantidad:"",
-    precio: "$50",
-    cantidad:"",
+    precio: 50,
     seccion:"",
     img:"images/golo/ch1.jpg" 
 } 
@@ -332,7 +303,7 @@ var over2 = function(atr,one,two, three) {
 										</div>
 									</div>
 									<div class="fh5co-food-pricing">
-										${two}
+										$ ${two}
    </div>
    `
     }     
@@ -381,7 +352,7 @@ over2("#pg12", chocolates[10].marca,chocolates[10].precio,chocolates[10].img);
 										</div>
 									</div>
 									<div class="fh5co-food-pricing">
-										${tw}
+										$ ${tw}
 									</div>
    `
     }  

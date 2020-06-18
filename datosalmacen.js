@@ -2,7 +2,7 @@ var alma1 = [ {
     id:"1",
     marca: "leche <strong>la serenisima</strong> ",
     descripcion: "",
-    precio: "$70",
+    precio: 70,
     cantidad:"",
     seccion:"",
     img:"images/limpi/l2.png"
@@ -12,7 +12,7 @@ var alma1 = [ {
     marca: "leche <strong>la suipachense</strong> ",
     descripcion: "",
     cantidad:"",
-    precio: "$110",
+    precio: 110,
     cantidad:"",
     seccion:"",
     img:"images/limpi/l3.webp" 
@@ -21,7 +21,7 @@ var alma1 = [ {
     id:"3",
     marca: "yogur <strong>ilolay</strong>",
     descripcion: "",
-    precio: "$120",
+    precio: 120,
     cantidad:"",
     seccion:"",
     img:"images/limpi/le5.jpg"
@@ -31,7 +31,7 @@ var alma1 = [ {
     marca: "leche <strong>armonia</strong> 200ml",
     descripcion: "",
     cantidad:"",
-    precio: "$310",
+    precio: 310,
     cantidad:"",
     seccion:"",
     img:"images/limpi/le6.jpg" 
@@ -40,7 +40,7 @@ var alma1 = [ {
     id:"5",
     marca: "te <strong>taragui</strong> caja",
     descripcion: "jamon",
-    precio: "$120",
+    precio: 120,
     cantidad:"",
     seccion:"",
     img:"images/alma/a4.jpg"
@@ -50,7 +50,7 @@ var alma1 = [ {
     marca: "azucar <strong>ledesma</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$60",
+    precio: 60,
     cantidad:"",
     seccion:"",
     img:"images/alma/a3.webp" 
@@ -59,7 +59,7 @@ var alma1 = [ {
     id:"7",
     marca: "yerba <strong>taragui</strong> ",
     descripcion: "",
-    precio: "$120",
+    precio: 120,
     cantidad:"",
     seccion:"",
     img:"images/limpi/y1.jpeg"
@@ -68,7 +68,7 @@ var alma1 = [ {
     id:"8",
     marca: "matecocido <strong>taragui</strong>",
     descripcion: "",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     img:"images/alma/a6.jpg"
@@ -77,7 +77,7 @@ var alma1 = [ {
     id:"9",
     marca: "te <strong>taragui</strong>",
     descripcion: "",
-    precio: "$60",
+    precio: 60,
     cantidad:"",
     seccion:"",
     img:"images/alma/a4.jpg"
@@ -88,8 +88,8 @@ var higiene = [ {
     id:"1",
     marca: " <strong>shampoo</strong> plusbelle",
     descripcion: "",
-    precio: "",
-    cantidad:"$100",
+    precio: 100,
+    cantidad:"",
     seccion:"",
     proveedor:""
 },
@@ -98,8 +98,7 @@ var higiene = [ {
     marca: "jabon",
     descripcion: "",
     cantidad:"",
-    precio: "$35",
-    cantidad:"",
+    precio: 35,
     seccion:"",
     proveedor:"" 
 },
@@ -108,8 +107,7 @@ var higiene = [ {
     marca: "alcohol en gel",
     descripcion: "",
     cantidad:"",
-    precio: "$85",
-    cantidad:"",
+    precio: 85,
     seccion:"",
     proveedor:"" 
 },
@@ -118,8 +116,7 @@ var higiene = [ {
     marca: "barbijos",
     descripcion: "",
     cantidad:"",
-    precio: "$80",
-    cantidad:"",
+    precio: 80,
     seccion:"",
     proveedor:"" 
 }
@@ -129,7 +126,7 @@ var otros = [ {
     id:"1",
     marca: "pilas <strong>duracell</strong> ",
     descripcion: "",
-    precio: "$60",
+    precio: 60,
     cantidad:"",
     seccion:"",
     img:"images/limpi/al1.webp"
@@ -139,8 +136,7 @@ var otros = [ {
     marca: "<strong>poxi-ran</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$50",
-    cantidad:"",
+    precio: 50,
     seccion:"",
     img:"images/limpi/al2.jpg" 
 },
@@ -148,7 +144,7 @@ var otros = [ {
     id:"3",
     marca: "<strong>la gotita</strong> ",
     descripcion: "",
-    precio: "$60",
+    precio: 60,
     cantidad:"",
     seccion:"",
     img:"images/alma/a7.webp"
@@ -159,7 +155,6 @@ var otros = [ {
     descripcion: "",
     cantidad:"",
     precio: "",
-    cantidad:"",
     seccion:"",
     img:"images/alma/a8.png" 
 },
@@ -168,27 +163,26 @@ var otros = [ {
     marca: "parches <strong>solumit</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$50",
-    cantidad:"",
+    precio: 50,
     seccion:"",
     img:"images/limpi/al3.jpg" 
 },
 {
     id:"6",
-    marca: "velas1",
+    marca: "Pañales",
     descripcion: "",
     cantidad:"",
-    precio: "$50",
+    precio: 50,
     cantidad:"",
     seccion:"",
-    img:"" 
+    img:"images/alma/a9.png" 
 },
 {
     id:"7",
     marca: "velas2",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
+    precio: 40,
     cantidad:"",
     seccion:"",
     img:"" 
@@ -198,8 +192,7 @@ var otros = [ {
     marca: "velas3",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
-    cantidad:"",
+    precio: 40,
     seccion:"",
     img:"" 
 },
@@ -208,8 +201,7 @@ var otros = [ {
     marca: "bombillas de mate",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
-    cantidad:"",
+    precio: 40,
     seccion:"",
     img:"" 
 },
@@ -218,8 +210,7 @@ var otros = [ {
     marca: "cepillo de dientes",
     descripcion: "",
     cantidad:"",
-    precio: "$40",
-    cantidad:"",
+    precio: 40,
     seccion:"",
     img:"images/limpi/al4.jpg" 
 },
@@ -227,7 +218,7 @@ var otros = [ {
     id:"11",
     marca: " <strong>actron</strong>",
     descripcion: "",
-    precio: "$20",
+    precio: 20,
     cantidad:"",
     seccion:"",
     img:"images/alma/a2.png"
@@ -258,7 +249,7 @@ var over2 = function(atr,one,two, three) {
 										</div>
 									</div>
 									<div class="fh5co-food-pricing">
-										${two}
+										$ ${two}
    </div>
    `
     }     

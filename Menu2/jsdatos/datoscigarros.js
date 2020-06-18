@@ -2,7 +2,7 @@ var ciga1 = [ {
     id:"1",
     marca: "<strong>Phillip Morris</strong> 10",
     descripcion: "",
-    precio: "$70",
+    precio: 100,
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -12,7 +12,7 @@ var ciga1 = [ {
     marca: "<strong>Phillip Morris</strong> 20",
     descripcion: "",
     cantidad:"",
-    precio: "$110",
+    precio: 170,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -21,7 +21,7 @@ var ciga1 = [ {
     id:"3",
     marca: "<strong>Phillip Morris</strong> sabores",
     descripcion: "menta - uva",
-    precio: "$120",
+    precio: 175,
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -31,7 +31,7 @@ var ciga1 = [ {
     marca: "<strong>Malboro</strong> 10",
     descripcion: "",
     cantidad:"",
-    precio: "$310",
+    precio: 100,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -41,7 +41,7 @@ var ciga1 = [ {
     marca: "<strong>Malboro</strong> 20",
     descripcion: "puede variar el precio",
     cantidad:"",
-    precio: "$310",
+    precio: 185,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -50,7 +50,7 @@ var ciga1 = [ {
     id:"6",
     marca: "<strong>Malboro</strong> sabores",
     descripcion: "menta - uva",
-    precio: "$120",
+    precio: 190,
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -60,7 +60,7 @@ var ciga1 = [ {
     marca: "<strong>chesterfield</strong> 10",
     descripcion: "",
     cantidad:"",
-    precio: "$310",
+    precio: 95,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -70,7 +70,7 @@ var ciga1 = [ {
     marca: "<strong>chesterfield</strong> 20",
     descripcion: "puede variar el precio",
     cantidad:"",
-    precio: "$310",
+    precio: 155,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -79,7 +79,7 @@ var ciga1 = [ {
     id:"9",
     marca: "<strong>chesterfield</strong> sabores",
     descripcion: "menta - uva",
-    precio: "$120",
+    precio: 120,
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -89,7 +89,7 @@ var ciga1 = [ {
     marca: "<strong>red point</strong> 10",
     descripcion: "",
     cantidad:"",
-    precio: "$310",
+    precio: 310,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -99,7 +99,7 @@ var ciga1 = [ {
     marca: "<strong>red point</strong> 20",
     descripcion: "puede variar el precio",
     cantidad:"",
-    precio: "$310",
+    precio: 135,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -108,7 +108,7 @@ var ciga1 = [ {
     id:"12",
     marca: "<strong>red point</strong> sabores",
     descripcion: "menta - uva",
-    precio: "$120",
+    precio: 120,
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -118,7 +118,7 @@ var ciga1 = [ {
     marca: "<strong>lucky</strong> de 10",
     descripcion: "",
     cantidad:"",
-    precio: "$310",
+    precio: 100,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -128,7 +128,7 @@ var ciga1 = [ {
     marca: "<strong>lucky</strong> de 20",
     descripcion: "puede variar el precio",
     cantidad:"",
-    precio: "$310",
+    precio: 190,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -137,10 +137,64 @@ var ciga1 = [ {
     id:"15",
     marca: "<strong>lucky</strong> sabores",
     descripcion: "menta - uva",
-    precio: "$120",
+    precio: 120,
     cantidad:"",
     seccion:"",
     proveedor:""
+},
+{
+    id:"16",
+    marca: "<strong>master</strong> de 20",
+    descripcion: "menta - uva",
+    precio: 120,
+    cantidad:"",
+    seccion:"",
+    proveedor:"",
+    img: "images/ciga/c7.jpg" 
+},
+{
+    id:"17",
+    marca: "<strong>benson</strong> de 20",
+    descripcion: "",
+    cantidad:"",
+    precio: 220,
+    cantidad:"",
+    seccion:"",
+    proveedor:"",
+    img: "images/ciga/c9.png"  
+},             
+{
+    id:"18",
+    marca: "<strong>L&M</strong> de 20",
+    descripcion: "",
+    cantidad:"",
+    precio: 310,
+    cantidad:"",
+    seccion:"",
+    proveedor:"",
+    img: "images/ciga/c6.jpg"  
+},
+{
+    id:"19",
+    marca: "<strong>Virginia</strong> de 20",
+    descripcion: "",
+    cantidad:"",
+    precio: 220,
+    cantidad:"",
+    seccion:"",
+    proveedor:"",
+    img: "images/ciga/c9.png"  
+},             
+{
+    id:"18",
+    marca: "<strong>Parliament</strong> de 20",
+    descripcion: "",
+    cantidad:"",
+    precio: 220,
+    cantidad:"",
+    seccion:"",
+    proveedor:"",
+    img: "images/ciga/c6.jpg"  
 }
              
 ];
@@ -192,6 +246,14 @@ over2("#p11", ciga1[10].marca,ciga1[10].precio,ciga1[10].descripcion);
 over2("#p12", ciga1[11].marca,ciga1[11].precio,ciga1[11].descripcion);
 over2("#p13", ciga1[12].marca,ciga1[12].precio,ciga1[12].descripcion);
 over2("#p14", ciga1[13].marca,ciga1[13].precio,ciga1[13].descripcion);
+
+over2("#p15", ciga1[14].marca,ciga1[14].precio,ciga1[14].descripcion);
+over2("#p16", ciga1[15].marca,ciga1[15].precio,ciga1[15].descripcion);
+over2("#p17", ciga1[16].marca,ciga1[16].precio,ciga1[16].descripcion);
+over2("#p18", ciga1[17].marca,ciga1[17].precio,ciga1[17].descripcion);
+
+over2("#p19", ciga1[18].marca,ciga1[18].precio,ciga1[18].descripcion);
+over2("#p20", ciga1[19].marca,ciga1[19].precio,ciga1[19].descripcion);
 
 
 
