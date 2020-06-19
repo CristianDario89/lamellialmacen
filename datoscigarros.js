@@ -97,13 +97,6 @@ var ciga1 = [ {
 ];
  
 /*--------------------------------*/
-var galletitas = [ {
-    id:"",
-    secciones:["budines","facturas","dulces","saladas"],
-    descripcion: "",
-    proveedores:["budines","facturas","dulces","saladas"]   
-} 
-] 
 
 /*--------------------------------*/
 var proveedores = [ {

@@ -406,8 +406,8 @@ table {
 }
 
 .footer .footer-top {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .footer .widget-title, .footer .widget-title a {
     font-size: 1.4rem;
@@ -416,7 +416,7 @@ table {
     color: #999;
 }
 .footer .widget-title{
-    padding-bottom: 20px;
+    padding-bottom: 2px;
     font-family: 'Satisfy', sans-serif;
     font-size: 44px;
     color: #FFB03B;
@@ -425,11 +425,11 @@ table {
     color: #999;
     text-transform: none;
     font-style: normal;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 .footer .navigation, .footer .social-list {
     float: none;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 .list-horizontal li {
     display: inline-block;

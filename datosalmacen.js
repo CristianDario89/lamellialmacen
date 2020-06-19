@@ -84,43 +84,6 @@ var alma1 = [ {
 }
 ];
 
-var higiene = [ {
-    id:"1",
-    marca: " <strong>shampoo</strong> plusbelle",
-    descripcion: "",
-    precio: 100,
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"2",
-    marca: "jabon",
-    descripcion: "",
-    cantidad:"",
-    precio: 35,
-    seccion:"",
-    proveedor:"" 
-},
-{
-    id:"3",
-    marca: "alcohol en gel",
-    descripcion: "",
-    cantidad:"",
-    precio: 85,
-    seccion:"",
-    proveedor:"" 
-},
-{
-    id:"4",
-    marca: "barbijos",
-    descripcion: "",
-    cantidad:"",
-    precio: 80,
-    seccion:"",
-    proveedor:"" 
-}
-];
 
 var otros = [ {
     id:"1",

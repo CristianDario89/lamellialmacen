@@ -9,18 +9,7 @@ var cervezas = [ {
     img: "images/bebi/b10.png" 
 },
 {
-    id:"2",
-    marca: "<strong>Shneider</strong> 3/4",
-    descripcion: "",
-    cantidad:"",
-    precio: 110,
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: ""  
-},
-{
-id:"3",
+id:"2",
     marca: " <strong>heineken</strong> lata",
     descripcion: "",
     precio: 90,
@@ -28,19 +17,9 @@ id:"3",
     seccion:"",
     proveedor:"" ,
     img: "images/bebi/cer3.jpg" 
-}, 
+},               
 {
-id:"4",
-    marca: " <strong>heineken</strong> 720ml",
-    descripcion: "",
-    precio: 70,
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: "images/bebi/bb3.jpg" 
-},                
-{
-    id:"5",
+    id:"3",
     marca: "<strong>brahama</strong> lata",
     descripcion: "",
     precio: 70,
@@ -50,18 +29,7 @@ id:"4",
     img: "images/bebi/b1.jpg" 
 },
 {
-    id:"6",
-    marca: "<strong>brahama</strong> 720ml",
-    descripcion: "",
-    cantidad:"",
-    precio: 110,
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: "images/bebi/b1.jpg"  
-},
-{
-    id:"7",
+    id:"4",
     marca: "<strong>Quilmes</strong> lata ",
     descripcion: " ",
     cantidad:"",
@@ -70,18 +38,7 @@ id:"4",
     seccion:"",
     proveedor:"" ,
     img: "images/bebi/b4.jpg"  
-},
-{
-    id:"8",
-    marca: "<strong>Quilmes</strong>  720ml",
-    descripcion: "botella 520ml",
-    cantidad:"",
-    precio: 110,
-    cantidad:"",
-    seccion:"",
-    proveedor:""  ,
-    img: "images/bebi/cer1.jpg" 
-}               
+}            
 ];
 
 var vinos = [ {
@@ -204,105 +161,6 @@ var jugos = [ {
 }
 ];
 
-var otrasbeb = [ {
-    id:"1",
-    marca: "chandon",
-    descripcion: "",
-    precio: 170,
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"2",
-    marca: "Federico de Alvear",
-    descripcion: "",
-    cantidad:"",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-},
-{
-    id:"3",
-    marca: "<strong>dr.lemon</strong> vodka lata",
-    descripcion: "",
-    cantidad:"",
-    precio: "$60",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: " "  
-},
-{
-    id:"4",
-    marca: "<strong>dr.lemon</strong> vodka 510ml",
-    descripcion: "",
-    cantidad:"",
-    precio: "$60",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: " "  
-},
-{
-    id:"5",
-    marca: "<strong>fernet</strong> chico",
-    descripcion: "",
-    cantidad:"",
-    precio: 60,
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: " "  
-},
-{
-    id:"6",
-    marca: "<strong>fernet</strong> grande",
-    descripcion: "",
-    cantidad:"",
-    precio: 160,
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: " "  
-},
-{
-    id:"7",
-    marca: "<strong>gancia</strong> chico",
-    descripcion: "",
-    cantidad:"",
-    precio: 60,
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: " "  
-},
-{
-    id:"8",
-    marca: "<strong>gancia</strong> grande",
-    descripcion: "",
-    cantidad:"",
-    precio: 160,
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: " "  
-},
-{
-    id:"9",
-    marca: "<strong>frizze</strong> ",
-    descripcion: "",
-    cantidad:"",
-    precio: 160,
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: " "  
-}
-] 
-
-
 /*--------------------------------*/
 var todos = [ {
     id:"",
@@ -380,10 +238,10 @@ over1("#pb18", vinos[3].marca,vinos[3].precio,vinos[3].img);
    `
     }  
 
- over2("#pb1", cervezas[6].marca,cervezas[6].precio,cervezas[6].img,"Botella 720ml <strong>$ 110</strong>");
-over2("#pb2", cervezas[4].marca,cervezas[4].precio,cervezas[4].img,"Botella 720ml <strong>$ 110</strong>");
-over2("#pb3", cervezas[2].marca,cervezas[2].precio,cervezas[2].img,"Botella 710ml <strong>$ 140</strong>" );
-over2("#pb4", cervezas[0].marca,cervezas[0].precio,cervezas[0].img, "");
+ over2("#pb1", cervezas[0].marca,cervezas[0].precio,cervezas[0].img,"Botella 720ml <strong>$ 110</strong>");
+over2("#pb2", cervezas[1].marca,cervezas[1].precio,cervezas[1].img,"Botella 720ml <strong>$ 140</strong>");
+over2("#pb3", cervezas[2].marca,cervezas[2].precio,cervezas[2].img,"Botella 710ml <strong>$ 110</strong>" );
+over2("#pb4", cervezas[3].marca,cervezas[3].precio,cervezas[3].img, "");
 
 
 over1("#pbj1", jugos[0].marca,jugos[0].precio,jugos[0].img);

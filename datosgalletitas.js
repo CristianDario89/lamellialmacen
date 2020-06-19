@@ -174,7 +174,7 @@ var snacks = [ {
     marca: "<strong>Kranchitos</strong> papas",
     descripcion: "",
     cantidad:"",
-    precio: "$55",
+    precio: 55,
     cantidad:"",
     seccion:"",
     img:"images/galle/sn2.webp" 
@@ -200,28 +200,6 @@ var snacks = [ {
     img:"" 
 }
 ];
-
-var datosBudines = [ {
-    id:"",
-    marca: " ",
-    descripcion: "",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"",
-    marca: " ",
-    descripcion: "",
-    cantidad:"",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-];
-
 
 /*--------------------------------*/
 var galletitas = [ {

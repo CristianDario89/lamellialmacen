@@ -260,13 +260,11 @@ over2("#p6", articulos[5].marca,articulos[5].precio,articulos[5].descripcion);
 over2("#p7", articulos[6].marca,articulos[6].precio,articulos[6].descripcion);
 over2("#p8", articulos[7].marca,articulos[7].precio,articulos[7].descripcion);
 
-
-over2("#ph1", articulos[0].marca,articulos[0].precio,articulos[0].descripcion);
-over2("#ph2", articulos[1].marca,articulos[1].precio,articulos[1].descripcion);
-over2("#ph3", articulos[2].marca,articulos[2].precio,articulos[2].descripcion);
-over2("#ph4", articulos[3].marca,articulos[3].precio,articulos[3].descripcion);
-over2("#ph5", articulos[4].marca,articulos[4].precio,articulos[4].descripcion);
- 
+over2("#ph6", higiene[0].marca,higiene[0].precio,higiene[0].descripcion);
+over2("#ph7", higiene[1].marca,higiene[1].precio,higiene[1].descripcion);
+over2("#ph8", higiene[2].marca,higiene[2].precio,higiene[2].descripcion);
+over2("#ph9", higiene[3].marca,higiene[3].precio,higiene[3].descripcion);
+over2("#ph10", higiene[4].marca,higiene[4].precio,higiene[4].descripcion);
 
 over2("#pd1", desoH[0].marca,desoH[0].precio,desoH[0].descripcion);
 over2("#pd2", desoH[1].marca,desoH[1].precio,desoH[1].descripcion);

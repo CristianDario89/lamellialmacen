@@ -168,7 +168,7 @@ var ciga1 = [ {
     marca: "<strong>L&M</strong> de 20",
     descripcion: "",
     cantidad:"",
-    precio: 310,
+    precio: 190,
     cantidad:"",
     seccion:"",
     proveedor:"",
@@ -224,7 +224,7 @@ var over2 = function(atr,one,two, three) {
       <span class="clearfix">
                         <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">${one}</a>
                         <span style="left: 166px; right: 44px;" class="menu-line"></span>
-            <span class="menu-price">${two}</span>
+            <span class="menu-price">$ ${two}</span>
             </span>
             <span class="menu-subtitle">${three}</span>
    `
