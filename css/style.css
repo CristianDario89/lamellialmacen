@@ -48,6 +48,19 @@
   
   text-align: center;
 }
+
+/*---------------------*/
+@media screen and (max-width:1019px) {
+  
+#fh5co-home .flexslider .fh5co-text {
+  
+  top: 32%;
+   
+}
+
+    
+} 
+/*--2-------------------*/ 
 /*---------------------*/
  
 #fh5co-home .flexslider .fh5co-text h1 {
