@@ -300,8 +300,8 @@ animation: fondo 3s;
 @media screen and (max-width: 719px) {
   .mercadopago {
         height: 40px;
-        top: 100px;
-      left: -100px;
+        top: 90px;
+      left: -110px;
     }
      .mercadopago img{
       margin-left: 55px;
