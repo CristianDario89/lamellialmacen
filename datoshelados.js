@@ -41,114 +41,38 @@ var heladosagua = [ {
     img: "img/2/hedagua1.jpg" 
 }
 ];
-
-var heladostasty = [ {
-    id:"",
-    marca: "1/4",
+ 
+var tasty = [ {
+    id:"1",
+    marca: "El cuarto - <strong>1/4</strong>",
     descripcion: "",
-    precio: "$20",
+    precio: 120,
     cantidad:"",
     seccion:"",
-    proveedor:"",
-    img: "img/2/hela6.png"
+    img:"img/2/hela6.png"
 },
 {
-    id:"",
-    marca: "1/2",
+    id:"2",
+    marca: "El medio - <strong>1/2</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$60",
+    precio: 200,
     cantidad:"",
     seccion:"",
-    proveedor:"" ,
-    img: "img/2/helatasty1.jpeg"
+    img:"img/2/helatasty1.jpeg" 
 },
 {
-    id:"",
-    marca: "1kg",
-    descripcion: "",
-    precio: "$60",
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: "img/2/hela6.png"
-},
-{
-    id:"",
-    marca: "Tacitas",
+    id:"3",
+    marca: "El kilo - <strong>1K</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "$90",
+    precio: 400,
     cantidad:"",
     seccion:"",
-    proveedor:"",
     img: "img/2/helatasty1.jpeg" 
 }
 ];
-
-/*-----------------------*/
-var datosFacturas = [ {
-    id:"",
-    marca: " ",
-    descripcion: "",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"",
-    marca: " ",
-    descripcion: "",
-    cantidad:"",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-];
-
-var datosDulces = [ {
-    id:"",
-    marca: " ",
-    descripcion: "",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"",
-    marca: " ",
-    descripcion: "",
-    cantidad:"",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-];
-
-var datosSaladas = [ {
-    id:"",
-    marca: " ",
-    descripcion: "",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-},
-{
-    id:"",
-    marca: " ",
-    descripcion: "",
-    cantidad:"",
-    precio: "",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" 
-}
-]  
+ 
 /*--------------------------------*/
 var galletitas = [ {
     id:"",
@@ -186,17 +110,34 @@ var over2 = function(atr,one,two, three) {
    `
     }     
 
+ var over1 = function(atrr,on,tw, thre,four) {
+	    var contenido2 = document.querySelector(atrr)
+	        contenido2.innerHTML = `
+    <div class="fh5co-food-desc " >
+										<figure>
+											<img src="${thre}" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>${on}</h3>
+											<p>${four}</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+								     $ ${tw}
+									</div>
+   `
+    }  
+
 
 over2("#ph1", heladosagua[0].marca,heladosagua[0].precio,heladosagua[0].img);
 over2("#ph2", heladosagua[1].marca,heladosagua[1].precio,heladosagua[1].img);
 over2("#ph3", heladosagua[2].marca,heladosagua[2].precio,heladosagua[2].img);
 over2("#ph4", heladosagua[3].marca,heladosagua[3].precio,heladosagua[3].img);
 
-over2("#ph5", heladostasty[0].marca,heladostasty[0].precio,heladostasty[0].img);
-over2("#ph6", heladostasty[1].marca,heladostasty[1].precio,heladostasty[1].img);
-over2("#ph7", heladostasty[2].marca,heladostasty[2].precio,heladostasty[2].img);
-over2("#ph8", heladostasty[3].marca,heladostasty[3].precio,heladostasty[3].img);
-
+over1("#ph5", tasty[0].marca,tasty[0].precio,tasty[0].img,"Americana - Tramontana - Granizado - Limon - Ananá");
+over1("#ph6", tasty[1].marca,tasty[1].precio,tasty[1].img,"Dulce de leche bombón - Dulce de leche granizado - Chocolate Ferrero - Chocolate Marroc");
+over1("#ph7", tasty[2].marca,tasty[2].precio,tasty[2].img,"Crema Oreo - Frutos del bosque - Frutilla a la crema - Menta granizado");
+ 
 
 
  

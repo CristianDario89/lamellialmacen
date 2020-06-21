@@ -69,30 +69,40 @@ var datosFacturas = [ {
 }
 ];
 
-var datosDulces = [ {
-    id:"",
-    marca: " ",
+var tasty = [ {
+    id:"1",
+    marca: "El cuarto",
     descripcion: "",
-    precio: "",
+    precio: 120,
     cantidad:"",
     seccion:"",
     proveedor:""
 },
 {
-    id:"",
-    marca: " ",
+    id:"2",
+    marca: "El medio",
     descripcion: "",
     cantidad:"",
-    precio: "",
+    precio: 200,
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"3",
+    marca: "El kilo",
+    descripcion: "",
+    cantidad:"",
+    precio: 400,
     cantidad:"",
     seccion:"",
     proveedor:"" 
 }
 ];
 
-var datosSaladas = [ {
-    id:"",
-    marca: " ",
+var gustosTasty = [ {
+    id:"1",
+    marca: "Americana",
     descripcion: "",
     precio: "",
     cantidad:"",
@@ -100,15 +110,146 @@ var datosSaladas = [ {
     proveedor:""
 },
 {
-    id:"",
-    marca: " ",
+    id:"2",
+    marca: "Dulce de leche bombon",
     descripcion: "",
     cantidad:"",
     precio: "",
     cantidad:"",
     seccion:"",
     proveedor:"" 
-}
+},
+{
+    id:"3",
+    marca: "Dulce de leche granizado",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"4",
+    marca: "Tramontana",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"5",
+    marca: "Chocolate",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"6",
+    marca: "Chocolate Ferrero",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"7",
+    marca: "Chocolate Marroc",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"8",
+    marca: "Crema oreo",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+}  ,
+{
+    id:"9",
+    marca: "Frutos del bosque",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"10",
+    marca: "Frutilla a la crema",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"11",
+    marca: "Banana split",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+} ,
+{
+    id:"12",
+    marca: "Granizado",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+} ,
+{
+    id:"13",
+    marca: "Limón",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+},
+{
+    id:"14",
+    marca: "Ananá",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+} ,
+{
+    id:"15",
+    marca: "Menta granizado",
+    descripcion: "",
+    cantidad:"",
+    precio: "",
+    cantidad:"",
+    seccion:"",
+    proveedor:"" 
+}    
+
 ]  
 /*--------------------------------*/
 var galletitas = [ {
