@@ -103,12 +103,6 @@ font-weight: 700;
     width: 100%;
     height: 100px;
     border-radius: 6px;
-}
-.wrapmelli h3{
-   color: antiquewhite; text-shadow: 2px 2px 2px black;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 26px;
 } 
 .produtitu{
     display: ;    letter-spacing: 8px;
@@ -343,18 +337,14 @@ animation: fondo 3s;
 .h1menu{
       margin-left:35%;
 }    
-.flexmelli{    width: 440px;
+.flexmelli{    width: 470px;
     height: 200px;    
 }
 .flexmelli div{
-    width:      104px;
+    width:      134px;
     border-radius: 8px;
     margin-right:  2px;padding: 5px;
-}
-.wrapmelli h3{
- 
-    font-size: 10px;
-}
+} 
     #fh5co-home .flexslider {
   
 }
