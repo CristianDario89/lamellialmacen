@@ -447,8 +447,13 @@
   
   
   .pp{
+<<<<<<< HEAD
    font-size: 14px;
      
+=======
+   font-size: 12.5px;
+      transform: translateX(-9px);
+>>>>>>> master
   }
 
 }
