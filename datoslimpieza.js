@@ -12,26 +12,26 @@ var articulos = [ {
     marca: "<strong>ala</strong> detergente",
     descripcion: "",
     cantidad:"",
-    precio: 110,
+    precio: 75,
     cantidad:"",
     seccion:"",
     img:"images/limpi/ll1.jpg" 
 },
 {
     id:"3",
-    marca: "<strong>raid</strong> matacucarachas",
+    marca: "<strong>Poet</strong>",
     descripcion: "",
-    precio: 120,
+    precio: 60,
     cantidad:"",
     seccion:"",
     img:""
 },
 {
     id:"4",
-    marca: "desodorante de ambiente",
+    marca: "Lysoform",
     descripcion: "",
     cantidad:"",
-    precio: 10,
+    precio: 200,
     cantidad:"",
     seccion:"",
     img:"images/limpi/ll3.webp" 
@@ -42,8 +42,8 @@ var higiene = [ {
     id:"1",
     marca: " <strong>shampoo</strong> plusbelle",
     descripcion: "",
-    precio: "",
-    cantidad:100,
+    precio: 160,
+    cantidad:"",
     seccion:"",
     img:"images/limpi/l5.jpg"
 },
@@ -93,26 +93,26 @@ var desoH = [ {
     id:"1",
     marca: "<strong>axe</strong> ",
     descripcion: "",
-    precio: "",
+    precio: 176,
     cantidad:"",
     seccion:"",
     img:"images/limpi/l10.jpg"
 },
 {
     id:"2",
-    marca: "<strong>rexona</strong>",
+    marca: "<strong>rexona</strong> antitranspirante",
     descripcion: "",
     cantidad:"",
-    precio: "",
+    precio: 170,
     cantidad:"",
     seccion:"",
-    img:"" 
+    img:"images/limpi/ll6.webp" 
 },
              {
     id:"3",
     marca: "<strong>Kevin</strong> ",
     descripcion: "",
-    precio: "",
+    precio: 300,
     cantidad:"",
     seccion:"",
     img:"images/limpi/ll5.webp"
@@ -122,10 +122,9 @@ var desoH = [ {
     marca: "<strong>patric</strong>",
     descripcion: "",
     cantidad:"",
-    precio: "",
-    cantidad:"",
+    precio: 130,
     seccion:"",
-    img:"images/limpi/ll5.webp " 
+    img:"images/limpi/ll2.webp" 
 }
              
 ];
@@ -205,7 +204,7 @@ over2("#pl3", higiene[2].marca,higiene[2].precio,higiene[2].img);
 over2("#pl4", higiene[3].marca,higiene[3].precio,higiene[3].img);
 
 over2("#pl5", desoH[0].marca,desoH[0].precio,desoH[0].img);
-over2("#pl6", desoM[1].marca,desoM[1].precio,desoM[1].img);
+over2("#pl6", desoH[1].marca,desoH[1].precio,desoH[1].img);
 over2("#pl7", desoH[2].marca,desoH[2].precio,desoH[2].img);
 over2("#pl8", desoH[3].marca,desoH[3].precio,desoH[3].img);
  

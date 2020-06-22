@@ -39,7 +39,7 @@ var alma1 = [ {
 {
     id:"5",
     marca: "te <strong>taragui</strong> caja",
-    descripcion: "jamon",
+    descripcion: "",
     precio: 120,
     cantidad:"",
     seccion:"",
@@ -235,42 +235,52 @@ var proveedores = [ {
     productos:["budines","facturas","dulces","saladas"]   
 } 
 ] 
+
 /*-------------Card Overlay---------*/
 var over2 = function(atr,one,two, three) {
 	    var contenido = document.querySelector(atr)
 	        contenido.innerHTML = `
-    <div class="fh5co-food-desc " >
-										<figure>
-											<img src="${three}" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>${one}</h3>
-											
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$ ${two}
-   </div>
+      <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">${one}</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$ ${two}</span>
+            </span>
+            <span class="menu-subtitle">${three}</span>
    `
     }     
-
-
-over2("#pa1", alma1[0].marca,alma1[0].precio,alma1[0].img);
-over2("#pa2", alma1[1].marca,alma1[1].precio,alma1[1].img);
-over2("#pa3", alma1[2].marca,alma1[2].precio,alma1[2].img);
-over2("#pa4", alma1[3].marca,alma1[3].precio,alma1[3].img);
-
-over2("#pa5", alma1[4].marca,alma1[4].precio,alma1[4].img);
-over2("#pa6", alma1[5].marca,alma1[5].precio,alma1[5].img);
-over2("#pa7", alma1[6].marca,alma1[6].precio,alma1[6].img);
-over2("#pa8", alma1[7].marca,alma1[7].precio,alma1[7].img);
-
-
-over2("#pa11", alma1[8].marca,alma1[8].precio,alma1[8].img);
-over2("#pa12", alma1[9].marca,alma1[9].precio,alma1[9].img);
-over2("#pa13", alma1[10].marca,alma1[10].precio,alma1[10].img);
-over2("#pa14", alma1[11].marca,alma1[11].precio,alma1[11].img);
  
+ 
+
+over2("#p1", alma1[0].marca,alma1[0].precio,alma1[0].descripcion);
+over2("#p2", alma1[1].marca,alma1[1].precio,alma1[1].descripcion);
+over2("#p3", alma1[2].marca,alma1[2].precio,alma1[2].descripcion);
+over2("#p4", alma1[3].marca,alma1[3].precio,alma1[3].descripcion);
+
+over2("#p5", alma1[4].marca,alma1[4].precio,alma1[4].descripcion);
+over2("#p6", alma1[5].marca,alma1[5].precio,alma1[5].descripcion);
+over2("#p7", alma1[6].marca,alma1[6].precio,alma1[6].descripcion);
+over2("#p8", alma1[7].marca,alma1[7].precio,alma1[7].descripcion);
+
+
+over2("#p11", alma1[8].marca,alma1[8].precio,alma1[8].descripcion);
+over2("#p12", alma1[9].marca,alma1[9].precio,alma1[9].descripcion);
+over2("#p13", alma1[10].marca,alma1[10].precio,alma1[10].descripcion);
+over2("#p14", alma1[11].marca,alma1[11].precio,alma1[11].descripcion);
+ over2("#p9", alma1[12].marca,alma1[12].precio,alma1[12].descripcion);
+
+
+
+over2("#p15", otros[0].marca,otros[0].precio,otros[0].descripcion);
+over2("#p16", otros[1].marca,otros[1].precio,otros[1].descripcion);
+over2("#p17", otros[2].marca,otros[2].precio,otros[2].descripcion);
+over2("#p18", otros[3].marca,otros[3].precio,otros[3].descripcion);
+ over2("#p19", otros[4].marca,otros[4].precio,otros[4].descripcion);
+
+over2("#p20", otros[5].marca,otros[5].precio,otros[5].descripcion);
+over2("#p21", otros[6].marca,otros[6].precio,otros[6].descripcion);
+over2("#p22", otros[7].marca,otros[7].precio,otros[7].descripcion);
+over2("#p23", otros[8].marca,otros[8].precio,otros[8].descripcion);
+ over2("#p24", otros[9].marca,otros[9].precio,otros[9].descripcion);
 /*
 over2("#pl9", desoM[0].marca,desoM[0].precio,desoM[0].img);
 over2("#pl10", desoM[1].marca,desoM[1].precio,desoM[1].img);

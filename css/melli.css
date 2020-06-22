@@ -11,11 +11,9 @@ to{
 .margenicon{margin-right: 10px;}
 .wrapredes{    display: flex; } 
 .mercadopago{
-   position: absolute;
-  z-index: 11;
-   
-  top: 20px;
- margin-left:37%;  
+    display: flex;
+   position: absolute;z-index: 11;
+     top: 20px;margin-left:37%;  
     
 }
  .mercadopago img{
@@ -296,15 +294,29 @@ animation: fondo 3s;
 .botoncito{
   position: relative;bottom:70px;
 }
+
+.gustostasty{
+    margin-left: 70px;
+    letter-spacing: 1.7px;
+    background-color: red; 
+}
+.gustostasty ul{
+    color: red;
+    font-weight: 600;
+   
+}
+.gustostasty ul li{
+    transform: scale(1.2)
+}
 /*---------------------------------*/
 @media screen and (max-width: 719px) {
   .mercadopago {
-        height: 40px;
+        left: -20px;
         top: 90px;
-      left: -110px;
+      
     }
      .mercadopago img{
-      margin-left: 55px;
+    width: 100px;
       
     }  
  /*------------------------*/

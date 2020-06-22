@@ -451,11 +451,11 @@
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
-}
+}/*
 #fh5co-featured .fh5co-grid h2 {
   font-size: 20px;
   margin-bottom: 0;
-}
+}*/
 #fh5co-featured .fh5co-grid p {
   line-height: 1.6;
   font-size: 16px;
@@ -862,8 +862,7 @@
   }
 }
 #fh5co-contact h3 {
-  margin-bottom: 30px;
-  font-style: italic;
+  margin-bottom: 25px;  
 }
 @media screen and (max-width: 768px) {
   #fh5co-contact {

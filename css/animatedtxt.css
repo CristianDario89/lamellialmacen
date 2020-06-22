@@ -7,11 +7,8 @@ body{
     width: 230px;
   font-family: montserrat,sans-serif;   
   color: #fff;
-  position: absolute;
-  top: 50%;
- left: 300px;
-  transform: translate(-50%,-50%);
-  background: #2980b9;
+  
+  
     border-radius: 8px;
   padding: 0 10px;
   height: 60px;

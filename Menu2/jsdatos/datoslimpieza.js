@@ -83,6 +83,16 @@ var articulos = [ {
     cantidad:"",
     seccion:"",
     img:"images/limpi/l1.jpg"
+},
+ {
+    id:"6",
+    marca: "<strong>econ</strong> detergente",
+    descripcion: "",
+    cantidad:"",
+    precio: 60,
+    cantidad:"",
+    seccion:"",
+    img:"" 
 }
 ];
 

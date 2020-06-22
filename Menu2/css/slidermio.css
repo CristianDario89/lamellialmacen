@@ -95,6 +95,23 @@
   background-size: cover;
   background-position: 50% 50%;
 }
+
+
+.thumbs .first5 {
+  background-image: url(../img/alma/3.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.thumbs .second5 {
+  background-image: url(../img/alma/5.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.thumbs .third5 {
+  background-image: url(../img/alma/4.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
 /*------------------------------*/
 
 
