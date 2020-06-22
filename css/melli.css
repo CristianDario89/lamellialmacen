@@ -312,7 +312,7 @@ animation: fondo 3s;
 @media screen and (max-width: 719px) {
   .mercadopago {
         left: -50px;
-        
+ top: -10px;
       
     }
      .mercadopago img{
