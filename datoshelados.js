@@ -137,7 +137,7 @@ var over2 = function(atr,one,two, three) {
 										</div>
 									</div>
 									<div class="fh5co-food-pricing">
-										${two}
+										$ ${two}
    </div>
    `
     }     

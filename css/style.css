@@ -54,7 +54,7 @@
   
 #fh5co-home .flexslider .fh5co-text {
   
-  top: 32%;
+  
    
 }
 
@@ -98,7 +98,7 @@
 @media screen and (max-width: 600px) {
     
  #fh5co-home .flexslider .fh5co-text h1 {
-    font-size: 34px;
+    font-size: 64px;
      margin-top: 14px;
   }
 } 
