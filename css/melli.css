@@ -106,14 +106,12 @@ font-weight: 700;
 } 
 .produtitu{
     display: ;    letter-spacing: 8px;
-      color:white;
-    border-bottom: 2px dotted black;
-     margin-bottom: 20px;  
-    background-color: black; padding: 9px 0;
+      
+    background-color: black; padding: 15px 0;
      font-weight: 700;
 }
 .wraptitu{
-    margin-bottom: 30px;
+  
 }
 .flextake{
     display: flex; 
@@ -331,9 +329,7 @@ animation: fondo 3s;
    z-index: 11111;
 }
     /*-----------------*/
- .wrap1{
     
-}   
 .h1menu{
       margin-left:35%;
 }    

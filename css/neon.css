@@ -18,11 +18,64 @@
   font-family:Monoton;
 }
 .pp:nth-child(1) a:hover{
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate; 
+  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+  animation: neon3 1.5s ease-in-out infinite alternate; 
+} 
+  
+.pp a:hover{
+color:yellow;  
+}
+/*neeeeoooon*/
+
+.entregarap p a{
+  text-decoration:none; 
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; 
+    font-size: 40px;
+    
+}
+
+.entregarap p:nth-child(1) a{
+  color:chartreuse;
+  font-family:Monoton;
+}
+.entregarap p:nth-child(1) a:hover{
+  -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon4 1.5s ease-in-out infinite alternate;
+  animation: neon4 1.5s ease-in-out infinite alternate; 
 } 
  
+.entregarap p a:hover{
+color:#ffffff;  
+}
+
+/*neeeeoooon*/
+
+.wraptitu p a{
+  text-decoration:none; 
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; 
+    font-size: 30px;
+}
+
+.wraptitu p:nth-child(1) a{
+  color:chartreuse;
+  font-family:Monoton;
+}
+.wraptitu p:nth-child(1) a:hover{
+  -webkit-animation: neon6 1.5s ease-in-out infinite alternate ;
+  -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+  animation: neon6 1.5s ease-in-out infinite alternate; 
+} 
+ 
+
+.wraptitu p a:hover{
+color:#ffffff;  
+}
+
 
 /*glow for webkit*/
 @-webkit-keyframes neon1 {
@@ -446,12 +499,10 @@
 @media (max-width: 650px) {
   
   
-  .pp{
- 
+  .pp{ 
    font-size: 12px;
-    
-      transform: translateX(-9px);
- 
+      transform: translateX(-9px); 
   }
+ 
 
 }
