@@ -189,9 +189,11 @@ right: 1px;
         display: none;
     } 
     .gotopbtn{
-        bottom: 71px;opacity: 0.6;
+        bottom: 86px;opacity: 0.6;
+        right: 40px; 
     }
     .gotopbtn10{
-       bottom: 111px;  opacity: 0.1;
+       bottom: 126px;  opacity: 0.1;
+        right: 40px; 
     }
 }
