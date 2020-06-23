@@ -121,10 +121,7 @@ color:deepskyblue;
       
     background-color: black; padding: 15px 0;
      font-weight: 700;
-}
-.wraptitu{
-  
-}
+} 
 .flextake{
     display: flex; 
     flex-wrap: nowrap;
