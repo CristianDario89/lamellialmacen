@@ -37,15 +37,16 @@ var articulos = [ {
     img:"images/limpi/ll3.webp" 
 }
 ];
+ 
 
-var higiene = [ {
+var covid = [ {
     id:"1",
-    marca: " <strong>shampoo</strong> plusbelle",
+    marca: " <strong>Mascara policarbonato</strong>",
     descripcion: "",
-    precio: 160,
+    precio: 140,
     cantidad:"",
     seccion:"",
-    img:"images/limpi/l5.jpg"
+    img:"images/limpi/z4.jpg"
 },
 {
     id:"2",
@@ -76,6 +77,44 @@ var higiene = [ {
     cantidad:"",
     seccion:"",
     img:"images/limpi/l8.jpg" 
+} 
+];
+
+var higiene = [ {
+    id:"1",
+    marca: " <strong>shampoo</strong> plusbelle",
+    descripcion: "",
+    precio: 160,
+    cantidad:"",
+    seccion:"",
+    img:"images/limpi/l5.jpg"
+},
+{
+    id:"2",
+    marca: "<strong>raid</strong> matacucarachas y mosquitos",
+    descripcion: "",
+    cantidad:"",
+    precio: 280,
+    seccion:"",
+    img:"images/limpi/z2.jpg" 
+},
+{
+    id:"3",
+    marca: "<strong>musmy</strong> detergente",
+    descripcion: "",
+    cantidad:"",
+    precio: 60,
+    seccion:"",
+    img:"" 
+},
+{
+    id:"4",
+    marca: "<strong>magistral</strong> detergente",
+    descripcion: "",
+    cantidad:"",
+    precio: 100,
+    seccion:"",
+    img:"images/limpi/z3.jpg" 
 },
 {
     id:"5",
@@ -83,7 +122,6 @@ var higiene = [ {
     descripcion: "",
     cantidad:"",
     precio: 80,
-    cantidad:"",
     seccion:"",
     img:"images/limpi/l6.jpg" 
 }
@@ -104,7 +142,6 @@ var desoH = [ {
     descripcion: "",
     cantidad:"",
     precio: 170,
-    cantidad:"",
     seccion:"",
     img:"images/limpi/ll6.webp" 
 },
@@ -144,7 +181,6 @@ var desoM = [ {
     descripcion: "",
     cantidad:"",
     precio: "",
-    cantidad:"",
     seccion:"",
     img:"../images/limpi/l9.png" 
 },
@@ -163,7 +199,6 @@ var desoM = [ {
     descripcion: "",
     cantidad:"",
     precio: "",
-    cantidad:"",
     seccion:"",
     img:"" 
 }
@@ -212,6 +247,12 @@ over2("#pl13", higiene[0].marca,higiene[0].precio,higiene[0].img);
 over2("#pl14", higiene[1].marca,higiene[1].precio,higiene[1].img);
 over2("#pl15",higiene[4].marca,higiene[4].precio,higiene[4].img);
 over2("#pl16", articulos[3].marca,articulos[3].precio,articulos[3].img);
+
+
+over2("#pco1", covid[0].marca,covid[0].precio,covid[0].img);
+over2("#pco2", covid[1].marca,covid[1].precio,covid[1].img);
+over2("#pco3", covid[2].marca,covid[2].precio,covid[2].img);
+over2("#pco4", covid[3].marca,covid[3].precio,covid[3].img);
 
   
   

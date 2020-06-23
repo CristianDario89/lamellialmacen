@@ -34,7 +34,7 @@ var articulos = [ {
     precio: "$10",
     cantidad:"",
     seccion:"",
-    img:"images/limpi/ll3.webp" 
+    img:"" 
 },
 {
     id:"5",
@@ -73,7 +73,7 @@ var articulos = [ {
     precio: "$280",
     cantidad:"",
     seccion:"",
-    img:""
+    img:"images/limpi/z2.jpg"
 },
 {
     id:"9",

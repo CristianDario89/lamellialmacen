@@ -13,7 +13,7 @@
     35% 
     { transform: rotateZ(-4deg); } 
     60%, 100% 
-    { transform: rotateZ(0);opacity: 1; 
+    { transform: rotateZ(0);opacity: 0.7; 
     text-shadow: 1px 1px 1px red, -1px -1px 1px red;} 
 }
  
@@ -37,7 +37,7 @@
 
 .gotopbtn2{
   position: fixed;
-  width: 170px;
+  width: 160px;
   height: 50px;
   background:red;
   bottom: 400px;
@@ -60,7 +60,7 @@
 }
 .gotopbtn3{
   position: fixed;
-  width: 170px;
+  width: 160px;
   height: 50px;
   background-color: chartreuse;
   bottom: 360px;
@@ -75,7 +75,7 @@
 }
 .gotopbtn4{
   position: fixed;
-  width: 170px;
+  width: 160px;
   height: 50px;
   background:brown;
   bottom: 320px;
@@ -90,7 +90,7 @@
 }
 .gotopbtn5{
   position: fixed;
-  width: 170px;
+  width: 160px;
   height: 50px;
   background-color: blueviolet;
   bottom:280px;
@@ -105,7 +105,7 @@
 }
 .gotopbtn6{
   position: fixed;
-  width: 170px;
+  width: 160px;
   height: 50px;
   background-color: aqua;
   bottom: 240px;
@@ -121,7 +121,7 @@
 
 .gotopbtn7{
   position: fixed;
-  width: 170px;
+  width: 160px;
   height: 50px;
   background-color: darkcyan;
   bottom: 200px;
@@ -136,7 +136,7 @@
 
 .gotopbtn8{
   position: fixed;
-  width: 170px;
+  width: 160px;
   height: 50px;
   background-color: wheat;
   bottom: 160px;
@@ -151,7 +151,7 @@ right: 1px;
 
 .gotopbtn9{
   position: fixed;
-  width: 170px;
+  width: 160px;
   height: 50px;
   background-color: darkgoldenrod;
   bottom: 120px;
@@ -167,7 +167,7 @@ right: 1px;
 
 .gotopbtn10{
   position: fixed;
-  width: 170px;
+  width: 130px;
   height: 50px;
   background-color: darkorange;
   bottom: 80px;
@@ -185,7 +185,13 @@ right: 1px;
 
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
-    .gotopbtn, .gotopbtn2, .gotopbtn3, .gotopbtn4, .gotopbtn5, .gotopbtn6, .gotopbtn7, .gotopbtn8, .gotopbtn9, .gotopbtn10{
+   .gotopbtn2, .gotopbtn3, .gotopbtn4, .gotopbtn5, .gotopbtn6, .gotopbtn7, .gotopbtn8, .gotopbtn9{
         display: none;
-    }  
+    } 
+    .gotopbtn{
+        bottom: 1px;opacity: 0.6;
+    }
+    .gotopbtn10{
+       bottom: 41px;  opacity: 0.1;
+    }
 }
