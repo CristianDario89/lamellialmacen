@@ -230,7 +230,7 @@
 @media screen and (max-width: 768px) {
   .fh5co-heading .heading {
     font-size: 40px;
-  }
+  }  
 }
 .fh5co-heading .heading:after {
   content: "";
@@ -413,13 +413,11 @@
 }
 
 #fh5co-featured {
-  padding: 0 0 3em 0;
-     
+  padding: 0 0 3em 0; 
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured {
-    padding: 1em 0;
-   
+    padding: 0em 0;0
   }
 }
 #fh5co-featured .fh5co-heading .heading {
@@ -639,6 +637,7 @@
 
 #fh5co-menus {
   padding: 1em 0;
+    
 }
 @media screen and (max-width: 768px) {
   #fh5co-menus {
@@ -756,7 +755,7 @@
 
 #fh5co-events {
    
-  padding: 7em 0;
+  padding: 5em 0;
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
@@ -796,14 +795,14 @@
 }
 @media screen and (max-width: 768px) {
   #fh5co-events {
-    padding: 5em 0;
+    padding: 3em 0;
   }
 }
 #fh5co-events .fh5co-event {
-  background: #fff;
-  padding: 50px;
+  color: #fff;
+  padding: 30px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   position: relative;
 }
 #fh5co-events .fh5co-event:before {
@@ -855,6 +854,7 @@
  
 #fh5co-contact {
   padding: 7em 0;
+     background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
 }
 @media screen and (max-width: 768px) {
   #fh5co-contact {
@@ -863,6 +863,10 @@
 }
 #fh5co-contact h3 {
   margin-bottom: 25px;  
+      color: black;
+     background-color: darkgoldenrod;
+    padding: 15px  0px;
+    font-family: "Playfair Display", serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-contact {
@@ -889,11 +893,12 @@
 }
 #fh5co-contact .fh5co-social {
   padding: 0;
-  margin: 0;
+  margin-top: 23px;
 }
 #fh5co-contact .fh5co-social li {
   padding: 0;
-  margin: 0;
+  margin: 0 20px;
+    
 }
 #fh5co-contact .fh5co-contact-info {
   padding: 0;
@@ -928,7 +933,7 @@
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer {
-    padding: 5em 0;
+    padding:2em 0;
   }
 }
 @media screen and (max-width: 480px) {

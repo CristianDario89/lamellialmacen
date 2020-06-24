@@ -267,8 +267,7 @@ over2("#p12", alma1[9].marca,alma1[9].precio,alma1[9].descripcion);
 over2("#p13", alma1[10].marca,alma1[10].precio,alma1[10].descripcion);
 over2("#p14", alma1[11].marca,alma1[11].precio,alma1[11].descripcion);
  over2("#p9", alma1[12].marca,alma1[12].precio,alma1[12].descripcion);
-
-
+  
 
 over2("#p15", otros[0].marca,otros[0].precio,otros[0].descripcion);
 over2("#p16", otros[1].marca,otros[1].precio,otros[1].descripcion);
@@ -280,12 +279,7 @@ over2("#p20", otros[5].marca,otros[5].precio,otros[5].descripcion);
 over2("#p21", otros[6].marca,otros[6].precio,otros[6].descripcion);
 over2("#p22", otros[7].marca,otros[7].precio,otros[7].descripcion);
 over2("#p23", otros[8].marca,otros[8].precio,otros[8].descripcion);
- over2("#p24", otros[9].marca,otros[9].precio,otros[9].descripcion);
-/*
-over2("#pl9", desoM[0].marca,desoM[0].precio,desoM[0].img);
-over2("#pl10", desoM[1].marca,desoM[1].precio,desoM[1].img);
-over2("#pl11", desoM[2].marca,desoM[2].precio,desoM[2].img);
-over2("#pl12", desoM[3].marca,desoM[3].precio,desoM[3].img);*/
+ over2("#p24", otros[9].marca,otros[9].precio,otros[9].descripcion); 
 
 
   

@@ -21,15 +21,17 @@ to{
       border-radius: 8px;
      animation: up 4s;
 }
-.wrapcompras1{
-     margin-left: 20%;
-    line-height: 60px;
+.wrapcompras1{display: flex;
+    justify-content: space-around;
+      margin-bottom: 20px;
+    margin-top: 30px;
 }
 .comprash1{
     color: darkgoldenrod;
     font-weight: 700;
-    letter-spacing: 3px;padding: 5px 0;
+    letter-spacing: 3px;padding: 15px 0;
    background-color: black; 
+    transform: translateY(10px);
 }
 #vuelan{display: none;}
 /*---------------------*/
@@ -42,25 +44,18 @@ to{
            height: 42px;
            margin-top: 20px;
     }
-.wrapcompras1{
-     margin-left: 0%;
-     line-height:44px;
-}
+    
+
 .centrowsp{    border-bottom: 12px solid deepskyblue;
     position: relative;z-index: 1;
    } 
-.contmp{  border-bottom: 12px solid deepskyblue;  }
 .menucostado{ 
       line-height: 30px;
     transform: scale(1.6);
-    
+     margin-top:   24px;
 }
 .tituscontacto{
-   color: black;
-     background-color: darkgoldenrod;
-    padding: 5px  0px;
-    
-    font-family: "Playfair Display", serif;
+ 
 }
 .estesale{display: block;}
 } 
@@ -72,15 +67,19 @@ width: 90px;height: 60px;
 position: absolute;
 top: 6px;right: 250px;
 } 
-  
-.contmp img{
-transform: translateY(-30px);
-width: 80%;height: 160px; 
+.contmp {
+ text-align: center;   
+} 
+.contmp img{   
+width: 200px;height: 70px; 
+    border-radius: 50%;
 }  
 .menucostado{
 z-index: 1111;
 text-shadow:  -1px -1px 1px deepskyblue; 
 font-weight: 700; 
+    border-bottom:5px solid white;
+   
 } 
 .centrowsp{    font-size: 20px;}
 
@@ -118,15 +117,13 @@ color:deepskyblue;
 /*------------------------------------*/
 .produtitu{
     display: ;    letter-spacing: 8px;
-      
-    background-color: black; padding: 15px 0;
+     background-color: black; padding: 15px 0;
      font-weight: 700;
 } 
 .flextake{
     display: flex; 
     flex-wrap: nowrap;
-    transform: translateX(-170px)
-    
+    transform: translateX(-170px) 
 }
 .wraptake{
      display: flex;
@@ -152,8 +149,7 @@ color:deepskyblue;
     padding-right:9px;
 }
 .wraptakein   div{
-  margin-left:30px;
-    
+  margin-left:30px;   
 }
 .numpersonal{
    
@@ -322,8 +318,7 @@ animation: fondo 3s;
     }  
  /*------------------------*/
 .contmp img{
-    transform: translateY(-10px);
-    width: 100%;height: 160px; 
+     height: 70px; width: 100px;
 }  
     
 .mpmenu{

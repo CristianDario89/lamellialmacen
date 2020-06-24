@@ -18,12 +18,12 @@ body{
 .animated-text2{
     width: 100%;
   font-family: montserrat,sans-serif;   
-  color: goldenrod;
+  color: black;text-shadow: 1px 1px goldenrod;
   position: absolute; 
-  background-color: dimgrey;     
+       
   height: 50px;
   overflow: hidden;  
-    transform: translateY(-10px);
+   
 }
 /*---------------------*/
 /*---------------------*/
@@ -39,7 +39,7 @@ body{
 .animated-text2{
   padding: 0 2px; 
   margin-top: 4px;
-     transform: translateY(-14px);   
+    
 }
      
 } 
@@ -90,3 +90,72 @@ body{
     margin-top: 0;
   }
 }
+/*---------------------------*/
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.wraptext {
+  text-align:center;
+    color:#555;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:27px;
+  
+   
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.ddiv {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.ddiv:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+.ddiv:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+.ddiv:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+} 
+
+/*---------------------*/
+@media screen and (max-width:500px) {
+  
+.wraptext {  font-size:23px;   
+} 
+} 
+/*--2-------------------*/ 
