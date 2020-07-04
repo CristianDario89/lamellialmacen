@@ -1,8 +1,8 @@
 
 firebase.initializeApp({
-    apiKey: "AIzaSyDZqQ5xvIfbOuP0hkXfJ64r3awn7EXQMSM",
-    authDomain: "lamellialmacenatr.firebaseapp.com",
-      projectId: "lamellialmacenatr"
+   apiKey: "AIzaSyCsWEtRzkkoA-mcGW8oBBTbBPYFn5tU_Ts",
+ authDomain: "pedidosonlinemelli.firebaseapp.com",
+      projectId: "pedidosonlinemelli"
 });
 var db = firebase.firestore();
    
@@ -17,15 +17,13 @@ function guardar(){
     var mensaje = document.getElementById('message').value;
     var entrega = document.getElementById('entrega').value;
     var pago = document.getElementById('pago').value;
-    var fechahora = document.getElementById('date').value;
-
-    db.collection("pedidoreya").add({
+    
+    db.collection("pedidos").add({
          correo: email,
        nombre: nombre,
          dire: dire,
           entrega: entrega,
-       pago: pago,
-        fechahora: fechahora,
+       pago: pago, 
          mensaje: mensaje
     })
     .then(function(docRef) {
@@ -37,8 +35,7 @@ function guardar(){
         document.getElementById('email').value = '';
         document.getElementById('message').value = '';
           document.getElementById('entrega').value = '';
-        document.getElementById('pago').value = '';
-        document.getElementById('date').value = '';
+        document.getElementById('pago').value = ''; 
     })
     .catch(function(error) {
         console.error("Error adding document: ", error);
