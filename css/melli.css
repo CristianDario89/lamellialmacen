@@ -34,6 +34,9 @@ to{
     transform: translateY(10px);
 }
 #vuelan{display: none;}
+.tituscontacto{
+ letter-spacing: 3px;font-weight: 600;
+}
 /*---------------------*/
 /*---------------------*/
 @media screen and (max-width: 800px) {
@@ -54,9 +57,7 @@ to{
     transform: scale(1.6);
      margin-top:   24px;
 }
-.tituscontacto{
- 
-}
+
 .estesale{display: block;}
 } 
 /*--2-------------------*/
