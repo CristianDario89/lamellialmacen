@@ -28,7 +28,7 @@ function guardar(){
     })
     .then(function(docRef) {
         console.log("Document written with ID: ", docRef.id);
-        prompt("Enviado. pronto te responderemos...");
+        prompt("GRACIAS por comprar online, le responderemos para confirmar que su pedido ya ha sido armado para su entrega...");
         document.getElementById('name').value = '';
         document.getElementById('dire').value = '';
      
