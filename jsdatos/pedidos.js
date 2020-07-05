@@ -10,16 +10,14 @@ var db = firebase.firestore();
 //Agregar documentos
 function guardar(){
     var nombre = document.getElementById('name').value;
-    
-     var dire = document.getElementById('dire').value;
-    
+    var dire = document.getElementById('dire').value;
     var email = document.getElementById('email').value;
     var mensaje = document.getElementById('message').value;
     var entrega = document.getElementById('entrega').value;
     var pago = document.getElementById('pago').value;
     
     db.collection("pedidos").add({
-         correo: email,
+         celular: email,
        nombre: nombre,
          dire: dire,
           entrega: entrega,
