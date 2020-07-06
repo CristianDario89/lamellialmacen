@@ -7,6 +7,9 @@ to{
     transform: translate(0px, 0px);
     }  
 } 
+
+.nosevee{display: none;}
+
 .estesale{  display: none;}
 .margenicon{margin-right: 10px;}
 .wrapredes{    display: flex; } 
