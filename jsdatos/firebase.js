@@ -1,8 +1,8 @@
 
 firebase.initializeApp({
- apiKey: "AIzaSyCU7vTfpu5XrxoZ1UkMa5IV7Rvnu_sE3js",
-  authDomain: "pedidospalomar-a0d1a.firebaseapp.com",
- projectId: "pedidospalomar-a0d1a"
+  apiKey: "AIzaSyDwth0vhusFhlN8GYNSBp_kg3vp9BlY0DM",
+  authDomain: "comprasonline-2d0ef.firebaseapp.com",
+  projectId: "comprasonline-2d0ef"
 });
 var db = firebase.firestore();
    
@@ -15,15 +15,15 @@ function guardar(){
       var entrega = document.getElementById('entrega').value;
     var pago = document.getElementById('pago').value;
     
-    db.collection("compraonline").add({
+    db.collection("pedidos").add({
          celular: email,
-          dire: dire,
+          direccion: dire,
           entrega: entrega,
        pago: pago 
     })
     .then(function(docRef) {
         console.log("Document written with ID: ", docRef.id);
-        prompt("GRACIAS por comprar online, le responderemos para confirmar que su pedido ya ha sido armado para su entrega...");
+        prompt("GRACIAS por comprar online, le responderemos para pedir captura de pantalla de sus productos");
           document.getElementById('dire').value = '';
      
         document.getElementById('email').value = ''; 
