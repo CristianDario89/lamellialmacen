@@ -804,32 +804,24 @@ over2("#ph7", tasty[2].marca,tasty[2].precio,tasty[2].img,"");
 	 var contenido2 = document.querySelector(atrr)
      contenido2.innerHTML = ` <div class="gustostasty"> ${on} </div> `
     }  
-
-
 over3("#ph12", tasty[3].marca );
-
 
 // ************************************************
 // Shopping Cart API
-//
 var shoppingCart = (function() {
   // =============================
   // Private methods and propeties
-  // =============================
-  cart = [];
-  
+  cart = []; 
   // Constructor
   function Item(name, price, count) {
     this.name = name;
     this.price = price;
     this.count = count;
   }
-  
   // Save cart
   function saveCart() {
     sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
   }
-  
     // Load cart
   function loadCart() {
     cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
@@ -839,7 +831,6 @@ var shoppingCart = (function() {
   }
   // =============================
   // Public methods and propeties
-  // =============================
   var obj = {};
   
   // Add to cart
@@ -902,6 +893,7 @@ var shoppingCart = (function() {
       totalCount += cart[item].count;
     }
     return totalCount;
+         
   }
 
   // Total cart
@@ -928,6 +920,8 @@ var shoppingCart = (function() {
     }
     return cartCopy;
   }
+  
+  
 
   // cart : Array
   // Item : Object/Class
@@ -941,8 +935,9 @@ var shoppingCart = (function() {
   // saveCart : Function
   // loadCart : Function
   return obj;
+  
+console.log(obj.listCart); 
 })();
-
 
 // *****************************************
 // Triggers / Events
@@ -1010,4 +1005,11 @@ $('.show-cart').on("change", ".item-count", function(event) {
   displayCart();
 });
 displayCart();
+ 
+/*-----------
+let busqueda = "tang";
+console.log("Tenemos el arreglo: ", jugos);
+console.log("Buscando en donde el nombre sea igual a: ", busqueda);
+let indice = jugos.findIndex(jugo => jugo.marca === busqueda);
+console.log("El elemento buscado está en el índice ", indice);*/
  
