@@ -234,57 +234,43 @@ Dulces = [ {
 /*-----------------------------*/
 var Saladas = [ {
     id:"1",
-    marca: "<strong>media tarde</strong>  x 3",
-    descripcion: "$28 c/u",
-    precio: 73,
-    cantidad:"",
-    seccion:"",
-    proveedor:""
-}, 
-{
-    id:"2",
-    marca: "<strong>media tarde</strong>  x 3 sandwich",
-    descripcion: "$30 c/u",
-    precio: 83,
+    marca: "media tarde",
+    descripcion: ["x 3", "x 3 sandwich","x unidad"],
+    precio: [73,83,28],
     cantidad:"",
     seccion:"",
     proveedor:""
 },
 {
-    id:"3",
-    marca: "<strong>criollitas</strong> x 3",
-    descripcion: "$35 c/u",
-    cantidad:"",
-    precio: 90,
+    id:"2",
+    marca: "criollitas ",
+    descripcion:  ["x 3","x unidad"],
+     precio:[90,28],
     cantidad:"",
     seccion:"",
     proveedor:"" 
 },
 {
-    id:"4",
-    marca: "<strong>saladix</strong> sobre",
+    id:"3",
+    marca: "saladix sobre",
     descripcion: "",
-    cantidad:"",
     precio: 30,
     cantidad:"",
     seccion:"",
     proveedor:"" 
 },
 {
-    id:"5",
-    marca: "<strong>pipas</strong> chica",
+    id:"4",
+    marca: "pipas chica",
     descripcion: "grande $30",
-    cantidad:"",
     precio: 12,
     cantidad:"",
     seccion:"",
     proveedor:"" 
-}
-]  
-  
-var snacks = [ {
-    id:"1",
-    marca: "<strong>lays</strong>",
+},
+{
+    id:"5",
+    marca: "lays",
     descripcion: "",
     precio: 60,
     cantidad:"",
@@ -293,8 +279,8 @@ var snacks = [ {
     img:"images/galle/snack1.jpg"
 },
 {
-    id:"2",
-    marca: "<strong>cheetos</strong> ",
+    id:"6",
+    marca: "cheetos ",
     descripcion: "",
     cantidad:"",
     precio: 40,
@@ -303,8 +289,8 @@ var snacks = [ {
     img:"images/galle/snack2.jpg" 
 },
 {
-    id:"3",
-    marca: "<strong>doritos</strong>",
+    id:"7",
+    marca: "doritos",
     descripcion: "",
     cantidad:"",
     precio: 40,
@@ -313,8 +299,8 @@ var snacks = [ {
     img:"images/galle/snack3.jpg" 
 },
 {
-    id:"4",
-    marca: "<strong>3d</strong>",
+    id:"8",
+    marca: "3d",
     descripcion: "",
     cantidad:"",
     precio: 40,
@@ -323,8 +309,8 @@ var snacks = [ {
     img:"images/galle/snack4.jpg" 
 },
 {
-    id:"5",
-    marca: "<strong>saladix</strong>",
+    id:"9",
+    marca: "saladix",
     descripcion: "",
     cantidad:"",
     precio: 40,
@@ -333,8 +319,8 @@ var snacks = [ {
     proveedor:"" 
 },
 {
-    id:"6",
-    marca: "<strong>rex</strong>",
+    id:"10",
+    marca: "rex",
     descripcion: "",
     cantidad:"",
     precio: 40,
@@ -343,8 +329,8 @@ var snacks = [ {
     proveedor:"" 
 },
 {
-    id:"7",
-    marca: "<strong>twistos</strong> chico",
+    id:"11",
+    marca: "twistos chico",
     descripcion: "",
     cantidad:"",
     precio: 55,
@@ -353,8 +339,8 @@ var snacks = [ {
     proveedor:"" 
 },
 {
-    id:"8",
-    marca: "<strong>Kranchitos</strong> papas",
+    id:"12",
+    marca: "Kranchitos papas",
     descripcion: "jamon - corte americano",
     cantidad:"",
     precio: 55,
@@ -363,42 +349,44 @@ var snacks = [ {
     proveedor:"" 
 },
 {
-    id:"9",
-    marca: "<strong>Kranchitos</strong> papas",
+    id:"13",
+    marca: "Kranchitos papas",
     descripcion: "ketchup / chedar",
-    cantidad:"",
     precio: 60,
     cantidad:"",
     seccion:"",
     proveedor:"" 
 },
 {
-    id:"10",
-    marca: "<strong>nikito</strong> papas",
+    id:"14",
+    marca: "nikito papas",
     descripcion: "jamon / cheedar",
-    cantidad:"",
     precio: 55,
     cantidad:"",
     seccion:"",
     proveedor:"" 
 },
 {
-    id:"11",
-    marca: "<strong>nikito</strong> papas",
+    id:"15",
+    marca: "nikito papas",
     descripcion: "clasico",
-    cantidad:"",
-    precio: 50,
+     precio: 50,
     cantidad:"",
     seccion:"",
     proveedor:"" 
 }
 ];
 
-
 var orden2 = Dulces.sort(function (a, b){
     return ( a.marca.toLowerCase().localeCompare(b.marca.toLowerCase()))
 });
 console.log(orden2);
+
+
+var orden = Saladas.sort(function (a, b){
+    return ( a.marca.toLowerCase().localeCompare(b.marca.toLowerCase()))
+});
+console.log(orden);
 /*--------------------------------*/
 var galletitas = [ {
     id:"",
@@ -511,3 +499,20 @@ console.log(precios2);
 console.log(precios1);
 console.log(precios3);
  */
+var oversal = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">A - D</h2>
+    <ul class="listlista">
+      <li class="flexito"><div>${one}</div><div>${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>${four}</div></li>
+<li class="flexito"><div>${five}</div><div>${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
+
+
+</ul> `  }     
+
+
+oversal("#sal1", Saladas[7].marca,Saladas[7].precio[0], Saladas[7].marca,Saladas[7].precio[1], Saladas[7].marca,Saladas[7].precio[2], Saladas[2].marca,Saladas[2].precio[0], Saladas[2].marca,Saladas[2].precio[1]);

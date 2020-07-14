@@ -38,46 +38,6 @@ var cervezas = [ {
 ];
 
 
-var vinos = [{
-    id:"1",
-    marca: "<strong>Michel torino</strong> 720ml",
-    descripcion: "",
-    precio: 75,
-    cantidad:"",
-    seccion:"",
-    img:"images/bebi/vinos1.jpg"
-},
-{
-    id:"2",
-    marca: "<strong>Estancia mendoza</strong> 800ml",
-    descripcion: "",
-    cantidad:"",
-    precio: 120,
-    cantidad:"",
-    seccion:"",
-    img:"images/bebi/vinos2.jpg"
-},
-{
-    id:"3",
-    marca: "<strong>Federico de alvear</strong> extra dulce 1L",
-    descripcion: "",
-    precio: 185,
-    cantidad:"",
-    seccion:"",
-    img:"images/bebi/vinos3.jpg"
-},
-{
-    id:"4",
-    marca: "<strong>Termidor tinto</strong>",
-    descripcion: "",
-    precio: 75,
-    cantidad:"",
-    seccion:"",
-    img:"images/bebi/vinos3.jpg"
-}
-];
-
-
 var jugos = [ {
     id:"1",
     marca: "fresh",
@@ -91,7 +51,6 @@ var jugos = [ {
     id:"2",
     marca: "baggio",
     descripcion: "",
-    cantidad:"",
     precio: "",
     cantidad:"",
     seccion:"",
@@ -101,7 +60,6 @@ var jugos = [ {
     id:"3",
     marca: "tang",
     descripcion: "",
-    cantidad:"",
     precio: 20,
     cantidad:"",
     seccion:"",
@@ -111,7 +69,6 @@ var jugos = [ {
     id:"4",
     marca: "clight",
     descripcion: "",
-    cantidad:"",
     precio: 20,
     cantidad:"",
     seccion:"",
@@ -120,9 +77,8 @@ var jugos = [ {
 {
     id:"5",
     marca: "Coca-cola",
-    descripcion: "",
-    cantidad:"",
-    precio: 120,
+    descripcion: ["1/4","lata"],
+    precio: [120, 45],
     cantidad:"",
     seccion:"",
     img:"images/bebi/b3.png" 
@@ -131,7 +87,6 @@ var jugos = [ {
     id:"6",
     marca: "manaos",
     descripcion: "",
-    cantidad:"",
     precio: 55,
     cantidad:"",
     seccion:"",
@@ -141,7 +96,6 @@ var jugos = [ {
     id:"7",
     marca: "lata coca mini",
     descripcion: "",
-    cantidad:"",
     precio:45,
     cantidad:"",
     seccion:"",
@@ -156,10 +110,10 @@ var jugos = [ {
     cantidad:"",
     seccion:"",
     img:"images/bebi/b2.jpg" 
-}
-];
+}];
 
-var otrasbeb = [ {
+var Otros = [
+{
     id:"1",
     marca: "chandon",
     descripcion: "",
@@ -170,39 +124,18 @@ var otrasbeb = [ {
 },
 {
     id:"2",
-    marca: "Federico de Alvear",
-    descripcion: "",
+    marca: "dr.lemon vodka lata",
+    descripcion: ["lata","510ml"],
     cantidad:"",
-    precio: "",
+    precio: [60,95],
     cantidad:"",
     seccion:"",
-    proveedor:"" 
+    proveedor:"" ,
+    img: " "  
 },
 {
     id:"3",
-    marca: "<strong>dr.lemon</strong> vodka lata",
-    descripcion: "",
-    cantidad:"",
-    precio: "$60",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: " "  
-},
-{
-    id:"4",
-    marca: "<strong>dr.lemon</strong> vodka 510ml",
-    descripcion: "",
-    cantidad:"",
-    precio: "$60",
-    cantidad:"",
-    seccion:"",
-    proveedor:"" ,
-    img: " "  
-},
-{
-    id:"5",
-    marca: "<strong>fernet</fernet>",
+    marca: "fernet",
     descripcion: "chico $150",
     precio: "$240",
     cantidad:"",
@@ -210,38 +143,63 @@ var otrasbeb = [ {
     proveedor:""
 },
 {
-    id:"6",
-    marca: "<strong>gancia</strong> chico",
-    descripcion: "",
-    cantidad:"",
-    precio: "$60",
+    id:"4",
+    marca: "gancia",
+    descripcion: ["chico","grande"],
+    precio: [160,240],
     cantidad:"",
     seccion:"",
     proveedor:"" ,
     img: " "  
+},
+{
+    id:"5",
+    marca: "frizze",
+    descripcion: "",
+    precio: 160,
+    cantidad:"",
+    seccion:"",
+    proveedor:"" ,
+    img: " "  
+},
+    {
+    id:"6",
+    marca: "Michel torino 720ml",
+    descripcion: "",
+    precio: 75,
+    cantidad:"",
+    seccion:"",
+    img:""
 },
 {
     id:"7",
-    marca: "<strong>gancia</strong> grande",
+    marca: "Estancia mendoza 800ml",
     descripcion: "",
     cantidad:"",
-    precio: "$160",
+    precio: 120,
     cantidad:"",
     seccion:"",
-    proveedor:"" ,
-    img: " "  
+    img:""
 },
 {
     id:"8",
-    marca: "<strong>frizze</strong> ",
+    marca: "Fed. de alvear extra dulce",
     descripcion: "",
-    cantidad:"",
-    precio: "$160",
+    precio: 185,
     cantidad:"",
     seccion:"",
-    proveedor:"" ,
-    img: " "  
+    img:""
+},
+{
+    id:"9",
+    marca: "Termidor tinto",
+    descripcion: "",
+    precio: 75,
+    cantidad:"",
+    seccion:"",
+    img:""
 }
+
 ] 
 
 /*--------------------------------*/
@@ -250,9 +208,7 @@ var galletitas = [ {
     secciones:["budines","facturas","dulces","saladas"],
     descripcion: "",
     proveedores:["budines","facturas","dulces","saladas"]   
-} 
-] 
-
+}];
 /*--------------------------------*/
 var proveedores = [ {
     id:"",
@@ -260,21 +216,24 @@ var proveedores = [ {
     telefono: "",
     direccion:"",
     productos:["budines","facturas","dulces","saladas"]   
-} 
-] 
-
+}]; 
 /*------------------------------------*/
 var orden = jugos.sort(function (a, b){
-    return ( b.marca.toLowerCase().localeCompare(a.marca.toLowerCase()))
+    return ( a.marca.toLowerCase().localeCompare(b.marca.toLowerCase()))
 });
 
 console.log(orden);
-
 
 var orden2 = cervezas.sort(function (a, b){
     return ( a.marca.toLowerCase().localeCompare(b.marca.toLowerCase()))
 });
 console.log(orden2);
+
+
+var orden3 = Otros.sort(function (a, b){
+    return ( a.marca.toLowerCase().localeCompare(b.marca.toLowerCase()))
+});
+console.log(orden3);
 /*-------------Card Overlay---------*/
 var over1 = function(atr,one,two,three,four) {
 	    var contenido = document.querySelector(atr)
@@ -344,28 +303,83 @@ var over4 = function(atr,one,two,three,four) {
       <div>${four}</div>
   </li> </ul> `}     
 over4("#pz4", cervezas[3].marca,cervezas[3].precio[0],cervezas[3].marca,cervezas[3].precio[1]);
-/*over2("#p3", cervezas[2].marca,cervezas[2].precio,cervezas[2].descripcion);
-over2("#p4", cervezas[3].marca,cervezas[3].precio,cervezas[3].descripcion);
-over2("#p5", cervezas[4].marca,cervezas[4].precio,cervezas[4].descripcion);
-over2("#p6", cervezas[5].marca,cervezas[5].precio,cervezas[5].descripcion);
-over2("#p7", cervezas[6].marca,cervezas[6].precio,cervezas[6].descripcion);
-/*over2("#p8", cervezas[7].marca,cervezas[7].precio,cervezas[7].descripcion);
-over2("#p9", cervezas[8].marca,cervezas[8].precio,cervezas[8].descripcion);*/
- /*
-over2("#p11", vinos[0].marca,vinos[0].precio,vinos[0].descripcion);
-over2("#p22", vinos[1].marca,vinos[1].precio,vinos[1].descripcion);
-over2("#p33", vinos[2].marca,vinos[2].precio,vinos[2].descripcion);
-over2("#p44", vinos[3].marca,vinos[3].precio,vinos[3].descripcion);
+/*--------------------JUGOS--------------------------*/ 
+var renderjugos = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">A - D</h2>
+    <ul class="listlista">
+      <li class="flexito"><div>${one}</div><div>${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>${four}</div></li>
+<li class="flexito"><div>${five}</div><div>${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
 
 
-over2("#pj1", jugos[0].marca,jugos[0].precio,jugos[0].descripcion);
-over2("#pj2", jugos[1].marca,jugos[1].precio,jugos[1].descripcion);
-over2("#pj3", jugos[2].marca,jugos[2].precio,jugos[2].descripcion);
-over2("#pj4", jugos[3].marca,jugos[3].precio,jugos[3].descripcion);
+</ul> `  }     
 
-over2("#pj5", jugos[4].marca,jugos[4].precio,jugos[4].descripcion);
-over2("#pj6", jugos[5].marca,jugos[5].precio,jugos[5].descripcion);
-over2("#pj7", jugos[6].marca,jugos[6].precio,jugos[6].descripcion);
-over2("#pj8", jugos[7].marca,jugos[7].precio,jugos[7].descripcion);
-over2("#pj9", jugos[8].marca,jugos[8].precio,jugos[8].descripcion);*/
+
+renderjugos("#pgas1", 
+            jugos[0].marca,jugos[0].precio,
+            jugos[1].marca,jugos[1].precio,
+            jugos[2].marca,jugos[2].precio,
+            jugos[3].marca,jugos[3].precio, 
+            jugos[4].marca,jugos[4].precio, 
+            jugos[5].marca,jugos[5].precio);
+ 
+var renderjugos2 = function(atr,one,two,three,four) {
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">F - Z</h2>
+    <ul class="listlista">
+      <li class="flexito"><div>${one}</div><div>${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>${four}</div></li>
+</ul> `  }     
+
+renderjugos2("#pgas2", 
+             jugos[6].marca,jugos[6].precio,
+             jugos[7].marca,jugos[7].precio,);
+
+var renderjugos3 = function(atr,one,two,three,four,five,six,seven,eight,nine,ten,eleven,
+twelve) {
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">A - F</h2>
+    <ul class="listlista">
+        <li class="flexito"><div>${one}</div><div>${two}</div></li>
+        <li class="flexito"><div>${three}</div><div>${four}</div></li>
+        <li class="flexito"><div>${five}</div><div>${six}</div></li>
+        <li class="flexito"><div>${seven}</div><div>${eight}</div></li>
+        <li class="flexito"><div>${nine}</div><div>${ten}</div></li>
+        <li class="flexito"><div>${eleven}</div><div>${twelve}</div></li></ul> `  }     
+
+
+renderjugos3("#vino1", 
+            Otros[0].marca,Otros[0].precio,
+            Otros[1].marca,Otros[1].precio[0],
+            Otros[2].marca,Otros[2].precio,
+            Otros[3].marca,Otros[3].precio, 
+            Otros[4].marca,Otros[4].precio, 
+            Otros[5].marca,Otros[5].precio, 
+            Otros[6].marca,Otros[6].precio);
+ 
+var renderjugos4 = function(atr,one,two,three,four,five,six) {
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">F - Z</h2>
+    <ul class="listlista">
+        <li class="flexito"><div>${one}</div><div>${two}</div></li>
+        <li class="flexito"><div>${three}</div><div>${four}</div></li>
+        <li class="flexito"><div>${five}</div><div>${six}</div></li>
+</ul> `  }     
+
+renderjugos4("#vino2", 
+             Otros[6].marca,Otros[6].precio,
+             Otros[7].marca,Otros[7].precio,
+             Otros[8].marca,Otros[8].precio);
+
  
