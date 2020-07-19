@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 } 
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Kurale&family=Lato:ital,wght@0,100;1,100;1,300&family=Martel:wght@200;600&family=Montserrat:ital,wght@0,600;0,800;0,900;1,400&family=PT+Serif:ital@0;1&family=Quicksand:wght@300;500&family=Raleway:wght@300&family=Roboto+Slab:wght@100&family=Roboto:wght@100;300;400;900&display=swap'); 
 @keyframes fondo22{
     10%{
       color: blue; 
@@ -113,7 +113,7 @@
   text-transform: none;
 }
 #fh5co-home .flexslider .fh5co-text h2 a {
-  color: #fb6e14;
+  color: whitesmoke;
 }
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
@@ -198,19 +198,6 @@
 .fh5co-main-nav .fh5co-menu-1 a {
   vertical-align: middle;
 }
-.fh5co-main-nav .fh5co-logo {
-  text-align: center;
-  width: 19.33%;
-  font-size: 40px;
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-.fh5co-main-nav .fh5co-logo a {
-  position: relative;
-  top: -5px;
-  display: inline-block;
-}
 .fh5co-main-nav .fh5co-menu-2 {
   text-align: left;
   width: 40.33%;
@@ -222,14 +209,25 @@
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 10px; 
-    
+    	font-family: 'Quicksand', sans-serif;
 } 
 .listo{
     animation: fondo22 8s infinite;
 }
+
+.fh5co-main-nav .fh5co-logo {
+  text-align: center;
+  width: 19.33%;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+ 
 @media screen and (max-width: 768px) {
   .fh5co-heading .heading {
     font-size: 40px;
+
   }  
 }
 .fh5co-heading .heading:after {
@@ -308,20 +306,6 @@
 #fh5co-about .fh5co-text p {
   line-height: 2;
   color: #a99c92;
-}
-#fh5co-about .fh5co-text p span.firstcharacter {
-  float: left;
-  color: #903;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 10px;
-  padding-left: 3px;
-  font-style: italic;
-  top: -20px;
-  position: relative;
-  color: #fff;
-  font-family: "Playfair Display", serif;
 }
 #fh5co-about .fh5co-bg {
   background-repeat: no-repeat;
@@ -647,6 +631,7 @@
 #fh5co-menus .fh5co-heading .heading {
   position: relative;
   padding-top: 10px !important;
+    
 }/*
 #fh5co-menus .fh5co-heading .heading:before, #fh5co-menus .fh5co-heading .heading::before {
   height: 64px;
@@ -665,7 +650,7 @@
 #fh5co-menus .fh5co-food-menu {
   float: left;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 30px;font-family: "Playfair Display", serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-menus .fh5co-food-menu {
@@ -780,6 +765,7 @@
   position: relative;
   padding-top: 10px !important;
   color: #fff;
+    
 }/*
 #fh5co-events .fh5co-heading .heading:before, #fh5co-events .fh5co-heading .heading::before {
   height: 64px;
@@ -806,7 +792,11 @@
   text-align: center;
   margin-bottom: 10px;
   position: relative;
-}
+} 
+#fh5co-events .fh5co-event p{
+    font-family: "Playfair Display", serif;
+ 
+} 
 #fh5co-events .fh5co-event:before {
   border: 2px solid #e6e6e6;
   content: "";

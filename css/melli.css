@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Kurale&family=Lato:ital,wght@0,100;1,100;1,300&family=Martel:wght@200;600&family=Montserrat:ital,wght@0,600;0,800;0,900;1,400&family=PT+Serif:ital@0;1&family=Quicksand:wght@300;500&family=Raleway:wght@300&family=Roboto+Slab:wght@100&family=Roboto:wght@100;300;400;900&display=swap'); 
+@keyframes wiggle { 0%, 7% { transform: rotateZ(0); } 15% { transform: rotateZ(-15deg); } 20% { transform: rotateZ(10deg); } 25% { transform: rotateZ(-10deg); } 30% { transform: rotateZ(6deg); } 35% { transform: rotateZ(-4deg); } 40%, 100% { transform: rotateZ(0); } } 
+
+
 html{  scroll-behavior: smooth;} 
 @keyframes up{
      0%{
@@ -91,15 +96,16 @@ font-weight: 700;
 /*-----------Menu ppal---------------------*/
 .flexmelli{
     display: flex;flex-wrap: wrap;
-    color: white;
+  
      width: 900px;  height: 200px;
     margin: auto;
     margin-top: 20px;  
+   font-family: "Playfair Display", serif;
 }
 .flexmelli div{   width: 219px;  
      border-radius: 8px;
     margin:  2px;padding: 5px;
-    
+
 } 
 /*--- --- FUENTES- -----*/
 .wrapmelli{   border: 2px solid skyblue; }
@@ -118,55 +124,14 @@ font-weight: 700;
 color:deepskyblue;  
  
 }
+   .pp{ 
+   font-size: 12px;
+      transform: translateX(-9px); 
+       color: blue;
+       
+  }
 /*------------------------------------*/
-.produtitu{
-    display: ;    letter-spacing: 8px;
-     background-color: black; padding: 15px 0;
-     font-weight: 700;
-} 
-.flextake{
-    display: flex; 
-    flex-wrap: nowrap;
-    transform: translateX(-170px) 
-}
-.wraptake{
-     display: flex;
-  margin-right: 90px;
-}
-.wraptake img{
-    width:250px;
-    height: 200px;
-     border-radius: 50%;
-    border: 1px solid white;
-}
-.wraptakein{
-     color: white;
-    line-height: 20px
-}
-.wraptakein h2{
-     color: white;
-    margin-left:30px;
-    font-family: fantasy;
-    letter-spacing: 2px;
-    box-shadow: 2px 2px 2px  white;
-    text-shadow: 2px 2px 2px red;
-    padding-right:9px;
-}
-.wraptakein   div{
-  margin-left:30px;   
-}
-.numpersonal{
-   
-    
-    display: inline;
-    padding: 5px;
-    color: blue;
-    
-}
-.formadeentrega{
-    color: chartreuse;
-    text-shadow: 2px 2px 2px black;
-}
+ 
 /*---------------------------------*/
  
 .h3melli{
@@ -176,6 +141,7 @@ color:deepskyblue;
 .flexdelivery{
     display: flex;
     justify-content: space-between;
+      font-family: "Playfair Display", serif;
 }
 .flexdelivery ul{
       list-style: none;

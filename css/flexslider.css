@@ -89,7 +89,7 @@ html[xmlns] .flexslider .slides {
 }
 .flexslider .slides {
   zoom: 1;
- 
+ font-family: "Playfair Display", serif;
 }
 .flexslider .slides img {
   height: auto;
