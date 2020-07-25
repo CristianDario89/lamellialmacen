@@ -85,10 +85,9 @@ width: 200px;height: 70px;
 }  
 .menucostado{
 z-index: 1111;
-text-shadow:  -1px -1px 11px yellow; 
+text-shadow:  -1px -1px 11px blue; 
 font-weight: 700; 
-    border-bottom:5px solid red;
-   
+    border-bottom:5px solid red;  
 } 
 .centrowsp{    font-size: 20px;}
 

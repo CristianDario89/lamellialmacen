@@ -6,10 +6,8 @@ body{
 .animated-text{
     width: 230px;
  font-family: "Playfair Display", serif; 
-  color: #fff;
-  
-  
-    border-radius: 8px;
+  color: red;
+   border-radius: 8px;
   padding: 0 10px;
   height: 60px;
   overflow: hidden;
@@ -18,9 +16,9 @@ body{
 .animated-text2{
     width: 100%;
   font-family: montserrat,sans-serif;   
-  color: black;text-shadow: 1px 1px goldenrod;
+  color: white; 
   position: absolute; 
-       
+  top: 100px;     
   height: 50px;
   overflow: hidden;  
    
