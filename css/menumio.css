@@ -1,5 +1,4 @@
- 
-@keyframes wiggle
+ @keyframes wiggle
 { 
     0%, 7% { transform: rotateZ(0); }
     15% 
@@ -20,25 +19,24 @@
   position: fixed;
   width: 50px;
   height: 40px;
-  background: skyblue;
-  bottom:60px;
-  right: 1px;
-
+  background: red;
+  bottom:90px;
+  right: 51px;
+opacity: 0.6;
   text-decoration: none;
   text-align: center;
   line-height: 50px;
   color: white;
   font-size: 22px;
     z-index: 111;
-    
+    border-radius: 50%;
 }
-.gotopbtn:hover{
-   opacity: 1;  
+.gotopbtn:hover,.clear-cart:hover{
+   opacity: 1;font-weight: 600;  
 } 
 .gotopbtn8:hover{
    opacity: 1; 
-   
-    font-size: 24px;
+     font-size: 24px;
     font-weight: 700;
    color: black;
 } 
@@ -47,7 +45,7 @@
   width: 160px;
   height: 50px;
  
-  bottom: 160px;
+  bottom: 190px;
 right: 1px;
   text-decoration: none;
   text-align: center;
@@ -61,17 +59,21 @@ right: 1px;
     width: 100%;height: 50px;
     border-radius: 15%;  
 }
-.clear-cart{
+.wrapcarrp{
+    position: relative;bottom: 40px;
     
 }
-
+.clear-cart{
+    font-size: 13px;color: black;background: skyblue;opacity: 0.6;
+    transform: translateY(-6px);
+}
+.redondo{
+    border-radius: 50%;
+}
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
     .gotopbtn8{ width: 110px; right: 30px; } 
-    .gotopbtn{ bottom: 62px;opacity: 0.5; right: 33px; } 
+    .gotopbtn{ bottom: 62px; right: 33px; bottom:97px;  } 
     
-.clear-cart{
-    font-size: 13px;
-}
 
 }
