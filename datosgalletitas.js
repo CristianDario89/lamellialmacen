@@ -7,7 +7,7 @@ var datosDulces = [ {
 {
     marca: "<strong>Pitusas</strong>",
     descripcion: "Mouse-Limon-chocolate-vainilla-frutilla",
-     precio: 45,
+     precio: 48,
    img: "images/galle/gad11.jpg"
     
 }, 
@@ -15,38 +15,59 @@ var datosDulces = [ {
     marca: "Mantecadas",
     precio: 40,
     img: "images/galle/mante.jpg"
-},
+},/*
 {
     marca: "Pepitas",
      precio: 40,
     img: "images/galle/pepi.jpg" 
 },
+                   
 {
     marca: "<strong>celosas</strong> bananas con chocolate 230g",
     precio: 55,
     img: "images/galle/gg1.webp"
 },
-{
-    marca: "<strong>coronitas</strong>",
-     precio: 40,
-    img: "images/galle/gad4.jpg" 
-},
-{
-    marca: "pepas <strong>trio</strong>",
-    precio: 45,
-    img: "images/galle/gad6.jpg" 
-},
+                   
 {
      marca: "pepas <strong>pepin</strong>",
     descripcion: "membrillo-batata",
     precio: 40,
     img: "images/galle/gad5.jpg"
+},*/
+{
+    marca: "<strong>coronitas</strong>",
+     precio: 45,
+    img: "images/galle/gad4.jpg" 
 },
 {
+    marca: "pepas <strong>trio</strong>",
+    precio: 35,
+    img: "images/galle/gad6.jpg" 
+},                   
+{
     marca: "surtidas <strong>bagley</strong>",
-    precio: 100,
+    precio: 105,
     img: "images/galle/gd1.jpg" 
-}
+},
+                   
+                   
+                   
+{
+    marca: "Magdalena pozo",
+    precio: 83,
+    img: "images/galle/gd1.jpg" 
+},                  
+
+{
+    marca: "Trío chocolate 500grs",
+    precio: 90,
+    img: "images/galle/gd1.jpg" 
+},
+{
+    marca: "Trío chocolate 300grs",
+    precio: 60,
+    img: "images/galle/gd1.jpg" 
+} 
 ];
 /*-----------------------------*/
 var datosSaladas = [ {
@@ -57,7 +78,7 @@ var datosSaladas = [ {
 {
     marca: "<strong>media tarde</strong>  x 3",
     descripcion: "$28 c/u",
-    precio: 73,
+    precio: 75,
     img:"images/galle/g4.webp"
 }, 
 {
@@ -78,7 +99,28 @@ var datosSaladas = [ {
 }
 ]  
 /*---------------------------------------*/
-var snacks = [ {
+var snacks = [
+   {
+    marca: "Papas krachitos jamón y corte americano ",
+    precio: 50,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "Krachitos cheddar y ketchup",
+    precio: 70,
+    img:"images/galle/g6.jpg" 
+}, 
+{
+    marca: "<strong>Línea lay's 46grs</strong>",
+    precio: 65,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "<strong>doritos 46grs</strong>",
+    precio: 65,
+    img:"images/galle/g6.jpg" 
+},    
+    /* {
      marca: "<strong>lays</strong>",
     descripcion: "doritos / cheetos / 3d",
     precio: 60,
@@ -98,18 +140,75 @@ var snacks = [ {
     marca: "<strong>twistos</strong> chico",
     precio: 55,
     img:"images/galle/g6.jpg" 
+},*/
+              
+              
+{
+     marca: "<strong>Pringles grandes</strong>",
+    precio: 300,
+    img:"images/galle/g8.jpg" 
+},
+{
+     marca: "<strong>Pringles chicas</strong>",
+    precio: 105,
+    img:"images/galle/sn2.webp" 
+},
+{
+    marca: "<strong>Rex caja</strong>",
+    precio: 85,
+    img:"images/galle/g6.jpg" 
+},
+{
+     marca: "<strong>Rex caja</strong>",
+    precio: 85,
+    img:"images/galle/g8.jpg" 
+},
+{
+     marca: "<strong>Saladix en sobre</strong>",
+    precio: 30,
+    img:"images/galle/sn2.webp" 
+},
+{
+    marca: "<strong>3d 48grs</strong>",
+    precio: 65,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "<strong>chetos 48grs</strong>",
+    precio: 65,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "<strong>Rueditas y palitos Pep</strong>",
+    precio: 45,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "<strong>Mani pehuamar</strong>",
+    precio: 76,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "<strong>Mani krachitos</strong>",
+    precio: 45,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "Krachitos Chizitos y Bastoncitos",
+    precio: 55,
+    img:"images/galle/g6.jpg" 
 }
 ];
-/*----------------------------------------*//*----------------------------------------*/
-/*----------------------------------------*//*----------------------------------------*/
+/*---------------BEBIDAS---------------*//*-------------BEBIDAS------------------*/
+/*------------------BEBIDAS-------------*//*-------------BEBIDAS-----------------*/
 var cervezas = [ {
    marca: " <strong>Shneider</strong> lata",
    precio: 55,
     img: "images/bebi/b10.png" 
 },
 {
-   marca: " <strong>heineken</strong> lata",
-    precio: 90,
+   marca: " <strong>heineken</strong> lata 710",
+    precio: 160,
     img: "images/bebi/cer3.jpg" 
 },               
 {
@@ -121,7 +220,39 @@ var cervezas = [ {
      marca: "<strong>Quilmes</strong> lata ",
      precio: 70,
     img: "images/bebi/b4.jpg"  
-}            
+},
+                
+                
+{
+   marca: " <strong>heineken</strong> 1L",
+    precio: 160,
+    img: "images/bebi/cer3.jpg" 
+},               
+{
+    marca: "<strong>Brahama & Quilmes</strong> 1L",
+    precio: 100,
+    img: "images/bebi/b1.jpg" 
+},
+{
+     marca: "<strong>Stella</strong> 1L ",
+     precio: 165,
+    img: "images/bebi/b4.jpg"  
+},
+{
+   marca: " <strong>heineken</strong> lata chica",
+    precio: 85,
+    img: "images/bebi/cer3.jpg" 
+},
+{
+   marca: " <strong>Patagonia</strong> botella",
+    precio: 200,
+    img: "images/bebi/cer3.jpg" 
+},
+{
+   marca: " <strong>Corona</strong> 710",
+    precio: 175,
+    img: "images/bebi/cer3.jpg" 
+}               
 ];
 /*---------------------------------------*/
 var vinos = [ {
@@ -143,6 +274,12 @@ var vinos = [ {
     marca: "<strong>Termidor tinto</strong>",
     precio: 75,
     img:"images/bebi/vinos3.jpg"
+},
+             
+{
+    marca: "<strong>Viñas de alvear grande</strong>",
+    precio: 140,
+    img:"images/bebi/vinos3.jpg"
 }
 ];
 /*---------------------------------------*/
@@ -152,13 +289,13 @@ var jugos = [ {
     img:"images/bebi/b9.webp"
 },
 {
-   marca: "Baggio",
-   precio: "",
+   marca: "Baggio 1L",
+   precio: 75,
    img:"images/bebi/b8.jpg" 
 },
 {
     marca: "tang",
-    precio: 20,
+    precio: 18,
     img:"images/bebi/bb4.jpeg" 
 },
 {
@@ -183,16 +320,45 @@ var jugos = [ {
 },
 {
     marca: "<strong> 7up</strong> 2 1/4",
-    precio: 140,
+    precio: 130,
     img:"images/bebi/b2.jpg" 
-}
+},
+             
+             
+             
+{
+   marca: "Baggio chico",
+   precio: 20,
+   img:"images/bebi/b8.jpg" 
+},
+{
+    marca: "<strong> Agua</strong>",
+    precio: 45,
+    img:"images/bebi/b2.jpg" 
+},
+{
+    marca: "<strong> Soda</strong>",
+    precio: 65,
+    img:"images/bebi/b2.jpg" 
+},
+{
+    marca: "<strong> Coca 500</strong>",
+    precio: 55,
+    img:"images/bebi/b2.jpg" 
+},
+{
+    marca: "Jugos rinde 2",
+    precio: 18,
+    img:"images/bebi/bb4.jpeg" 
+}             
 ];
  /*---------------------------------------*//*---------------------------------------*/
- /*---------------------------------------*//*---------------------------------------*/
-/*---------------------------------------*//*---------------------------------------*/
+ 
+/*---------------GOLOSINAS---------------*//*-------------GOLOSINAS------------------*/
+/*------------------GOLOSINAS-------------*//*-------------GOLOSINAS-----------------*/
 var alfajores = [ {
     id:"1",
-    marca: "alfajor <strong>milka</strong>",
+    marca: "<strong>milka</strong>",
     descripcion: "dulce de leche - Mousse",
     precio: 70,
     seccion:"",
@@ -217,7 +383,7 @@ var alfajores = [ {
 },
 {
     id:"4",
-    marca: "alfajor <strong>tri-shot</strong>",
+    marca: "<strong>tri-shot</strong>",
     descripcion: "",
     cantidad:"",
     precio: 60,
@@ -226,7 +392,7 @@ var alfajores = [ {
 },
 {
     id:"5",
-    marca: "alfajor <strong>bon-o-bon</strong>",
+    marca: "<strong>bon-o-bon</strong>",
     descripcion: "blanco - negro",
     cantidad:"",
     precio: 60,
@@ -235,7 +401,7 @@ var alfajores = [ {
 },
  {
     id:"6",
-    marca: "alfajor <strong>bon-o-bon</strong>",
+    marca: "<strong>bon-o-bon</strong>",
     descripcion: "triple",
     cantidad:"",
     precio:60,
@@ -244,7 +410,7 @@ var alfajores = [ {
 },
 {
     id:"7",
-    marca: "alfajor <strong>jorgelin</strong>",
+    marca: "<strong>jorgelin</strong>",
     descripcion: "blanco - negro",
     cantidad:"",
     precio: 50,
@@ -253,16 +419,18 @@ var alfajores = [ {
 },
 {
     id:"8",
-    marca: "alfajor <strong>oreo pepitos</strong>",
+    marca: "<strong>oreo pepitos</strong>",
     descripcion: "",
     cantidad:"",
     precio: 60,
     seccion:"",
     img:"images/golo/a1.png" 
 },
+                 
+                 
 {
     id:"9",
-    marca: "alfajor <strong>tofi</strong>",
+    marca: "<strong>tofi</strong>",
     descripcion: "",
     cantidad:"",
     precio: 70,
@@ -274,52 +442,105 @@ var alfajores = [ {
     marca: "<strong>guaymallen</strong>",
     descripcion: "simple chocolate - dulce de leche",
     cantidad:"",
-    precio: 30,
+    precio: 15,
     seccion:"",
     proveedor:"" 
 },
 {
     id:"11",
-    marca: "alfajor <strong>jorgito</strong>",
+    marca: "<strong>Guaymallen</strong> triple",
     descripcion: "",
     cantidad:"",
-    precio: 40,
+    precio: 20,
     seccion:"",
     proveedor:"" 
-},
+},                
 {
     id:"12",
-    marca: "alfajor <strong>bombom</strong> simple",
+    marca: "<strong>bombom</strong> simple",
     descripcion: "blanco y negro",
     cantidad:"",
     precio: 45,
     seccion:"",
     img:"images/golo/gol6.webp" 
+},                 
+{
+    id:"13",
+    marca: "<strong>jorgito</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: 40,
+    seccion:"",
+    proveedor:"" 
+},                 
+{
+    id:"14",
+    marca: "<strong>Triples</strong>",
+    descripcion: "",
+    cantidad:"",
+    precio: 60,
+    seccion:"",
+    proveedor:"" 
 }
 ];
 /*----------------------------*/
 var chocolates = [ 
+/*{
+    marca: "<strong>Milka leger </strong> combinado 45g",
+    precio: 115,
+    img:"images/golo/gol9.jpg" 
+}*/
 {
-    marca: "<strong>milka leger </strong> combinado 45g",
+    marca: "<strong>Milka leger </strong> aireado 45g",
     precio: 115,
     img:"images/golo/gol9.jpg" 
 },
 {
     marca: "<strong>cofler </strong> aireado 55g",
     descripcion: "blanco / negro",
-    precio: 100,
+    precio: 115,
     img:"images/golo/ch2.jpg" 
 },
-{
+/*{
    marca: "<strong>milka leger </strong> leche",
   precio: 70,
   img:"images/golo/ll.png" 
+}*/
+{
+    marca: "<strong>Milka leger </strong> masizo 55g",
+    precio: 120,
+    img:"images/golo/gol9.jpg" 
+},
+
+{
+   marca: "Chocolate Misky 25gr",
+   precio: 35,
+   img:"images/golo/gol2.jpg" 
 },
 {
-   marca: "<strong>milka </strong> bis",
-   precio: 60,
-   img:"images/golo/gol7.jpg" 
+    marca: "Hamlet",
+   precio: 30,
+    img:"images/golo/gol1.jpg" 
+},  
+{
+   marca: "Full mani 120grs",
+   precio: 100,
+   img:"images/golo/gol2.jpg" 
 },
+{
+   marca: "Shot 35grs",
+   precio: 50,
+   img:"images/golo/gol2.jpg" 
+},
+{
+    marca: "Block 38grs",
+   precio: 50,
+    img:"images/golo/gol1.jpg" 
+},
+    
+
+    
+
 {
     marca: "<strong>Bon o bom</strong>",
     descripcion: "dulce de leche - blanco",
@@ -327,25 +548,132 @@ var chocolates = [
     img:"images/golo/ggol6.jpg" 
 },
 {
-    marca: "<strong>rodhesia </strong> ",
-   precio: 30,
+   marca: "Chocolate Misky 25gr",
+   precio: 35,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Chocolate Misky 50gr",
+   precio: 60,
+   img:"images/golo/gol2.jpg" 
+},
+{
+    marca: "Block 38grs",
+   precio: 50,
     img:"images/golo/gol1.jpg" 
 },
-                 {
+{
+   marca: "Block 110grs",
+   precio: 135,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Block 170grs",
+   precio: 250,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Block 300grs",
+   precio: 400,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Shot 35grs",
+   precio: 50,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Kit kat 41,5 grs",
+   precio: 75,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Tofi 27grs chico",
+   precio: 56,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Full mani 120grs",
+   precio: 100,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Full mani 160grs",
+   precio: 135,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Kinder bueno x 2 barras",
+   precio: 115,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Kinder barrita chica",
+   precio: 30,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Huevo Kinder",
+   precio: 120,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Nugaton",
+   precio: 30,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Barra bon o bon",
+   precio: 40,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "M&N",
+   precio: 80,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Cofler aireado 100grs",
+   precio: 195,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Dos corazones",
+   precio: 50,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Cadbury Frutilla 27grs",
+   precio: 70,
+   img:"images/golo/gol2.jpg" 
+},       
+{
+    marca: "<strong>cofler block </strong> 38g",
+     precio: 50,
+     img:"images/golo/ch1.jpg" 
+},   
+{
+   marca: "<strong>milka </strong> bis",
+   precio: 60,
+   img:"images/golo/gol7.jpg" 
+},  
+{
    marca: "<strong>tita </strong> ",
    precio: 30,
    img:"images/golo/gol2.jpg" 
 },
 {
-    marca: "<strong>cofler block </strong> 38g",
-     precio: 50,
-     img:"images/golo/ch1.jpg" 
-} 
+    marca: "<strong>rodhesia </strong> ",
+   precio: 30,
+    img:"images/golo/gol1.jpg" 
+}    
 ]; 
 
- /*---------------------------------------*//*---------------------------------------*/
- /*---------------------------------------*//*---------------------------------------*/
-/*---------------------------------------*//*---------------------------------------*/
+
+ /*----------- --------*//*---------------- -------*/
+ 
+/*---------------LIMPIEZA---------------*//*-------------LIMPIEZA------------------*/
+/*------------------LIMPIEZA-------------*//*-------------LIMPIEZA-----------------*/
 var articulos = [ {
    marca: "<strong>ayudin</strong> lavandina",
     precio: 70,
@@ -409,6 +737,18 @@ var higiene = [ {
      marca: "Jabon en polvo <strong>Vanish</strong>",
      precio: 80,
     img:"images/limpi/l6.jpg" 
+},
+               
+               
+{
+     marca: "<strong>Jabón rexona</strong>",
+     precio: 45,
+    img:"images/limpi/l6.jpg" 
+},
+{
+     marca: "Jabón suave",
+     precio: 30,
+    img:"images/limpi/l6.jpg" 
 }
 ];
 
@@ -435,9 +775,11 @@ var desoH = [ {
              
 ];
 
- /*---------------------------------------*//*---------------------------------------*/
- /*---------------------------------------*//*---------------------------------------*/
-/*---------------------------------------*//*---------------------------------------*/
+ 
+ /*----------- --------*//*---------------- -------*/
+ 
+/*---------------ALMACEN---------------*//*-------------ALMACEN------------------*/
+/*------------------ALMACEN-------------*//*-------------ALMACEN-----------------*/
 var alma1 = [ {
    marca: "leche <strong>la serenisima</strong> ",
     precio: 70,
@@ -501,10 +843,11 @@ var alma1 = [ {
 }
 ];
 
-/*---------------------------------------*//*---------------------------------------*/
- /*---------------------------------------*//*---------------------------------------*/
-/*---------------------------------------*//*---------------------------------------*/
 
+ /*----------- --------*//*---------------- -------*/
+ 
+/*---------------CIGARRILLOS---------------*//*-------------CIGARRILLOS------------------*/
+/*------------------CIGARRILLOS-------------*//*-------------CIGARRILLOS-----------------*/
 var ciga1 = [ {
    marca: "<strong>Phillip Morris</strong> de 10",
     precio: 100,
@@ -551,9 +894,10 @@ var ciga1 = [ {
              
 ];
 
-/*---------------------------------------*//*---------------------------------------*/
- /*---------------------------------------*//*---------------------------------------*/
-/*---------------------------------------*//*---------------------------------------*/
+ /*----------- --------*//*---------------- -------*/
+ 
+/*---------------HELADOS---------------*//*-------------HELADOS------------------*/
+/*------------------HELADOS-------------*//*-------------HELADOS-----------------*/
 var heladosagua = [ {
     marca: "Crock",
     precio: 65,
@@ -678,15 +1022,17 @@ over1("#pg16", alfajores[11].marca,alfajores[11].precio,alfajores[11].img);
 over1("#pg17", alfajores[6].marca,alfajores[6].precio,alfajores[6].img); 
 over1("#pg18", alfajores[7].marca,alfajores[7].precio,alfajores[7].img);  
 
-over1("#pg5", chocolates[4].marca,chocolates[4].precio,chocolates[4].img);
+
+over1("#pg8", chocolates[0].marca,chocolates[0].precio,chocolates[0].img);
+over1("#pg6", chocolates[1].marca,chocolates[1].precio,chocolates[1].img);
 over1("#pg7", chocolates[2].marca,chocolates[2].precio,chocolates[2].img);
-over1("#pg9", chocolates[7].marca,chocolates[7].precio,chocolates[7].img);
 over1("#pg10", chocolates[3].marca,chocolates[3].precio,chocolates[3].img);
+over1("#pg5", chocolates[4].marca,chocolates[4].precio,chocolates[4].img);
 over1("#pg11", chocolates[5].marca,chocolates[5].precio,chocolates[5].img);
-over1("#pg12", chocolates[6].marca,chocolates[0].precio,chocolates[0].img);
+over1("#pg12", chocolates[6].marca,chocolates[6].precio,chocolates[6].img);
+over1("#pg9", chocolates[7].marca,chocolates[7].precio,chocolates[7].img);
 
-
-
+/*--------------ARTICULOS-----------------------*/
 over1("#pl1", articulos[0].marca,articulos[0].precio,articulos[0].img);
 over1("#pl2", articulos[1].marca,articulos[1].precio,articulos[1].img);
 over1("#pl3", higiene[2].marca,higiene[2].precio,higiene[2].img);
@@ -774,10 +1120,10 @@ over2("#pb3", cervezas[2].marca,cervezas[2].precio,cervezas[2].img,"Botella 710m
 over2("#pb4", cervezas[3].marca,cervezas[3].precio,cervezas[3].img, "");
 
 /*------------Galletitas--------------------*//*------------Galletitas--------------------*/
-
+/*
 over2("#pg6", chocolates[1].marca,chocolates[1].precio,chocolates[1].img,"leche - almendras - aireado");
 over2("#pg7", chocolates[2].marca,chocolates[2].precio,chocolates[2].img, "fullmani 160g <strong>$120</strong> - 120g <strong>$90</strong>");
-over2("#pg8", chocolates[0].marca,chocolates[0].precio,chocolates[0].img,"120g <strong>$120</strong> - 180g <strong>$215</strong>");
+over2("#pg8", chocolates[0].marca,chocolates[0].precio,chocolates[0].img,"120g <strong>$120</strong> - 180g <strong>$215</strong>");*/
 
 
 /*------------CIGARRILLOS--------------------*//*------------CIGARRILLOS--------------------*/

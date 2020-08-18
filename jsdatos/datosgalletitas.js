@@ -1,4 +1,4 @@
-Dulces = [ {
+var Dulces = [ {
     id:"1",
     marca: "Don Satur",
     descripcion: "",
@@ -13,7 +13,7 @@ Dulces = [ {
     marca: "Pitusas",
     descripcion: "Limon-chocolate-vainilla-frutilla",
     cantidad:"",
-    precio: 45,
+    precio: 48,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -52,7 +52,7 @@ Dulces = [ {
     marca: "coronitas",
     descripcion: "",
     cantidad:"",
-    precio: 40,
+    precio: 45,
     cantidad:"",
     seccion:"",
     proveedor:"" 
@@ -155,17 +155,6 @@ Dulces = [ {
 },
 {
     id:"16",
-    marca: "opera",
-    descripcion: "",
-    cantidad:"",
-    precio: 60,
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: "" 
-},
-{
-    id:"17",
     marca: "opera chica",
     descripcion: "",
     cantidad:"",
@@ -176,7 +165,7 @@ Dulces = [ {
     img: ""
 },
 {
-    id:"18",
+    id:"17",
     marca: "suavecitas",
     descripcion: "",
     cantidad:"",
@@ -187,7 +176,7 @@ Dulces = [ {
     img: "images/galle/gad4.jpg" 
 },
 {
-    id:"19",
+    id:"18",
     marca: "terepin 200g",
     descripcion: "",
     cantidad:"",
@@ -198,18 +187,7 @@ Dulces = [ {
     img: "" 
 },
 {
-    id:"20",
-    marca: "opera 60g",
-    descripcion: "",
-    cantidad:"",
-    precio: 60,
-    cantidad:"",
-    seccion:"",
-    proveedor:"",
-    img: ""
-},
-{
-    id:"21",
+    id:"19",
     marca: "chocolinas",
     descripcion: "",
     cantidad:"",
@@ -220,23 +198,65 @@ Dulces = [ {
     img: ""
 },
 {
-    id:"22",
-    marca: "magdalenas rellenas",
+    id:"20",
+    marca: "Magdalenas pozo",
     descripcion: "",
     cantidad:"",
-    precio: 80,
+    precio: 83,
     cantidad:"",
     seccion:"",
     proveedor:"",
     img: ""
-}
+},
+              
+              
+{
+    marca: "Trío chocolate 500grs",
+    precio: 90,
+    img: "images/galle/gd1.jpg" 
+},
+{
+    marca: "Trío chocolate 300grs",
+    precio: 60,
+    img: "images/galle/gd1.jpg" 
+},
+              {
+    marca: "Pepito",
+    precio: 78,
+    img: "images/galle/gd1.jpg" 
+},
+{
+    marca: "Trío chocolate 300grs",
+    precio: 60,
+    img: "images/galle/gd1.jpg" 
+},
+{
+    marca: "Gongys 28grs",
+    precio: 18,
+    img: "images/galle/gd1.jpg" 
+},
+                   {
+    marca: "Mini oreo",
+    precio: 45,
+    img: "images/galle/gd1.jpg" 
+},
+                   {
+    marca: "Mini Rhodesia",
+    precio: 75,
+    img: "images/galle/gd1.jpg" 
+},                   
+{
+    marca: "surtidas <strong>bagley</strong>",
+    precio: 105,
+    img: "images/galle/gd1.jpg" 
+} 
 ];
 /*-----------------------------*/
 var Saladas = [ {
     id:"1",
     marca: "media tarde",
     descripcion: ["x 3", "x 3 sandwich","x unidad"],
-    precio: [73,83,28],
+    precio: [75,83,28],
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -374,6 +394,108 @@ var Saladas = [ {
     cantidad:"",
     seccion:"",
     proveedor:"" 
+}                       
+];
+
+
+var snacks = [ 
+    {
+     marca: "lays",
+    descripcion: "doritos / cheetos / 3d",
+    precio: 60,
+    img:"images/galle/snack1.jpg"
+},
+{
+     marca: "saladix",
+    precio: 40,
+    img:"images/galle/g8.jpg" 
+},
+{
+     marca: "Kranchitos papas",
+    precio: 55,
+    img:"images/galle/sn2.webp" 
+},
+{
+    marca: "twistos chico",
+    precio: 55,
+    img:"images/galle/g6.jpg" 
+},
+              
+              
+{
+     marca: "Pringles grandes",
+    precio: 300,
+    img:"images/galle/g8.jpg" 
+},
+{
+     marca: "Pringles chicas",
+    precio: 105,
+    img:"images/galle/sn2.webp" 
+},
+{
+    marca: "Rex caja",
+    precio: 85,
+    img:"images/galle/g6.jpg" 
+},
+{
+     marca: "Rex caja",
+    precio: 85,
+    img:"images/galle/g8.jpg" 
+},
+{
+     marca: "Saladix en sobre",
+    precio: 30,
+    img:"images/galle/sn2.webp" 
+},
+{
+    marca: "Línea lay's 46grs",
+    precio: 65,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "doritos 46grs",
+    precio: 65,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "3d 48grs",
+    precio: 65,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "chetos 48grs",
+    precio: 65,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "Rueditas y palitos Pep",
+    precio: 45,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "Mani pehuamar",
+    precio: 76,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "Mani krachitos",
+    precio: 45,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "Papas krachitos jamón y corte americano ",
+    precio: 50,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "Krachitos cheddar y ketchup",
+    precio: 70,
+    img:"images/galle/g6.jpg" 
+},
+{
+    marca: "Krachitos Chizitos y Bastoncitos",
+    precio: 55,
+    img:"images/galle/g6.jpg" 
 }
 ];
 
@@ -387,6 +509,12 @@ var orden = Saladas.sort(function (a, b){
     return ( a.marca.toLowerCase().localeCompare(b.marca.toLowerCase()))
 });
 console.log(orden);
+
+
+var orden3 = snacks.sort(function (a, b){
+    return ( a.marca.toLowerCase().localeCompare(b.marca.toLowerCase()))
+});
+console.log(orden3);
 /*--------------------------------*/
 var galletitas = [ {
     id:"",
@@ -428,7 +556,7 @@ var over2 = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
 	    var contenido = document.querySelector(atr)
 	        contenido.innerHTML = `
     
-    <h2 class="titlelistlistaa">F - O</h2>
+    <h2 class="titlelistlistaa">F - M</h2>
     <ul class="listlista">
       <li class="flexito"><div>${one}</div><div>${two}</div></li>
   <li class="flexito"><div>${three}</div><div>${four}</div></li>
@@ -516,3 +644,58 @@ var oversal = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
 
 
 oversal("#sal1", Saladas[7].marca,Saladas[7].precio[0], Saladas[7].marca,Saladas[7].precio[1], Saladas[7].marca,Saladas[7].precio[2], Saladas[2].marca,Saladas[2].precio[0], Saladas[2].marca,Saladas[2].precio[1]);
+
+
+var oversnack = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">A - K</h2>
+    <ul class="listlista">
+      <li class="flexito"><div>${one}</div><div>${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>${four}</div></li>
+<li class="flexito"><div>${five}</div><div>${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>${ten}</di
+
+</ul> `  }     
+
+
+oversnack("#snack1", snacks[0].marca,snacks[0].precio, snacks[1].marca,snacks[1].precio, snacks[2].marca,snacks[2].precio, snacks[3].marca,snacks[3].precio, snacks[4].marca,snacks[4].precio, snacks[5].marca,snacks[5].precio);
+
+var oversnack2 = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">L - P</h2>
+    <ul class="listlista">
+      <li class="flexito"><div>${one}</div><div>${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>${four}</div></li>
+<li class="flexito"><div>${five}</div><div>${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
+
+
+</ul> `  }     
+
+
+oversnack2("#snack2", snacks[6].marca,snacks[6].precio, snacks[7].marca,snacks[7].precio, snacks[8].marca,snacks[8].precio, snacks[9].marca,snacks[9].precio, snacks[10].marca,snacks[10].precio, snacks[11].marca,snacks[11].precio);
+
+var oversnack3 = function(atr,one,two,three,four,five,six,seven,eight,nine,ten,el,tw,trec,catoc) {
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">R - Z</h2>
+    <ul class="listlista">
+      <li class="flexito"><div>${one}</div><div>${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>${four}</div></li>
+<li class="flexito"><div>${five}</div><div>${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
+<li class="flexito"><div>${el}</div><div>${tw}</div></li>
+<li class="flexito"><div>${trec}</div><div>${catoc}</div></li>
+</ul> `  }     
+
+
+oversnack3("#snack3", snacks[12].marca,snacks[12].precio, snacks[13].marca,snacks[13].precio, snacks[14].marca,snacks[14].precio, snacks[15].marca,snacks[15].precio, snacks[16].marca,snacks[16].precio, snacks[17].marca,snacks[17].precio, snacks[18].marca,snacks[18].precio);
+ 
