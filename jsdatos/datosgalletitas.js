@@ -540,11 +540,11 @@ var over1 = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
     
     <h2 class="titlelistlistaa">A - D</h2>
     <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>${four}</div></li>
-<li class="flexito"><div>${five}</div><div>${six}</div></li>
-<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
 
 
 </ul> `  }     
@@ -558,11 +558,11 @@ var over2 = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
     
     <h2 class="titlelistlistaa">F - M</h2>
     <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>${four}</div></li>
-<li class="flexito"><div>${five}</div><div>${six}</div></li>
-<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
 
 
 </ul> `  }     
@@ -578,14 +578,14 @@ var over3 = function(atr,one,two,three,four,five,six,seven,eight,nine,ten,el,tw,
     
     <h2 class="titlelistlistaa">O - S</h2>
     <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>${four}</div></li>
-<li class="flexito"><div>${five}</div><div>${six}</div></li>
-<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
-<li class="flexito"><div>${el}</div><div>${tw}</div></li>
-<li class="flexito"><div>${trec}</div><div>${catoc}</div></li>
-<li class="flexito"><div>${quinc}</div><div>${diecis}</div></li>
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${el}</div><div>$ ${tw}</div></li>
+<li class="flexito"><div>${trec}</div><div>$ ${catoc}</div></li>
+<li class="flexito"><div>${quinc}</div><div>$ ${diecis}</div></li>
 </ul> `  }     
 
 
@@ -597,8 +597,8 @@ var over4 = function(atr,one,two,three,four) {
     
     <h2 class="titlelistlistaa">T - Z</h2>
     <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>${four}</div></li>
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
  
 
 
@@ -633,11 +633,11 @@ var oversal = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
     
     <h2 class="titlelistlistaa">A - D</h2>
     <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>${four}</div></li>
-<li class="flexito"><div>${five}</div><div>${six}</div></li>
-<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
 
 
 </ul> `  }     
@@ -652,11 +652,11 @@ var oversnack = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
     
     <h2 class="titlelistlistaa">A - K</h2>
     <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>${four}</div></li>
-<li class="flexito"><div>${five}</div><div>${six}</div></li>
-<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div>${ten}</di
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</di
 
 </ul> `  }     
 
@@ -669,11 +669,11 @@ var oversnack2 = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) 
     
     <h2 class="titlelistlistaa">L - P</h2>
     <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>${four}</div></li>
-<li class="flexito"><div>${five}</div><div>${six}</div></li>
-<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
 
 
 </ul> `  }     
@@ -687,13 +687,13 @@ var oversnack3 = function(atr,one,two,three,four,five,six,seven,eight,nine,ten,e
     
     <h2 class="titlelistlistaa">R - Z</h2>
     <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>${four}</div></li>
-<li class="flexito"><div>${five}</div><div>${six}</div></li>
-<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
-<li class="flexito"><div>${el}</div><div>${tw}</div></li>
-<li class="flexito"><div>${trec}</div><div>${catoc}</div></li>
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${el}</div><div>$ ${tw}</div></li>
+<li class="flexito"><div>${trec}</div><div>$ ${catoc}</div></li>
 </ul> `  }     
 
 

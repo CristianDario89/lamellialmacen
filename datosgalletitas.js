@@ -35,17 +35,17 @@ var datosDulces = [ {
     img: "images/galle/gad5.jpg"
 },*/
 {
-    marca: "<strong>coronitas</strong>",
+    marca: "coronitas",
      precio: 45,
     img: "images/galle/gad4.jpg" 
 },
 {
-    marca: "pepas <strong>trio</strong>",
+    marca: "trio 300 gr",
     precio: 35,
     img: "images/galle/gad6.jpg" 
 },                   
 {
-    marca: "surtidas <strong>bagley</strong>",
+    marca: "surtidas bagley",
     precio: 105,
     img: "images/galle/gd1.jpg" 
 },
@@ -103,22 +103,22 @@ var snacks = [
    {
     marca: "Papas krachitos jamón y corte americano ",
     precio: 50,
-    img:"images/galle/g6.jpg" 
+    img:"images/galle/snack44.jpeg" 
 },
 {
     marca: "Krachitos cheddar y ketchup",
     precio: 70,
-    img:"images/galle/g6.jpg" 
+    img:"images/galle/sn1.jpg" 
 }, 
 {
     marca: "<strong>Línea lay's 46grs</strong>",
     precio: 65,
-    img:"images/galle/g6.jpg" 
+    img:"images/galle/snack1.jpg" 
 },
 {
     marca: "<strong>doritos 46grs</strong>",
     precio: 65,
-    img:"images/galle/g6.jpg" 
+    img:"images/galle/snack3.jpg" 
 },    
     /* {
      marca: "<strong>lays</strong>",
@@ -509,33 +509,33 @@ var chocolates = [
 {
     marca: "<strong>Milka leger </strong> masizo 55g",
     precio: 120,
-    img:"images/golo/gol9.jpg" 
+    img:"images/golo/ggol4.png" 
 },
 
 {
    marca: "Chocolate Misky 25gr",
    precio: 35,
-   img:"images/golo/gol2.jpg" 
+   img:"images/golo/golmisky.jpg" 
 },
 {
     marca: "Hamlet",
    precio: 30,
-    img:"images/golo/gol1.jpg" 
+    img:"images/golo/golhamlet2.png" 
 },  
 {
    marca: "Full mani 120grs",
    precio: 100,
-   img:"images/golo/gol2.jpg" 
+   img:"images/golo/golful.jpg" 
 },
 {
    marca: "Shot 35grs",
    precio: 50,
-   img:"images/golo/gol2.jpg" 
+   img:"images/golo/golshot.jpg" 
 },
 {
     marca: "Block 38grs",
    precio: 50,
-    img:"images/golo/gol1.jpg" 
+    img:"images/golo/golblock.webp" 
 },
     
 
@@ -1111,7 +1111,7 @@ over2("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].img, 
 over2("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].img,"Mouse - Limon - chocolate - vainilla - frutilla");
 
 over2("#pb7", jugos[6].marca,jugos[6].precio,jugos[6].img,"lata 473ml / botella 500ml <strong>$ 60</strong>");
-over2("#pbj2", jugos[1].marca,jugos[1].precio,jugos[1].img,"Baggio chico <strong>$ 25</strong>");
+over2("#pbj2", jugos[1].marca,jugos[1].precio,jugos[1].img,"Baggio chico <strong>$ 20</strong>");
 over2("#pb5", jugos[4].marca,jugos[4].precio,jugos[4].img,"Sprite - fanta");
 
 over2("#pb1", cervezas[0].marca,cervezas[0].precio,cervezas[0].img,"Botella 720ml <strong>$ 110</strong>");

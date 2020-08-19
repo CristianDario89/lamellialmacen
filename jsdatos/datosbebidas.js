@@ -117,7 +117,7 @@ var Otros = [
     id:"1",
     marca: "chandon",
     descripcion: "",
-    precio: "$170",
+    precio: 170,
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -137,7 +137,7 @@ var Otros = [
     id:"3",
     marca: "fernet",
     descripcion: "chico $150",
-    precio: "$240",
+    precio: 240,
     cantidad:"",
     seccion:"",
     proveedor:""
@@ -243,11 +243,11 @@ var over1 = function(atr,one,two,three,four) {
     <ul class="listlista">
       <li class="flexito">
       <div>${one}</div>
-      <div>${two}</div>
+      <div>$ ${two}</div>
       </li>
       <li class="flexito">
             <div>${three}</div>
-      <div>${four}</div>
+      <div>$ ${four}</div>
   </li> </ul>`}     
 
 over1("#pz1", cervezas[0].marca,cervezas[0].precio[0],cervezas[0].marca,cervezas[0].precio[1]);
@@ -260,11 +260,11 @@ var over2 = function(atr,one,two,three,four) {
     <ul class="listlista">
       <li class="flexito">
       <div>${one}</div>
-      <div>${two}</div>
+      <div>$ ${two}</div>
       </li>
       <li class="flexito">
             <div>${three}</div>
-      <div>${four}</div>
+      <div>$ ${four}</div>
   </li> </ul> `}     
 over2("#pz2", cervezas[1].marca,cervezas[1].precio[0],cervezas[1].marca,cervezas[1].precio[1]);
 
@@ -279,11 +279,11 @@ var over3 = function(atr,one,two,three,four) {
     <ul class="listlista">
       <li class="flexito">
       <div>${one}</div>
-      <div>${two}</div>
+      <div>$ ${two}</div>
       </li>
       <li class="flexito">
             <div>${three}</div>
-      <div>${four}</div>
+      <div>$ ${four}</div>
   </li> </ul> `}     
 over3("#pz3", cervezas[2].marca,cervezas[2].precio[0],cervezas[2].marca,cervezas[2].precio[1]);
 
@@ -296,11 +296,11 @@ var over4 = function(atr,one,two,three,four) {
     <ul class="listlista">
       <li class="flexito">
       <div>${one}</div>
-      <div>${two}</div>
+      <div>$ ${two}</div>
       </li>
       <li class="flexito">
             <div>${three}</div>
-      <div>${four}</div>
+      <div>$ ${four}</div>
   </li> </ul> `}     
 over4("#pz4", cervezas[3].marca,cervezas[3].precio[0],cervezas[3].marca,cervezas[3].precio[1]);
 /*--------------------JUGOS--------------------------*/ 
@@ -310,11 +310,11 @@ var renderjugos = function(atr,one,two,three,four,five,six,seven,eight,nine,ten)
     
     <h2 class="titlelistlistaa">A - D</h2>
     <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>${four}</div></li>
-<li class="flexito"><div>${five}</div><div>${six}</div></li>
-<li class="flexito"><div>${seven}</div><div>${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div>${ten}</div></li>
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div$ >${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
 
 
 </ul> `  }     
@@ -334,8 +334,8 @@ var renderjugos2 = function(atr,one,two,three,four) {
     
     <h2 class="titlelistlistaa">F - Z</h2>
     <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>${four}</div></li>
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
 </ul> `  }     
 
 renderjugos2("#pgas2", 
@@ -349,12 +349,12 @@ twelve) {
     
     <h2 class="titlelistlistaa">A - F</h2>
     <ul class="listlista">
-        <li class="flexito"><div>${one}</div><div>${two}</div></li>
-        <li class="flexito"><div>${three}</div><div>${four}</div></li>
-        <li class="flexito"><div>${five}</div><div>${six}</div></li>
-        <li class="flexito"><div>${seven}</div><div>${eight}</div></li>
-        <li class="flexito"><div>${nine}</div><div>${ten}</div></li>
-        <li class="flexito"><div>${eleven}</div><div>${twelve}</div></li></ul> `  }     
+        <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+        <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+        <li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+        <li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+        <li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+        <li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li></ul> `  }     
 
 
 renderjugos3("#vino1", 
@@ -372,13 +372,13 @@ var renderjugos4 = function(atr,one,two,three,four,five,six) {
     
     <h2 class="titlelistlistaa">F - Z</h2>
     <ul class="listlista">
-        <li class="flexito"><div>${one}</div><div>${two}</div></li>
-        <li class="flexito"><div>${three}</div><div>${four}</div></li>
-        <li class="flexito"><div>${five}</div><div>${six}</div></li>
+        <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+        <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+        <li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
 </ul> `  }     
 
 renderjugos4("#vino2", 
-             Otros[6].marca,Otros[6].precio,
+             Otros[6].marca,Otros[6].precio[0],
              Otros[7].marca,Otros[7].precio,
              Otros[8].marca,Otros[8].precio);
 
