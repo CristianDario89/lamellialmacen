@@ -19,7 +19,7 @@
   position: fixed;
   width: 40px;
   height: 30px;
-  background-color: skyblue;
+  background-color: #337ab7;
   bottom:90px;
   right: 21px;
 opacity: 0.6;
@@ -41,7 +41,7 @@ opacity: 0.6;
   width: 80px;
  
   bottom: 110px;
-right: 15px;
+right: 25px;
   text-decoration: none;
   text-align: center;
     
@@ -53,12 +53,12 @@ right: 15px;
     border-radius: 15%;  
 }
 .wrapcarrp{
-    position: relative;bottom: 40px;
+    position: relative; 
     
 }
 .clear-cart{
     font-size: 10px;
-    color: black;background: skyblue;
+    color: black;background: #337ab7;
     font-weight: 600;
     opacity: 0.6;
     font-style: italic; 
@@ -72,7 +72,7 @@ right: 15px;
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
     .gotopbtn8{  } 
-    .gotopbtn{ bottom:90px; right: 33px;   } 
+    .gotopbtn{ bottom:90px; right: 43px;   } 
     .redondo{ transform: translateX(30px) translateY(10px);}
 
 }
