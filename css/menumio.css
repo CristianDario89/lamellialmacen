@@ -41,7 +41,7 @@ opacity: 0.6;
   width: 80px;
  
   bottom: 110px;
-right: 1px;
+right: 15px;
   text-decoration: none;
   text-align: center;
     
@@ -62,6 +62,7 @@ right: 1px;
     font-weight: 600;
     opacity: 0.6;
     font-style: italic; 
+    width: 80px;
 }
  
 .redondo{
@@ -71,7 +72,7 @@ right: 1px;
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
     .gotopbtn8{  } 
-    .gotopbtn{ bottom:90px; right: 23px;   } 
-    .redondo{ transform: translateX(44px) translateY(10px);}
+    .gotopbtn{ bottom:90px; right: 33px;   } 
+    .redondo{ transform: translateX(30px) translateY(10px);}
 
 }
