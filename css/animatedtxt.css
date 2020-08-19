@@ -16,7 +16,7 @@ body{
 .animated-text2{
     width: 100%;
   font-family: montserrat,sans-serif;   
-  color: white; 
+  color: skyblue; 
   position: absolute; 
   top: 100px;     
   height: 50px;
@@ -43,7 +43,9 @@ body{
 } 
 /*--2-------------------*/
 /*---------------------*/
-
+.clr2{
+    color: aliceblue;
+}
 .line{
   text-transform: uppercase;
   text-align: center;

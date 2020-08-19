@@ -326,13 +326,13 @@ var overchoco = function(atr,one,two,three,four,five,
     
     <h2 class="titlelistlistaa">B</h2>
     <ul class="listlista">
-<li class="flexito"><div>${one}</div><div> ${two}</div></li>
-<li class="flexito"><div>${three}</div><div> ${four}</div></li>
-<li class="flexito"><div>${five}</div><div> ${six}</div></li>
-<li class="flexito"><div>${seven}</div><div> ${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div> ${ten}</div></li>
-<li class="flexito"><div>${eleven}</div><div> ${twelve}</div></li>
-<li class="flexito"><div>${trece}</div><div> ${cator}</div></li>
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li>
+<li class="flexito"><div>${trece}</div><div>$ ${cator}</div></li>
 </ul> `  }     
 
 
@@ -359,13 +359,13 @@ var overchoco2 = function(atr,one,two,three,four,five,
     
     <h2 class="titlelistlistaa">C-F</h2>
     <ul class="listlista">
-<li class="flexito"><div>${one}</div><div> ${two}</div></li>
-<li class="flexito"><div>${three}</div><div> ${four}</div></li>
-<li class="flexito"><div>${five}</div><div> ${six}</div></li>
-<li class="flexito"><div>${seven}</div><div> ${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div> ${ten}</div></li>
-<li class="flexito"><div>${eleven}</div><div> ${twelve}</div></li>
-<li class="flexito"><div>${trece}</div><div> ${cator}</div></li>
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li>
+<li class="flexito"><div>${trece}</div><div>$ ${cator}</div></li>
 </ul> `  }     
 
 
@@ -391,13 +391,13 @@ var overchoco3 = function(atr,one,two,three,four,five,
     
     <h2 class="titlelistlistaa">G-L</h2>
     <ul class="listlista">
-<li class="flexito"><div>${one}</div><div> ${two}</div></li>
-<li class="flexito"><div>${three}</div><div> ${four}</div></li>
-<li class="flexito"><div>${five}</div><div> ${six}</div></li>
-<li class="flexito"><div>${seven}</div><div> ${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div> ${ten}</div></li>
-<li class="flexito"><div>${eleven}</div><div> ${twelve}</div></li>
-<li class="flexito"><div>${trece}</div><div> ${cator}</div></li>
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li>
+<li class="flexito"><div>${trece}</div><div>$ ${cator}</div></li>
 </ul> `  }     
 
 
@@ -424,13 +424,13 @@ var overchoco4 = function(atr,one,two,three,four,five,
     
     <h2 class="titlelistlistaa">M-N</h2>
     <ul class="listlista">
-<li class="flexito"><div>${one}</div><div> ${two}</div></li>
-<li class="flexito"><div>${three}</div><div> ${four}</div></li>
-<li class="flexito"><div>${five}</div><div> ${six}</div></li>
-<li class="flexito"><div>${seven}</div><div> ${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div> ${ten}</div></li>
-<li class="flexito"><div>${eleven}</div><div> ${twelve}</div></li>
-<li class="flexito"><div>${trece}</div><div> ${cator}</div></li>
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li>
+<li class="flexito"><div>${trece}</div><div>$ ${cator}</div></li>
 </ul> `  }     
 
 
@@ -456,11 +456,11 @@ var overchoco5 = function(atr,one,two,three,four,five,
     
     <h2 class="titlelistlistaa">R-T</h2>
     <ul class="listlista">
-<li class="flexito"><div>${one}</div><div> ${two}</div></li>
-<li class="flexito"><div>${three}</div><div> ${four}</div></li>
-<li class="flexito"><div>${five}</div><div> ${six}</div></li>
-<li class="flexito"><div>${seven}</div><div> ${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div> ${ten}</div></li> 
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li> 
 </ul> `  }     
 
 
@@ -471,4 +471,67 @@ overchoco5("#choc5",
             chocolates[31].marca,chocolates[31].precio, 
             chocolates[32].marca,chocolates[32].precio 
          );
-        
+ /*-------------------------------------------*/
+var overalfa = function(atr,one,two,three,four,five,
+                         
+                          six,seven,eight,nine,ten,
+                       
+                         eleven,twelve,trece,cator
+                         ){
+    
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">A-N</h2>
+    <ul class="listlista">
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li>
+<li class="flexito"><div>${trece}</div><div>$ ${cator}</div></li>
+</ul> `  }     
+
+
+overalfa("#alfa1", 
+            alfajores[0].marca,alfajores[0].precio,
+            alfajores[1].marca,alfajores[1].precio,
+            alfajores[2].marca,alfajores[2].precio,
+            alfajores[3].marca,alfajores[3].precio, 
+            alfajores[4].marca,alfajores[4].precio, 
+            alfajores[5].marca,alfajores[5].precio,
+         alfajores[6].marca,alfajores[6].precio
+         );
+
+var overalfa2 = function(atr,one,two,three,four,five,
+                         
+                          six,seven,eight,nine,ten,
+                       
+                         eleven,twelve,trece,cator
+                         ){
+    
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">M-Z</h2>
+    <ul class="listlista">
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li>
+<li class="flexito"><div>${trece}</div><div>$ ${cator}</div></li>
+</ul> `  }     
+
+
+overalfa2("#alfa2", 
+            alfajores[7].marca,alfajores[7].precio,
+            alfajores[8].marca,alfajores[8].precio,
+            alfajores[9].marca,alfajores[9].precio,
+            alfajores[10].marca,alfajores[10].precio, 
+            alfajores[11].marca,alfajores[11].precio, 
+            alfajores[12].marca,alfajores[12].precio,
+         alfajores[13].marca,alfajores[13].precio
+         );

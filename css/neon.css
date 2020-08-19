@@ -81,6 +81,10 @@
 .flexito{
     display: flex;justify-content: space-between;
 }
+.flexito div:nth-child(2){
+     font-weight: 600;color: #fb6e14; 
+    font-size: 22px;
+}
 /*REEEEEEEEEEESPONSIVE*/
 @media (max-width: 650px) {
 

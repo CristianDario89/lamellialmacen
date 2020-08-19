@@ -17,41 +17,34 @@
 } 
 .gotopbtn{
   position: fixed;
-  width: 50px;
-  height: 40px;
-  background: red;
+  width: 40px;
+  height: 30px;
+  background-color: skyblue;
   bottom:90px;
-  right: 51px;
+  right: 21px;
 opacity: 0.6;
   text-decoration: none;
   text-align: center;
-  line-height: 50px;
-  color: white;
+  line-height: 40px;
+  color: red;
   font-size: 22px;
     z-index: 111;
     border-radius: 50%;
 }
 .gotopbtn:hover,.clear-cart:hover{
-   opacity: 1;font-weight: 600;  
-} 
-.gotopbtn8:hover{
    opacity: 1; 
-     font-size: 24px;
-    font-weight: 700;
-   color: black;
 } 
+.gotopbtn8:hover{opacity: 1; } 
 .gotopbtn8{
+    
   position: fixed;
-  width: 160px;
-  height: 50px;
+  width: 80px;
  
-  bottom: 190px;
+  bottom: 110px;
 right: 1px;
   text-decoration: none;
   text-align: center;
-  line-height: 50px;
-  color: white;
-  font-size: 22px;
+    
     z-index: 111; opacity: 1;
 }
  
@@ -64,16 +57,21 @@ right: 1px;
     
 }
 .clear-cart{
-    font-size: 13px;color: black;background: skyblue;opacity: 0.6;
-    transform: translateY(-6px);
+    font-size: 10px;
+    color: black;background: skyblue;
+    font-weight: 600;
+    opacity: 0.6;
+    font-style: italic; 
 }
+ 
 .redondo{
-    border-radius: 50%;
+    border-radius: 50%; 
+     transform: translateX(25px) translateY(10px);
 }
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
-    .gotopbtn8{ width: 110px; right: 30px; } 
-    .gotopbtn{ bottom: 62px; right: 33px; bottom:97px;  } 
-    
+    .gotopbtn8{  } 
+    .gotopbtn{ bottom:90px; right: 23px;   } 
+    .redondo{ transform: translateX(44px) translateY(10px);}
 
 }
