@@ -1,8 +1,8 @@
 
 firebase.initializeApp({
-  apiKey: "AIzaSyDrUL3fv-BnVi2XcnOFq9kuH6K8bQRWiYM",
-  authDomain: "pedidosdale-6cf2f.firebaseapp.com",
-  projectId: "pedidosdale-6cf2f"
+  apiKey: "AIzaSyB3Ja1W5USiQmJVUe7wtvCtITjw6lIu_V4",
+  authDomain: "pedidosmelli.firebaseapp.com",
+  projectId: "pedidosmelli"
 });
 var db = firebase.firestore();
    
@@ -15,7 +15,7 @@ function guardar(){
       var entrega = document.getElementById('entrega').value;
     var pago = document.getElementById('pago').value;
     
-    db.collection("pedidosdale-6cf2f").add({
+    db.collection("pedidos").add({
          celular: email,
           direccion: dire,
           entrega: entrega,
