@@ -126,7 +126,8 @@ var alfajores = [ {
     proveedor:"" 
 }
 ];
-/*----------------------------*/
+/*--------chocolates----------*//*---------chocolates---------------*/
+/*-----------chocolates---------------*//*----chocolates--------------*/
 var chocolates = [ 
 {
     marca: "Milka leger aireado 45g",
@@ -173,7 +174,7 @@ var chocolates = [
 {
     marca: "Bon o bom",
     descripcion: "dulce de leche - blanco",
-    precio: 16,
+    precio: 17,
     img:"images/golo/ggol6.jpg" 
 },
 {
@@ -282,7 +283,7 @@ var chocolates = [
    img:"images/golo/gol2.jpg" 
 },
 {
-   marca: "Cofler aireado 100grs",
+   marca: "Cofler aireado 100 grs",
    precio: 195,
    img:"images/golo/gol2.jpg" 
 },
@@ -292,13 +293,211 @@ var chocolates = [
    img:"images/golo/gol2.jpg" 
 },
 {
-   marca: "Cadbury Frutilla 27grs",
+   marca: "Cadbury Frutilla 27 grs",
    precio: 70,
    img:"images/golo/gol2.jpg" 
-},    
+},
+{
+   marca: "Rocklets 20grs",
+   precio: 25,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Rocklets 40 grs",
+   precio: 45,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Ferrero x 3 unid",
+   precio: 135,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Marroc",
+   precio: 25,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Mani shot",
+   precio: 57,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Monedas de chocolate fel Fort",
+   precio: 15,
+   img:"images/golo/gol2.jpg" 
+},
+{
+   marca: "Medallones de menta del Fort",
+   precio: 35,
+   img:"images/golo/gol2.jpg" 
+}
 ]; 
 
-
+/*--------Otros I----------*//*---------Otros I---------------*/
+/*-----------Otros I---------------*//*----Otros I--------------*/
+var otros = [
+    {
+       marca: "Mogul viborita acida",
+       precio: 30,
+       img:""   
+    },
+    {
+       marca: "Pico dulce",
+       precio: 12,
+       img:""   
+    },
+    {
+       marca: "Chupetin evolución ácido",
+       precio: 10,
+       img:""   
+    },
+    {
+       marca: "Conito jorgito",
+       precio: 35,
+       img:""   
+    },
+    {
+       marca: "Chicle Beldent",
+       precio: 30,
+       img:""   
+    },
+    {
+       marca: "Chicle toplain",
+       precio: 40,
+       img:""   
+    },
+    {
+       marca: "Chupeton Lheritier",
+       precio: 40,
+       img:""   
+    },
+    {
+       marca: "Push posh",
+       precio: 35,
+       img:""   
+    },
+    {
+       marca: "Conito jorgito",
+       precio: 35,
+       img:""   
+    },
+    {
+       marca: "Tic tac",
+       precio: 36,
+       img:""   
+    },
+    {
+       marca: "Chicle toplain",
+       precio: 40,
+       img:""   
+    },
+    {
+       marca: "Chupeton Lheritier",
+       precio: 40,
+       img:""   
+    },
+    {
+       marca: "Push posh",
+       precio: 35,
+       img:""   
+    },
+    {
+       marca: "Pipas chicas",
+       precio: 15,
+       img:""   
+    },
+    {
+       marca: "Pipas peladas",
+       precio: 18,
+       img:""   
+    },
+    {
+       marca: "Push posh",
+       precio: 35,
+       img:""   
+    },
+    {
+       marca: "Pastillita biyu",
+       precio: 45,
+       img:""   
+    },
+    {
+       marca: "Xtreme caramelo",
+       precio: 30,
+       img:""   
+    },
+    {
+       marca: "Mogul arco iris extreme",
+       precio: 30,
+       img:""   
+    },
+    {
+       marca: "Fizz",
+       precio: 10,
+       img:""   
+    },
+    {
+       marca: "Halls",
+       precio: 30,
+       img:""   
+    },
+    {
+       marca: "Bul dog",
+       precio: 20,
+       img:""   
+    },
+    {
+       marca: "Yummy",
+       precio: 30,
+       img:""   
+    },
+    {
+       marca: "Paraguitas",
+       precio: 35,
+       img:""   
+    },
+    {
+       marca: "Flyn paff",
+       precio: 5,
+       img:""   
+    },
+    {
+       marca: "Sugus max",
+       precio: 5,
+       img:""   
+    },
+    {
+       marca: "Búbaloo",
+       precio: 5,
+       img:""   
+    },
+    {
+       marca: "Bazooka",
+       precio: 3,
+       img:""   
+    },
+    {
+       marca: "Chupetin Crazy pop",
+       precio: 30,
+       img:""   
+    },
+    {
+       marca: "Sugus confitado",
+       precio: 48,
+       img:""   
+    },
+    {
+       marca: "Flynn ácido xtreme",
+       precio: 48,
+       img:""   
+    },
+    {
+       marca: "Billiken confitado",
+       precio: 40,
+       img:""   
+    }
+]
 /*------------------------------------*/
 var orden = alfajores.sort(function (a, b){
     return ( a.marca.toLowerCase().localeCompare(b.marca.toLowerCase()))

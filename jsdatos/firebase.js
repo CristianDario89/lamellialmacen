@@ -1,8 +1,8 @@
 
 firebase.initializeApp({
-  apiKey: "AIzaSyDwth0vhusFhlN8GYNSBp_kg3vp9BlY0DM",
-  authDomain: "comprasonline-2d0ef.firebaseapp.com",
-  projectId: "comprasonline-2d0ef"
+  apiKey: "AIzaSyDrUL3fv-BnVi2XcnOFq9kuH6K8bQRWiYM",
+  authDomain: "pedidosdale-6cf2f.firebaseapp.com",
+  projectId: "pedidosdale-6cf2f"
 });
 var db = firebase.firestore();
    
@@ -15,7 +15,7 @@ function guardar(){
       var entrega = document.getElementById('entrega').value;
     var pago = document.getElementById('pago').value;
     
-    db.collection("pedidos").add({
+    db.collection("pedidosdale-6cf2f").add({
          celular: email,
           direccion: dire,
           entrega: entrega,
