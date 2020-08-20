@@ -510,7 +510,11 @@ var orden2 = chocolates.sort(function (a, b){
 });
 console.log(orden2);
 
- 
+
+var orden3 = otros.sort(function (a, b){
+    return ( a.marca.toLowerCase().localeCompare(b.marca.toLowerCase()))
+});
+console.log(orden3); 
  
 /*--------------------JUGOS--------------------------*/ 
 var overchoco = function(atr,one,two,three,four,five,
@@ -733,4 +737,133 @@ overalfa2("#alfa2",
             alfajores[11].marca,alfajores[11].precio, 
             alfajores[12].marca,alfajores[12].precio,
          alfajores[13].marca,alfajores[13].precio
+         );
+/*-------------------------------------------------------*/
+var overotro = function(atr,one,two,three,four,five,
+                         
+                          six,seven,eight,nine,ten,
+                       
+                         eleven,twelve,trece,cator
+                         ){
+    
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">B</h2>
+    <ul class="listlista">
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li>
+<li class="flexito"><div>${trece}</div><div>$ ${cator}</div></li>
+</ul> `  }     
+
+
+overotro("#otropri", 
+            otros[0].marca,otros[0].precio,
+            otros[1].marca,otros[1].precio,
+            otros[2].marca,otros[2].precio,
+            otros[3].marca,otros[3].precio, 
+            otros[4].marca,otros[4].precio, 
+            otros[5].marca,otros[5].precio,
+         otros[6].marca,otros[6].precio
+         );
+
+var overotro2 = function(atr,one,two,three,four,five,
+                         
+                          six,seven,eight,nine,ten,
+                       
+                         eleven,twelve,trece,cator
+                         ){
+    
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">C-F</h2>
+    <ul class="listlista">
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li>
+<li class="flexito"><div>${trece}</div><div>$ ${cator}</div></li>
+</ul> `  }     
+
+
+overotro2("#otro2", 
+            otros[7].marca,otros[7].precio,
+            otros[8].marca,otros[8].precio,
+            otros[9].marca,otros[9].precio,
+            otros[10].marca,otros[10].precio, 
+            otros[11].marca,otros[11].precio, 
+            otros[12].marca,otros[12].precio,
+         otros[13].marca,otros[13].precio
+         );
+
+var overotro3 = function(atr,one,two,three,four,five,
+                         
+                          six,seven,eight,nine,ten,
+                       
+                         eleven,twelve,trece,cator
+                         ){
+    
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">F-P</h2>
+    <ul class="listlista">
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li>
+<li class="flexito"><div>${trece}</div><div>$ ${cator}</div></li>
+</ul> `  }     
+
+
+overotro3("#otro3", 
+            otros[14].marca,otros[14].precio,
+            otros[15].marca,otros[15].precio,
+            otros[16].marca,otros[16].precio,
+            otros[17].marca,otros[17].precio, 
+            otros[18].marca,otros[18].precio, 
+            otros[19].marca,otros[19].precio,
+         otros[20].marca,otros[20].precio
+         );
+    
+
+var overotro4 = function(atr,one,two,three,four,five,
+                         
+                          six,seven,eight,nine,ten,
+                       
+                         eleven,twelve,trece,cator
+                         ){
+    
+	    var contenido = document.querySelector(atr)
+	        contenido.innerHTML = `
+    
+    <h2 class="titlelistlistaa">P-Z</h2>
+    <ul class="listlista">
+<li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+<li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+<li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
+<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
+<li class="flexito"><div>${eleven}</div><div>$ ${twelve}</div></li>
+<li class="flexito"><div>${trece}</div><div>$ ${cator}</div></li>
+</ul> `  }     
+
+
+overotro4("#otro4", 
+            otros[21].marca,otros[21].precio,
+            otros[22].marca,otros[22].precio,
+            otros[23].marca,otros[23].precio,
+            otros[24].marca,otros[24].precio, 
+            otros[25].marca,otros[25].precio, 
+            otros[26].marca,otros[26].precio,
+         otros[27].marca,otros[27].precio
          );
