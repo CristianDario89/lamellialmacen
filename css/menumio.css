@@ -66,12 +66,12 @@ right: 25px;
 }
  
 .redondo{
-    border-radius: 50%; 
+    border-radius: 50%; position: absolute;
      transform: translateX(25px) translateY(10px);
+     background-color: white;color: black;
 }
 /*---------------------------------*/
-@media screen and (max-width: 792px) {
-    .gotopbtn8{  } 
+@media screen and (max-width: 792px) { 
     .gotopbtn{ bottom:90px; right: 43px;   } 
     .redondo{ transform: translateX(30px) translateY(10px);}
 
