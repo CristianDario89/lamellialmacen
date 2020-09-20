@@ -241,14 +241,9 @@ var over1 = function(atr,one,two,three,four) {
     
     <h2 class="titlelistlistaa">B</h2>
     <ul class="listlista">
-      <li class="flexito">
-      <div>${one}</div>
-      <div>$ ${two}</div>
-      </li>
-      <li class="flexito">
-            <div>${three}</div>
-      <div>$ ${four}</div>
-  </li> </ul>`}     
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+      <li class="flexito"><div>${three}</div><div>$ ${four}</div></li> 
+</ul>`}     
 
 over1("#pz1", cervezas[0].marca,cervezas[0].precio[0],cervezas[0].marca,cervezas[0].precio[1]);
 
@@ -257,15 +252,16 @@ var over2 = function(atr,one,two,three,four) {
 	        contenido.innerHTML = `
     
     <h2 class="titlelistlistaa">H</h2>
-    <ul class="listlista">
-      <li class="flexito">
+<ul class="listlista">
+  <li class="flexito">
       <div>${one}</div>
       <div>$ ${two}</div>
-      </li>
-      <li class="flexito">
+  </li>
+  <li class="flexito">
             <div>${three}</div>
       <div>$ ${four}</div>
-  </li> </ul> `}     
+  </li>
+</ul> `}     
 over2("#pz2", cervezas[1].marca,cervezas[1].precio[0],cervezas[1].marca,cervezas[1].precio[1]);
 
 
@@ -276,15 +272,10 @@ var over3 = function(atr,one,two,three,four) {
 	        contenido.innerHTML = `
     
     <h2 class="titlelistlistaa">Q</h2>
-    <ul class="listlista">
-      <li class="flexito">
-      <div>${one}</div>
-      <div>$ ${two}</div>
-      </li>
-      <li class="flexito">
-            <div>${three}</div>
-      <div>$ ${four}</div>
-  </li> </ul> `}     
+<ul class="listlista">
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+      <li class="flexito">div>${three}</div><div>$ ${four}</div></li> 
+</ul> `}     
 over3("#pz3", cervezas[2].marca,cervezas[2].precio[0],cervezas[2].marca,cervezas[2].precio[1]);
 
  
@@ -293,15 +284,10 @@ var over4 = function(atr,one,two,three,four) {
 	        contenido.innerHTML = `
     
     <h2 class="titlelistlistaa">S</h2>
-    <ul class="listlista">
-      <li class="flexito">
-      <div>${one}</div>
-      <div>$ ${two}</div>
-      </li>
-      <li class="flexito">
-            <div>${three}</div>
-      <div>$ ${four}</div>
-  </li> </ul> `}     
+<ul class="listlista">
+      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+      <li class="flexito"><div>${three}</div><div>$ ${four}</div></li> 
+</ul> `}     
 over4("#pz4", cervezas[3].marca,cervezas[3].precio[0],cervezas[3].marca,cervezas[3].precio[1]);
 /*--------------------JUGOS--------------------------*/ 
 var renderjugos = function(atr,one,two,three,four,five,six,seven,eight,nine,ten) {
@@ -309,14 +295,12 @@ var renderjugos = function(atr,one,two,three,four,five,six,seven,eight,nine,ten)
 	        contenido.innerHTML = `
     
     <h2 class="titlelistlistaa">A - D</h2>
-    <ul class="listlista">
-      <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
-  <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
-<li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
-<li class="flexito"><div>${seven}</div><div$ >${eight}</div></li>
-<li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
-
-
+<ul class="listlista">
+    <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
+    <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
+    <li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
+    <li class="flexito"><div>${seven}</div><div$ >${eight}</div></li>
+    <li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
 </ul> `  }     
 
 
