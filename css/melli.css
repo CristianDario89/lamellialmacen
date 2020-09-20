@@ -3,35 +3,20 @@ html{  scroll-behavior: smooth;}
 @keyframes up{0%{transform: translate(0px, -120px);}
 to{transform: translate(0px, 0px);}  
 } 
-.wrap1 h1{
-    text-align: center;
-}
-
+.wrap1 h1{ text-align: center;}
 .estesale{  display: none;}
-.mercadopago{
-    display: flex;
-   position: absolute;z-index: 11;
-     top: 20px;margin-left:37%;  
-    
-}
- .mercadopago img{
-  width: 130px;height: 40px;
-      border-radius: 8px;
-     animation: up 4s;
-}  
+
+.mercadopago{display: flex;position: absolute;z-index: 11; margin-left: 23%;
+transform: translateY(-20px);}
+ .mercadopago img{width: 130px;height: 40px;border-radius: 8px;animation: up 4s;}  
+
 .tituscontacto{letter-spacing: 3px;font-weight: 600;}
 /*---------------------*/
 @media screen and (max-width: 800px) { 
-       .mercadopago{
-       animation: left 5s;
-     margin-left:17%;  height: 42px;margin-top: 20px;
-    }
-.centrowsp{    border-bottom: 12px solid deepskyblue;
-    position: relative;z-index: 1;
-   } 
-.menucostado{ 
-      line-height: 30px;transform: scale(1.2);margin-top:   12px;
-} 
+       .mercadopago{animation: left 5s; margin-left: 6%;
+transform: translateY(-20px) scale(0.7); }
+.centrowsp{border-bottom: 12px solid deepskyblue;position: relative;z-index: 1;} 
+.menucostado{ line-height: 30px;transform: scale(1.2);margin-top:   12px;} 
 } 
 /*--2-------------------*/   
 .menucostado{
@@ -44,11 +29,11 @@ font-weight: 700;
 /*-----------Menu ppal---------------------*/
 .flexmelli{
     display: flex;flex-wrap: wrap;
-  width: 900px;  height: 200px;
-    margin: auto; margin-top: 20px;  
+  width: 900px;  
+    margin: auto; margin-top: 20px;  padding-left:140px;
    font-family: "Playfair Display", serif;
 }
-.flexmelli div{   width: 30%; border-radius: 8px;
+.flexmelli div{   width: 25%; border-radius: 8px;
     margin:  2px;padding: 5px;
 } 
 /*--- --- FUENTES- -----*/
@@ -71,18 +56,15 @@ font-weight: 700;
 }
 .gustostasty ul li{ transform: scale(1.2)}
 /*---------------------------------*/
-@media screen and (max-width: 719px) {
-  .mercadopago {left: -50px;top: -10px;  }
-     .mercadopago img{width: 100px;}   
-.h1menu{ margin-left:35%;}    
-.flexmelli{    width: 470px;height: 200px;    }
-.flexmelli div{
-    width:134px;border-radius: 8px;margin-right:  2px;padding: 5px;}
-.wrapmelli img{ height: 100px;}      
+@media screen and (max-width: 719px) {   
+.flexmelli{    width: 470px;padding-left:0px;  }
+.flexmelli div{width:32%;border-radius: 8px;margin-right:2px;padding: 5px;}
+    
+.wrapmelli img{ height: 80px;}      
 }
 /*---------------------*/
 @media screen and (max-width:500px) {       
-.flexmelli{   margin-top: 20px; width: 300px;height: 60px;    }
+.flexmelli{   margin-top: 20px; width: 300px;padding-left:0px;   }
 .flexmelli div{
     width:      32%;border-radius: 8px;
     margin-right:  2px;padding: 5px;

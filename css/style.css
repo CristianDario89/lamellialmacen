@@ -47,21 +47,9 @@
   top: 41%;
   
   text-align: center;
-}
-
-/*---------------------*/
-@media screen and (max-width:1019px) {
-  
-#fh5co-home .flexslider .fh5co-text {
-  
-  
-   
-}
-
-    
 } 
-/*--2-------------------*/ 
 /*---------------------*/
+@media screen and (max-width:1019px) {   }  
  
 #fh5co-home .flexslider .fh5co-text h1 {
   margin: 0;
@@ -75,6 +63,7 @@
   -o-transition: 0.3s;
   transition: 0.3s;
     text-shadow: 2px 2px 2px black;
+   
 }
 @media screen and (max-width: 992px) {
   #fh5co-home .flexslider .fh5co-text h1 {
