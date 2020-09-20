@@ -68,9 +68,7 @@ var alfajores = [ {
     precio: 60,
     seccion:"",
     img:"images/golo/a1.png" 
-},
-                 
-                 
+},                           
 {
     id:"9",
     marca: "tofi",

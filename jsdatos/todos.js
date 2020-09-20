@@ -18,12 +18,12 @@ var datosDulces = [ {
 {
     marca: "coronitas",
      precio: 45,
-    img: "images/galle/gad4.jpg" 
+    img: "images/galle/coro.jpg" 
 },
 {
     marca: "trio 300 gr",
     precio: 35,
-    img: "images/galle/gad6.jpg" 
+    img: "images/galle/gad4.jpg" 
 },                   
 {
     marca: "surtidas bagley",
@@ -34,13 +34,13 @@ var datosDulces = [ {
 {
     marca: "Magdalena pozo",
     precio: 83,
-    img: "images/galle/gd1.jpg" 
+    img: "images/galle/pozo.jpg" 
 },                  
 
 {
     marca: "Trío 500grs",
     precio: 90,
-    img: "images/galle/gd1.jpg" 
+    img: "images/galle/gad6.jpg" 
 }
 ];
 var datosSaladas = [ {
@@ -98,12 +98,12 @@ var cervezas = [ {
    marca: " heineken lata 710",
     precio: 160,
     img: "images/bebi/cer3.jpg" 
-},               
+}, /*              
 {
     marca: "brahama lata",
     precio: 70,
     img: "images/bebi/b1.jpg" 
-},
+},*/
 {
      marca: "Quilmes lata ",
      precio: 70,
@@ -113,23 +113,33 @@ var cervezas = [ {
 {
    marca: " heineken 1L",
     precio: 160,
-    img: "images/bebi/cer3.jpg" 
+    img: "images/bebi/heinekenbot.jpg" 
 },               
 {
     marca: "Brahama & Quilmes 1L",
     precio: 100,
-    img: "images/bebi/b1.jpg" 
+    img: "images/bebi/b7.jpg" 
 },
 {
      marca: "Stella 1L ",
      precio: 165,
-    img: "images/bebi/b4.jpg"  
+    img: "images/bebi/stellabot.png"  
 },
 {
    marca: " heineken lata chica",
     precio: 85,
     img: "images/bebi/cer3.jpg" 
-}             
+},
+ {
+   marca: " <strong>Patagonia</strong> botella",
+    precio: 200,
+    img: "images/bebi/patagonia.jpg" 
+}/*,
+{
+   marca: " <strong>Corona</strong> 710",
+    precio: 175,
+    img: "images/bebi/cer3.jpg" 
+} */                
 ];
 /*---------------------------------------*/
 var vinos = [ {
@@ -303,22 +313,22 @@ var alfajores = [ {
     img:"images/golo/gol6.jpg" 
 },
 {
-    id:"5",
-    marca: "<strong>bon-o-bon</strong>",
-    descripcion: "blanco - negro",
+    id:"",
+    marca: "bombom simple",
+    descripcion: "blanco y negro",
     cantidad:"",
-    precio: 60,
+    precio: 45,
     seccion:"",
-    proveedor:"" 
+    img:"images/golo/gol6.webp" 
 },
- {
-    id:"6",
-    marca: "<strong>bon-o-bon</strong>",
-    descripcion: "triple",
+{
+    id:"9",
+    marca: "tofi",
+    descripcion: "",
     cantidad:"",
-    precio:60,
+    precio: 70,
     seccion:"",
-    proveedor:"" 
+    img:"images/golo/gol3.jpg" 
 },
 {
     id:"7",
@@ -398,7 +408,7 @@ var heladosagua = [ {
 {
    marca: "Granizado",
     precio: 50,
-   img: "img/2/hela4.jpg"
+   img: "images/hela/gra.jpeg"
 },
 {
     marca: "Carucha",
@@ -420,17 +430,17 @@ var heladosagua = [ {
 var tasty = [ {
     marca: "El cuarto - <strong>1/4</strong>",
   precio: 120,
-    img:"img/2/hela6.png"
+    img:"images/hela/111.png"
 },
 {
     marca: "El medio - <strong>1/2</strong>",
     precio: 200,
-    img:"images/hela/c4.png" 
+    img:"images/hela/222.jpg" 
 },
 {
     marca: "El kilo - <strong>1K</strong>",
     precio: 400,
-    img: "img/2/helatasty1.jpeg" 
+    img: "images/hela/33.jpg" 
 },
 {
     marca: "<ul><li>Americana - Tramontana</li><li>Granizado - Limon </li><li>Ananá - Dulce de leche bombón</li><li>Chocolate Marroc - Crema Oreo </li><li>Frutos del bosque - Frutilla a la crema</li></ul>",
@@ -507,7 +517,7 @@ var alma1 = [ {
 var ciga1 = [ {
    marca: "<strong>Phillip Morris</strong> de 10",
     precio: 100,
-    img: "img/2/ciga1.png" 
+    img: "images/ciga/philips.jpg" 
 },
 {
     marca: "<strong>Malboro</strong> de 10",
@@ -518,7 +528,7 @@ var ciga1 = [ {
     marca: "<strong>Red point</strong> de 10",
     descripcion: "menta - uva",
     precio: 120,
-   img: "img/2/cigared2.jpg" 
+   img: "images/ciga/red.jpg" 
 },
 {
     marca: "<strong>Chesterfield</strong> de 10",

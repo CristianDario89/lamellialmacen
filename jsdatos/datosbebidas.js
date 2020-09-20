@@ -274,7 +274,7 @@ var over3 = function(atr,one,two,three,four) {
     <h2 class="titlelistlistaa">Q</h2>
 <ul class="listlista">
       <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
-      <li class="flexito">div>${three}</div><div>$ ${four}</div></li> 
+      <li class="flexito"><div>${three}</div><div>$ ${four}</div></li> 
 </ul> `}     
 over3("#pz3", cervezas[2].marca,cervezas[2].precio[0],cervezas[2].marca,cervezas[2].precio[1]);
 

@@ -6,15 +6,15 @@ to{transform: translate(0px, 0px);}
 .wrap1 h1{ text-align: center;}
 .estesale{  display: none;}
 
-.mercadopago{display: flex;position: absolute;z-index: 11; margin-left: 23%;
-transform: translateY(-20px);}
+.mercadopago{display: flex;position: absolute;z-index: 11;  
+transform: translateY(-50px);}
  .mercadopago img{width: 130px;height: 40px;border-radius: 8px;animation: up 4s;}  
 
 .tituscontacto{letter-spacing: 3px;font-weight: 600;}
 /*---------------------*/
 @media screen and (max-width: 800px) { 
-.mercadopago{animation: left 5s; margin-left: 6%;
-transform: translateY(-20px) scale(0.7); }
+.mercadopago{animation: left 5s; margin-left: 2%;
+transform: translateY(-50px) scale(1); }
 .centrowsp{border-bottom: 12px solid deepskyblue;position: relative;z-index: 1;} 
 .menucostado{ line-height: 30px;transform: scale(1.2);margin-top:12px;
    text-shadow: 1px 1px 12px deepskyblue;
