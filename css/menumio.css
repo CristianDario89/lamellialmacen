@@ -64,11 +64,13 @@ right: 25px;
     font-style: italic; 
     width: 80px;
 }
- 
+.wrapmas{
+    transform: scale(0.7) translateX(95px)  ;
+} 
 .redondo{
     border-radius: 50%; position: absolute;
-     transform: translateX(25px) translateY(10px);
-     background-color: white;color: black;
+    
+     background-color: black;color: aliceblue;
 }
 /*---------------------------------*/
 @media screen and (max-width: 792px) { 

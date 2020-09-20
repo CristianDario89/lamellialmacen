@@ -38,7 +38,7 @@ var datosDulces = [ {
 },                  
 
 {
-    marca: "Trío chocolate 500grs",
+    marca: "Trío 500grs",
     precio: 90,
     img: "images/galle/gd1.jpg" 
 }
@@ -203,7 +203,7 @@ var articulos = [ {
 ];
  
 var covid = [ {
-    marca: " Mascara policarbonato<",
+    marca: "Mascara policarbonato",
     precio: 140,
     img:"images/limpi/z4.jpg"
 },
@@ -564,8 +564,11 @@ var over1 = function(atrr,on,tw, thre) {
 									<div class="fh5co-food-pricing">
 										$ ${tw}
 									</div> 
+<div class="wrapmas">
 
 <p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p> 
+
+</div>
    `
     }  
 /*----------------------GALLE---------------------*/
@@ -677,6 +680,14 @@ over1("#pc5", ciga1[4].marca,ciga1[4].precio,ciga1[4].img);
 over1("#pc6", ciga1[5].marca,ciga1[5].precio,ciga1[5].img);
 over1("#pc7", ciga1[6].marca,ciga1[6].precio,ciga1[6].img);
 over1("#pc8", ciga1[7].marca,ciga1[7].precio,ciga1[7].img);
+
+
+over1("#ph1", heladosagua[0].marca,heladosagua[0].precio,heladosagua[0].img);
+over1("#ph2", heladosagua[1].marca,heladosagua[1].precio,heladosagua[1].img);
+over1("#ph3", heladosagua[2].marca,heladosagua[2].precio,heladosagua[2].img);
+over1("#ph4", heladosagua[3].marca,heladosagua[3].precio,heladosagua[3].img);
+over1("#ph8", heladosagua[4].marca,heladosagua[4].precio,heladosagua[4].img);
+over1("#ph9", heladosagua[5].marca,heladosagua[5].precio,heladosagua[5].img);
 over1("#ph5", tasty[0].marca,tasty[0].precio,tasty[0].img);
 over1("#ph6", tasty[1].marca,tasty[1].precio,tasty[1].img);
 over1("#ph7", tasty[2].marca,tasty[2].precio,tasty[2].img);
