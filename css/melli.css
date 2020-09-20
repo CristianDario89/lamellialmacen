@@ -13,17 +13,17 @@ transform: translateY(-20px);}
 .tituscontacto{letter-spacing: 3px;font-weight: 600;}
 /*---------------------*/
 @media screen and (max-width: 800px) { 
-       .mercadopago{animation: left 5s; margin-left: 6%;
+.mercadopago{animation: left 5s; margin-left: 6%;
 transform: translateY(-20px) scale(0.7); }
 .centrowsp{border-bottom: 12px solid deepskyblue;position: relative;z-index: 1;} 
-.menucostado{ line-height: 30px;transform: scale(1.2);margin-top:   12px;} 
-} 
-/*--2-------------------*/   
-.menucostado{
-z-index: 1111;
-text-shadow:  -1px -1px 11px blue; 
+.menucostado{ line-height: 30px;transform: scale(1.2);margin-top:12px;
+   text-shadow: 1px 1px 12px deepskyblue;
+    font-family: Montserrat;font-weight: 800;letter-spacing: 1.2px;
+    transform: scaleY(1.8) scaleX(1.4);} 
+ 
+z-index: 1111; color: red;
 font-weight: 700; 
-    border-bottom:5px solid red;  
+      
 }  
 .centrowsp{    font-size: 20px;} 
 /*-----------Menu ppal---------------------*/
@@ -31,7 +31,7 @@ font-weight: 700;
     display: flex;flex-wrap: wrap;
   width: 900px;  
     margin: auto; margin-top: 20px;  padding-left:140px;
-   font-family: "Playfair Display", serif;
+   font-family: "Montserrat", serif;
 }
 .flexmelli div{   width: 25%; border-radius: 8px;
     margin:  2px;padding: 5px;
