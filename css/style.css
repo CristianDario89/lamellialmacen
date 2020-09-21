@@ -44,7 +44,7 @@
   position: absolute;
   z-index: 3;
   width: 100%;
-  top: 41%;
+  top: 21%;
   
   text-align: center;
 } 
@@ -70,6 +70,7 @@
     font-size: 50px;
       
   }
+    #fh5co-home .flexslider .fh5co-text {top: 31%;  } 
 }
 #fh5co-home .flexslider .fh5co-text h2 {
   margin: 0;

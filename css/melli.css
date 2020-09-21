@@ -6,15 +6,15 @@ to{transform: translate(0px, 0px);}
 .wrap1 h1{ text-align: center;}
 .estesale{  display: none;}
 
-.mercadopago{display: flex;position: absolute;z-index: 11;  
+.mercadopago{ z-index: 11;  
 transform: translateY(-50px);}
  .mercadopago img{width: 130px;height: 40px;border-radius: 8px;animation: up 4s;}  
 
 .tituscontacto{letter-spacing: 3px;font-weight: 600;}
 /*---------------------*/
 @media screen and (max-width: 800px) { 
-.mercadopago{animation: left 5s; margin-left: 2%;
-transform: translateY(-50px) scale(1); }
+.mercadopago{animation: left 5s;  
+transform: scale(1.3)  }
 .centrowsp{border-bottom: 12px solid deepskyblue;position: relative;z-index: 1;} 
 .menucostado{ line-height: 30px;transform: scale(1.2);margin-top:12px;
    text-shadow: 1px 1px 12px deepskyblue;
@@ -31,7 +31,7 @@ font-weight: 700;
     display: flex;flex-wrap: wrap;
   width: 900px;  
     margin: auto; margin-top: 20px;  padding-left:140px;
-   font-family: "Montserrat", serif;
+   font-family: "Montserrat", serif; 
 }
 .flexmelli div{   width: 25%; border-radius: 8px;
     margin:  2px;padding: 5px;
@@ -39,12 +39,14 @@ font-weight: 700;
 /*--- --- FUENTES- -----*/
 .wrapmelli{   border: 2px solid skyblue; }
 .wrapmelli img{width: 100%;height: 80px;border-radius: 6px;} 
-.wrapmelli .pp a{
-    text-decoration: none;color: antiquewhite;
-    font-weight: 600;
+.wrapmelli .pp a{ 
+    text-decoration: none;  
+  margin-left: 44px;color:skyblue; 
 }
-.wrapmelli .pp a:hover{color:deepskyblue;  }
-.pp{ font-size: 12px;  }
+.wrapmelli .pp a:hover{color:deepskyblue; transform: scale(1.3);
+ text-shadow: 1px 1px 11px red,
+        -1px -1px 11px red;}
+ 
 /*------------------------------------*/
 .cuadras{letter-spacing: 2px;text-align: left;}
 
@@ -60,7 +62,9 @@ font-weight: 700;
 .flexmelli{    width: 470px;padding-left:0px;  }
 .flexmelli div{width:32%;border-radius: 8px;margin-right:2px;padding: 5px;}
     
-.wrapmelli img{ height: 80px;}      
+.wrapmelli img{ height: 80px;}  
+.wrapmelli .pp a{ margin-left:  1px; }
+.wrapmelli .pp{  margin-left:  -9px; transform: scale(0.9);}
 }
 /*---------------------*/
 @media screen and (max-width:500px) {       
