@@ -68,7 +68,7 @@ var datosSaladas = [ {
 ];
 var snacks = [
    {
-    marca: "Papas krachitos jamón y corte americano ",
+    marca: "Krachitos jamón/corte americano ",
     precio: 50,
     img:"images/galle/snack44.jpeg" 
 },
@@ -575,8 +575,8 @@ var over1 = function(atrr,on,tw, thre) {
 										$ ${tw}
 									</div> 
 <div class="wrapmas">
-
-<p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p> 
+<!--
+<p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p> -->
 
 </div>
    `
