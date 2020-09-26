@@ -478,7 +478,7 @@
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3 {
   margin: 0 0 10px 0;
   padding: 0;letter-spacing: 1.3px;
-  font-size: 23px;
+  font-size: 23px;font-family: cursive;
   color: #000;font-weight: 600;transform: scaleY(1.8)  ;
 }
 /*------------------*/
