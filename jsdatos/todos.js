@@ -1,4 +1,8 @@
+<<<<<<< HEAD:jsdatos/todos.js
 var datosDulces = [ {
+=======
+  var datosDulces = [ {
+>>>>>>> master:datosgalletitas.js
     marca: "Don Satur",
     precio: 40,
     img: "images/galle/g2.jpg"
@@ -455,10 +459,17 @@ var tasty = [ {
 {
     marca: "<ul><li>Americana - Tramontana</li><li>Granizado - Limon </li><li>Ananá - Dulce de leche bombón</li><li>Chocolate Marroc - Crema Oreo </li><li>Frutos del bosque - Frutilla a la crema</li></ul>",
      precio: 400
+<<<<<<< HEAD:jsdatos/todos.js
 
 }
 ];
 
+=======
+
+}
+];
+
+>>>>>>> master:datosgalletitas.js
 /*------------------ALMACEN-------------*//*-------------ALMACEN-----------------*/
 var alma1 = [ {
    marca: "leche <strong>la serenisima</strong> ",
@@ -585,9 +596,14 @@ var over1 = function(atrr,on,tw, thre) {
 										$ ${tw}
 									</div> 
 <div class="wrapmas">
+<<<<<<< HEAD:jsdatos/todos.js
 <!--
 <p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p> -->
 
+=======
+
+<p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p> 
+>>>>>>> master:datosgalletitas.js
 </div>
    `
     }  
@@ -915,5 +931,9 @@ $('.show-cart').on("change", ".item-count", function(event) {
   shoppingCart.setCountForItem(name, count);
   displayCart();
 });
+<<<<<<< HEAD:jsdatos/todos.js
 displayCart();
  
+=======
+displayCart();
+>>>>>>> master:datosgalletitas.js
