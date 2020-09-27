@@ -19,14 +19,14 @@
   position: fixed;
   width: 40px;
   height: 30px;
-  background-color: #337ab7;
-  bottom:90px;
-  right: 21px;
+  background-color:skyblue;color: whitesmoke;
+  bottom:82px;
+  right: 43px;
 opacity: 0.6;
   text-decoration: none;
   text-align: center;
   line-height: 40px;
-  color: red;
+   
   font-size: 22px;
     z-index: 111;
     border-radius: 50%;
@@ -39,8 +39,8 @@ opacity: 0.6;
     
   position: fixed;
   width: 80px;
- 
-  bottom: 110px;
+
+  bottom: 80px;
 right: 25px;
   text-decoration: none;
   text-align: center;
@@ -58,21 +58,24 @@ right: 25px;
 }
 .clear-cart{
     font-size: 10px;
-    color: black;background: #337ab7;
+    color: black;background: skyblue;
     font-weight: 600;
     opacity: 0.6;
     font-style: italic; 
-    width: 80px;
+    width: 50px;border-radius: 50%;
+    transform: scale(0.8);
 }
- 
+.wrapmas{
+    transform: scale(0.7) translateX(95px)  ;
+} 
 .redondo{
-    border-radius: 50%; 
-     transform: translateX(25px) translateY(10px);
+    border-radius: 50%; position: absolute;
+    
+     background-color: black;color: aliceblue;
 }
 /*---------------------------------*/
-@media screen and (max-width: 792px) {
-    .gotopbtn8{  } 
-    .gotopbtn{ bottom:90px; right: 43px;   } 
+@media screen and (max-width: 792px) { 
+    .gotopbtn{ bottom:83px; right: 85px;   } 
     .redondo{ transform: translateX(30px) translateY(10px);}
 
 }

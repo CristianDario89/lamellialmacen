@@ -1,4 +1,4 @@
- var datosDulces = [ {
+  var datosDulces = [ {
     marca: "Don Satur",
     precio: 40,
     img: "images/galle/g2.jpg"
@@ -16,19 +16,19 @@
     img: "images/galle/mante.jpg"
 },
 {
-    marca: "coronitas",
+    marca: "Coronitas",
      precio: 45,
     img: "images/galle/coro.jpg" 
 },
 {
-    marca: "trio 300 gr",
+    marca: "Trio 300 gr",
     precio: 35,
     img: "images/galle/gad4.jpg" 
 },                   
 {
-    marca: "surtidas bagley",
-    precio: 105,
-    img: "images/galle/gd1.jpg" 
+    marca: "Surtidas bagley",
+    precio: 110,
+    img: "images/galle/surtidos.webp" 
 },
                                     
 {
@@ -53,28 +53,38 @@ var datosSaladas = [ {
     descripcion: "$28 c/u",
     precio: 75,
     img:"images/galle/g4.webp"
-}, 
+},
+                    {
+    marca: "Traviata  x 3",
+    descripcion: "$28 c/u",
+    precio: 100,
+    img:"images/galle/traviata.jpg"
+},/*
 {
     marca: "Jorgito Bizcochitos",
      precio: 50,
     img:"images/galle/gd2.png"
-},
+}
 {
      marca: "criollitas x 3",
     descripcion: "$35 c/u",
      precio: 90,
     img:"images/galle/g5.webp" 
+}*/{
+     marca: "Paseo",
+     precio: 75,
+    img:"images/galle/paseo.webp" 
 }
 ];
 var snacks = [
    {
-    marca: "Krachitos jamón/corte americano ",
+    marca: "Krachitos jamón<br>corte americano ",
     precio: 50,
     img:"images/galle/snack44.jpeg" 
 },
 {
     marca: "Krachitos cheddar y ketchup",
-    precio: 70,
+    precio: 60,
     img:"images/galle/sn1.jpg" 
 }, 
 {
@@ -91,17 +101,17 @@ var snacks = [
 /*-------------------------BEBIDAS--------BEBIDAS------------*/
 var cervezas = [ {
    marca: " Shneider lata",
-   precio: 55,
+   precio: 65,
     img: "images/bebi/b10.png" 
 },
 {
-   marca: " heineken lata 710",
-    precio: 160,
+   marca: " heineken<br> lata 710",
+    precio: 140,
     img: "images/bebi/cer3.jpg" 
 }, /*              
 {
-    marca: "brahama lata",
-    precio: 70,
+    marca: "Shneider 710",
+    precio: 100,
     img: "images/bebi/b1.jpg" 
 },*/
 {
@@ -116,7 +126,7 @@ var cervezas = [ {
     img: "images/bebi/heinekenbot.jpg" 
 },               
 {
-    marca: "Brahama & Quilmes 1L",
+    marca: "Brahama &<br> Quilmes 1L",
     precio: 100,
     img: "images/bebi/b7.jpg" 
 },
@@ -127,12 +137,12 @@ var cervezas = [ {
 },
 {
    marca: " heineken lata chica",
-    precio: 85,
+    precio: 90,
     img: "images/bebi/cer3.jpg" 
 },
  {
-   marca: " <strong>Patagonia</strong> botella",
-    precio: 200,
+   marca: "Patagonia ",
+    precio: 180,
     img: "images/bebi/patagonia.jpg" 
 }/*,
 {
@@ -143,30 +153,30 @@ var cervezas = [ {
 ];
 /*---------------------------------------*/
 var vinos = [ {
-    marca: "Michel torino</strong> 720ml",
+    marca: "Michel torino<br> 720ml",
     precio: 75,
     img:"images/bebi/vinos1.jpg"
 },
 {
     marca: "Estancia mendoza 800ml",
-   precio: 120,
+   precio: 130,
     img:"images/bebi/vinos2.jpg"
 },
 {
-     marca: "Federico de alvear extra dulce 1L",
-    precio: 185,
+     marca: "Federico<br> extra dulce 1L",
+    precio: 210,
     img:"images/bebi/vinos3.jpg"
 },
 {
     marca: "Termidor tinto",
     precio: 75,
-    img:"images/bebi/vinos3.jpg"
+    img:"images/bebi/tinto.jpg"
 } 
 ];
 /*---------------------------------------*/
 var jugos = [ {
     marca: "Fresh",
-    precio: 50,
+    precio: 55,
     img:"images/bebi/b9.webp"
 },
 {
@@ -176,7 +186,7 @@ var jugos = [ {
 },
 {
     marca: "tang",
-    precio: 18,
+    precio: 19,
     img:"images/bebi/bb4.jpeg" 
 },
 {
@@ -280,7 +290,7 @@ var desoH = [ {
 /*-------------------------GOLOSINAS--------GOLOSINAS------------*/
 var alfajores = [ {
     id:"1",
-    marca: "milka</strong>",
+    marca: "Milka",
     descripcion: "dulce de leche - Mousse",
     precio: 70,
     seccion:"",
@@ -332,7 +342,7 @@ var alfajores = [ {
 },
 {
     id:"7",
-    marca: "<strong>jorgelin</strong>",
+    marca: "Jorgelin",
     descripcion: "blanco - negro",
     cantidad:"",
     precio: 50,
@@ -351,12 +361,12 @@ var alfajores = [ {
 ];
 var chocolates = [ 
 {
-    marca: "Milka leger combinado 45g",
+    marca: "Leger combinado 45g",
     precio: 115,
     img:"images/golo/gol9.jpg" 
 },
 {
-    marca: "Milka leger aireado 45g",
+    marca: "Leger aireado 45g",
     precio: 115,
     img:"images/golo/gol9.jpg" 
 },
@@ -372,7 +382,7 @@ var chocolates = [
   img:"images/golo/ll.png" 
 },
 {
-   marca: "Chocolate Misky 25gr",
+   marca: " Misky 25gr",
    precio: 35,
    img:"images/golo/golmisky.jpg" 
 },
@@ -575,8 +585,8 @@ var over1 = function(atrr,on,tw, thre) {
 										$ ${tw}
 									</div> 
 <div class="wrapmas">
-<!--
-<p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p> -->
+
+<p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p> 
 </div>
    `
     }  
@@ -604,7 +614,7 @@ over1("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].img);
 over1("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].img);
 /*-------------BEBIDAS------------------------------*/
 
-over1("#pb6", cervezas[6].marca,cervezas[3].precio,cervezas[6].img);
+over1("#pb6", cervezas[6].marca,cervezas[6].precio,cervezas[6].img);
 over1("#pb5", cervezas[5].marca,cervezas[5].precio,cervezas[5].img);
 over1("#pb7",cervezas[7].marca,cervezas[7].precio,cervezas[7].img);
 over1("#pb8",cervezas[4].marca,cervezas[4].precio,cervezas[4].img); 
@@ -905,4 +915,3 @@ $('.show-cart').on("change", ".item-count", function(event) {
   displayCart();
 });
 displayCart();
- 
