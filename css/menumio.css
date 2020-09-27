@@ -73,7 +73,8 @@ right: 25px;
 /*---------------------------------*/
 @media screen and (max-width: 792px) { 
     .gotopbtn{ bottom:83px; right: 85px;   } 
-    .redondo{ transform: translateX(30px) translateY(10px); position: absolute;right: 140px;
+    .redondo{ transform: translateX(-70px) translateY(-50px); 
+        position: absolute; 
     }
 
 }
