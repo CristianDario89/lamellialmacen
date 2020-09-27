@@ -584,10 +584,10 @@ var over1 = function(atrr,on,tw, thre) {
 									<div class="fh5co-food-pricing">
 										$ ${tw}
 									</div> 
-<div class="wrapmas"> 
-   
+<!--
+<div class="wrapmas">  
 <p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p>  
-</div>
+</div>-->
    `
     }  
 /*----------------------GALLE---------------------*/

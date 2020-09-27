@@ -553,6 +553,13 @@
   max-width: 100%;transform: scaleX(1.7) scaleY(1.7);
      
 }
+    
+    #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3 {
+  margin: 0 0 10px 0;
+   
+  font-size: 20px; 
+  color: #000;font-weight: 600;transform: scaleY(1.8); ;
+}
 }
 #fh5co-events .fh5co-event {
   color: #fff;
