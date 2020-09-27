@@ -136,7 +136,7 @@ var cervezas = [ {
     img: "images/bebi/stellabot.png"  
 },
 {
-   marca: " heineken<br> lata chica",
+   marca: " heineken lata chica",
     precio: 90,
     img: "images/bebi/cer3.jpg" 
 },
@@ -163,14 +163,14 @@ var vinos = [ {
     img:"images/bebi/vinos2.jpg"
 },
 {
-     marca: "Federico de alvear<br> extra dulce 1L",
-    precio: 185,
+     marca: "Federico<br> extra dulce 1L",
+    precio: 210,
     img:"images/bebi/vinos3.jpg"
 },
 {
     marca: "Termidor tinto",
     precio: 75,
-    img:"images/bebi/vinos3.jpg"
+    img:"images/bebi/tinto.jpg"
 } 
 ];
 /*---------------------------------------*/
@@ -615,7 +615,7 @@ over1("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].img);
 over1("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].img);
 /*-------------BEBIDAS------------------------------*/
 
-over1("#pb6", cervezas[6].marca,cervezas[3].precio,cervezas[6].img);
+over1("#pb6", cervezas[6].marca,cervezas[6].precio,cervezas[6].img);
 over1("#pb5", cervezas[5].marca,cervezas[5].precio,cervezas[5].img);
 over1("#pb7",cervezas[7].marca,cervezas[7].precio,cervezas[7].img);
 over1("#pb8",cervezas[4].marca,cervezas[4].precio,cervezas[4].img); 

@@ -4,7 +4,7 @@ html{  scroll-behavior: smooth;}
 to{transform: translate(0px, 0px);}  
 } 
 
-.h1seccion{ text-align: center;  margin: 80px 0;font-family: Montserrat;}
+.h1seccion{ text-align: center;  margin: 80px 0;font-family:cursive; font-weight: 600; }
 .estesale{  display: none;}
 
 .mercadopago{ z-index: 11;  
