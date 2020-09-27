@@ -197,8 +197,7 @@ var jugos = [ {
 }
 ];
 /*-------------------------CIGARRILLOS--------CIGARRILLOS------------*/
-
-/*-------------------------ALMACEN--------ALMACEN------------*/
+ 
 
 /*-------------------------LIMPIEZA--------LIMPIEZA------------*/
 var articulos = [ {
@@ -586,9 +585,7 @@ var over1 = function(atrr,on,tw, thre) {
 										$ ${tw}
 									</div> 
 <div class="wrapmas"> 
-<!--
-<p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p> -->
- 
+   
 <p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p>  
 </div>
    `
@@ -688,6 +685,7 @@ over1("#pa5", alma1[4].marca,alma1[4].precio,alma1[4].img);
 over1("#pa6", alma1[5].marca,alma1[5].precio,alma1[5].img);
 over1("#pa7", alma1[6].marca,alma1[6].precio,alma1[6].img);
 over1("#pa8", alma1[7].marca,alma1[7].precio,alma1[7].img);
+
 over1("#pa11", alma1[8].marca,alma1[8].precio,alma1[8].img);
 over1("#pa12", alma1[9].marca,alma1[9].precio,alma1[9].img);
 over1("#pa13", alma1[10].marca,alma1[10].precio,alma1[10].img);
@@ -878,11 +876,11 @@ function displayCart() {
 <tr>
       <td>  ${cartArray[i].name}</td> 
       <td> ${cartArray[i].price} </td>
-      <td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary redondo' data-name='${cartArray[i].name}' >-</button>
+      <td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary' data-name='${cartArray[i].name}' >-</button>
       <input type='number' class='item-count form-control' data-name='${cartArray[i].name}' value='${cartArray[i].count}' >
-      <button class='plus-item btn btn-primary redondo input-group-addon' data-name='${cartArray[i].name}' >+</button></div></td>
+      <button class='plus-item btn btn-primary  input-group-addon' data-name='${cartArray[i].name}' >+</button></div></td>
       <td><button class='delete-item btn btn-danger' data-name='${cartArray[i].name}' >X</button></td>
-       =  
+        
       <td > ${cartArray[i].total}  </td> 
       </tr>
 ` ;

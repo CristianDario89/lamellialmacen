@@ -6396,9 +6396,9 @@ button.close {
 }
 
 .modal {
-  display: none;
+  display: none; 
   overflow: hidden;
-  position: fixed;
+  position: fixed; 
   top: 0;
   right: 0;
   bottom: 0;
@@ -6426,11 +6426,11 @@ button.close {
 
 .modal-open .modal {
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: auto; 
 }
 
 .modal-dialog {
-  position: relative;
+  position: relative; 
   width: auto;
   margin: 10px;
 }
