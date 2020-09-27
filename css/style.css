@@ -43,12 +43,10 @@
 #fh5co-home .flexslider .fh5co-text {
   position: absolute;
   z-index: 3;
-  width: 100%;
-<<<<<<< HEAD
+  width: 100%; 
   top: 21%;
   
   text-align: center;
-=======
   top: 31%;
   
   text-align: center;
@@ -57,9 +55,7 @@
 /*---------------------*/
 @media screen and (max-width:1019px) {
   
-  
-    
->>>>>>> master
+   
 } 
 /*---------------------*/
 @media screen and (max-width:1019px) {   }  
@@ -445,14 +441,11 @@
   padding: 0;
   margin: 0;
 }
-#fh5co-menus .fh5co-food-menu ul li {
-<<<<<<< HEAD
+#fh5co-menus .fh5co-food-menu ul li { 
   padding: 0 0 48px 0;
-  margin: 0 0 48px 0;
-=======
+  margin: 0 0 48px 0; 
   padding: 0 0 40px 0;
-  margin: 0 0 40px 0;
->>>>>>> master
+  margin: 0 0 40px 0; 
   border-bottom: 1px dotted #ccc;
   display: block;
   float: left;
@@ -503,9 +496,7 @@
   text-align: right;
   font-size: 29px;
   color: #fb6e14;
-}  
-<<<<<<< HEAD
-=======
+}   
 
 #fh5co-events {
    
@@ -619,8 +610,7 @@
 }
 #fh5co-events .fh5co-event .btn {
   margin-bottom: 0;
-}
->>>>>>> master
+} 
  
 #fh5co-contact {
   padding: 7em 0;
