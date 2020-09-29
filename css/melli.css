@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Kurale&family=Lato:ital,wght@0,100;1,100;1,300&family=Martel:wght@200;600&family=Montserrat:ital,wght@0,600;0,800;0,900;1,400&family=PT+Serif:ital@0;1&family=Quicksand:wght@300;500&family=Raleway:wght@300&family=Roboto+Slab:wght@100&family=Roboto:wght@100;300;400;900&display=swap'); 
-html{  scroll-behavior: smooth;} 
+html{  scroll-behavior: smooth; } 
+
+*{padding: 0;box-sizing: border-box;}
+
+.wrapppal{
+    max-width: 1300px;
+}
 @keyframes up{0%{transform: translate(0px, -120px);}
 to{transform: translate(0px, 0px);}  
 } 
 
 .h1seccion{ text-align: center;  margin: 20px 0 60px 0 ;font-family:cursive; font-weight: 600; 
-transform: scale(1.4)}
+ 
+}
 .estesale{  display: none;}
 
 .mercadopago{ z-index: 11;  

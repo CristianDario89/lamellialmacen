@@ -51,12 +51,7 @@
   
   text-align: center;
 }
-
-/*---------------------*/
-@media screen and (max-width:1019px) {
-  
-   
-} 
+ 
 /*---------------------*/
 @media screen and (max-width:1019px) {   }  
  
@@ -485,8 +480,8 @@
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3 {
   margin: 0 0 10px 0;
   padding: 0;letter-spacing: 1.3px;
-  font-size: 23px;font-family: cursive;
-  color: #000;font-weight: 600;transform: scaleY(1.8)  ;
+  font-size: 23px;font-family: Kurale;
+  color: #000; transform: scaleY(1.7)  ;
 }
 /*------------------*/
  
@@ -675,7 +670,7 @@
 
 #fh5co-container {
   position: relative;
-  z-index: 10;
+  z-index: 10;  
 }
 
 #fh5co-footer {
