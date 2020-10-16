@@ -388,7 +388,7 @@
   color: #a99c92;
 }
 #fh5co-menus .fh5co-food-menu {
-  float: left;
+  float: left; 
   width: 100%;
   margin-bottom: 30px;font-family: "Playfair Display", serif;
 }
@@ -535,7 +535,7 @@ padding-left: 20px; padding-top: 20px;
   
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-pricing {text-align: left;font-size: 36px;}   
  
- 
+    .aparece{display: block;}
     
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure img {
   max-width: 100%;transform: scaleX(2) scaleY(1.7);

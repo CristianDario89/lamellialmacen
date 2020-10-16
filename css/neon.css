@@ -1,4 +1,26 @@
-  /**---------------------*/
+.ribbon { display: block; overflow: hidden; display: none;}
+.ribbon span {
+  width: 60px;
+  height: 54px;
+  top:  30px;
+  right:   -17px;
+  position: absolute; 
+  display: block;
+  background: #FF0000;
+  color: #333;
+  font-family: arial;
+  font-size: 18px;
+  color:white;
+  text-align: center;
+  line-height: 34px;
+ /* transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);*/
+    
+    border-radius: 50%;
+    padding: 10px;
+}  
+/**---------------------*/
 .containerlistlistaa {
   -webkit-column-count: 4;
   -moz-column-count: 4;
@@ -60,6 +82,7 @@
     -moz-column-count: 1;
     column-count: 1;
   }
+    .ribbon span {top:  18px;right:-17px;transform: scale(0.8);}  
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {

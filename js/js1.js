@@ -4,6 +4,15 @@ function takeInput(){
          output.innerHTML = txt;
     
 }
+function poneDesc(){
+    
+$("#p6 .fh5co-food-desc .ribbon").css('display','block');
+ $("#p2 .fh5co-food-desc .ribbon").css('display','block');
+    $("#p9 .fh5co-food-desc .ribbon").css('display','block');
+    $("#ps1 .fh5co-food-desc .ribbon").css('display','block');
+    $("#ps2 .fh5co-food-desc .ribbon").css('display','block');
+}
+ poneDesc();
 /*-----------------------------
 
  var names = ["Anna", "Bob", "Charles", "Daniel",

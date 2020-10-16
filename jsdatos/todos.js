@@ -576,6 +576,10 @@ var over1 = function(atrr,on,tw, thre) {
                                 <div class="fh5co-food-desc" >
 										<figure>
 											<img src="${thre}" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+                                        
+                                            <div class="ribbon">
+                                              <span>-10%</span>
+                                            </div>
 										</figure>
 										<div id="wraph33"><h3>${on}</h3></div>
                                 </div>
