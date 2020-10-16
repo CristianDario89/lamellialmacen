@@ -573,17 +573,13 @@ var ciga1 = [ {
 var over1 = function(atrr,on,tw, thre) {
 	    var contenido2 = document.querySelector(atrr)
 	        contenido2.innerHTML = `
-    <div class="fh5co-food-desc " >
+                                <div class="fh5co-food-desc" >
 										<figure>
 											<img src="${thre}" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
 										</figure>
-										<div>
-											<h3>${on}</h3>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$ ${tw}
-									</div> 
+										<div id="wraph33"><h3>${on}</h3></div>
+                                </div>
+                                <div class="fh5co-food-pricing">$ ${tw}</div> 
 <!--
 <div class="wrapmas">  
 <p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p>  
