@@ -1,4 +1,4 @@
-.ribbon { display: block; overflow: hidden; display: none;}
+.ribbon{ display: block; overflow: hidden; display: none;}
 .ribbon span {
   width: 60px;
   height: 54px;
@@ -19,7 +19,10 @@
     
     border-radius: 50%;
     padding: 10px;
-}  
+}
+.claseadded{
+    transform: scale(2);font-size: 50px;
+}
 /**---------------------*/
 .containerlistlistaa {
   -webkit-column-count: 4;

@@ -11,8 +11,19 @@ $("#p6 .fh5co-food-desc .ribbon").css('display','block');
     $("#p9 .fh5co-food-desc .ribbon").css('display','block');
     $("#ps1 .fh5co-food-desc .ribbon").css('display','block');
     $("#ps2 .fh5co-food-desc .ribbon").css('display','block');
+    
 }
  poneDesc();
+
+  /*
+$("#probi").hover(function(){
+    $(this).animate({fontSize:'70px'});
+});
+ 
+
+  */ 
+            
+
 /*-----------------------------
 
  var names = ["Anna", "Bob", "Charles", "Daniel",

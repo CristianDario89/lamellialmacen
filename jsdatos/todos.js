@@ -575,9 +575,9 @@ var over1 = function(atrr,on,tw, thre) {
 	        contenido2.innerHTML = `
                                 <div class="fh5co-food-desc" >
 										<figure>
-											<img src="${thre}" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+											<img src="${thre}" id="ribbon"  class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
                                         
-                                            <div class="ribbon">
+                                            <div class="ribbon" >
                                               <span>-10%</span>
                                             </div>
 										</figure>
