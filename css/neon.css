@@ -85,7 +85,14 @@
     -moz-column-count: 1;
     column-count: 1;
   }
-    .ribbon span {top:  18px;right:-17px;transform: scale(0.8);}  
+    .ribbon span {top:  18px;right:-17px;transform: scale(0.8);} 
+    .csslider1 {
+	 
+	max-width: 380px;
+	 
+	margin-top:130px;
+   
+}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
@@ -98,9 +105,9 @@
 
 @media only screen and (min-width: 1201px) {
   .containerlistlistaa {
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
   }
 }
 .flexito{display: flex;justify-content: space-between;}

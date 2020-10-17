@@ -591,27 +591,16 @@ var over1 = function(atrr,on,tw, thre) {
    `
     }  
 /*----------------------GALLE---------------------*/
-over1("#p8", datosDulces[0].marca,datosDulces[0].precio,datosDulces[0].img);
-over1("#p3", datosDulces[2].marca,datosDulces[2].precio,datosDulces[2].img);
-over1("#p4", datosDulces[3].marca,datosDulces[3].precio,datosDulces[3].img); 
-over1("#p5", datosDulces[4].marca,datosDulces[4].precio,datosDulces[4].img);
 
-over1("#p6", datosDulces[5].marca,datosDulces[5].precio,datosDulces[5].img);
-over1("#p7", datosDulces[6].marca,datosDulces[6].precio,datosDulces[6].img);
 over1("#p1", datosDulces[7].marca,datosDulces[7].precio,datosDulces[7].img);
-
-over1("#ps1", datosSaladas[0].marca,datosSaladas[0].precio,datosSaladas[0].img);
-over1("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].img);
-over1("#ps3", datosSaladas[2].marca,datosSaladas[2].precio,datosSaladas[2].img);
-over1("#ps4", datosSaladas[3].marca,datosSaladas[3].precio,datosSaladas[3].img);
-
+over1("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].img);
+over1("#p3", datosDulces[2].marca,datosDulces[2].precio,datosDulces[2].img);
+over1("#p4", datosDulces[3].marca,datosDulces[3].precio,datosDulces[3].img);  
+ 
 over1("#p10", snacks[1].marca,snacks[1].precio,snacks[1].img);
 over1("#p12", snacks[3].marca,snacks[3].precio,snacks[3].img); 
-
 over1("#p9", snacks[0].marca,snacks[0].precio,snacks[0].img);
 over1("#p11", snacks[2].marca,snacks[2].precio,snacks[2].img); 
-over1("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].img);
-over1("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].img);
 /*-------------BEBIDAS------------------------------*/
 
 over1("#pb6", cervezas[6].marca,cervezas[6].precio,cervezas[6].img);
