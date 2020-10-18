@@ -1,4 +1,23 @@
-   
+s, strike{text-decoration:none;position:relative;}
+s::before, strike::before {
+    top: 50%; /*tweak this to adjust the vertical position if it's off a bit due to your font family */
+    background:red; /*this is the color of the line*/
+    opacity:.7;
+    content: '';
+    width: 110%;
+    position: absolute;
+    height:.1em;
+    border-radius:.1em;
+    left: -5%;
+    white-space:nowrap;
+    display: block;
+    transform: rotate(-15deg);  
+}
+s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;width:102%;}
+
+
+
+/*-----------------*/  
 .swiper-container{
     margin-top: 30px;
   width:500px;
@@ -20,9 +39,10 @@ img{
   }
 }
 
-.frame, .frame2 {overflow: hidden; width: 502px; margin: 0 auto;}
+.frame, .frame2 {
+    overflow: hidden; width: 302px; margin: 0 auto;transform: scaleY(1.4) scaleX(1.7)}
 .containerslider, .containerslider2 {width: 1280px; margin-top: 100px;}
-.containerslider li, .containerslider2 li {width: 500px; height: 200px; border: 1px solid #000; float:left; overflow: hidden; text-align: center; line-height: 200px; font-size: 30px;}
+.containerslider li, .containerslider2 li {width: 300px; height: 200px; border: 1px solid #000; float:left; overflow: hidden; text-align: center; line-height: 200px; font-size: 30px;}
 .containerslider ul, .containerslider2 ul {
   width: 2912px;
   -webkit-animation: slide 20s ease infinite;
