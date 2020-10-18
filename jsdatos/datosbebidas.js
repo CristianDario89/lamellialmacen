@@ -264,8 +264,7 @@ var over2 = function(atr,one,two,three,four) {
 </ul> `}     
 over2("#pz2", cervezas[1].marca,cervezas[1].precio[0],cervezas[1].marca,cervezas[1].precio[1]);
 
-
-over3("#pz3", cervezas[2].marca,cervezas[2].precio[0],cervezas[2].marca,cervezas[2].precio[1]);
+ 
 
 var over3 = function(atr,one,two,three,four) {
 	    var contenido = document.querySelector(atr)
@@ -299,7 +298,7 @@ var renderjugos = function(atr,one,two,three,four,five,six,seven,eight,nine,ten)
     <li class="flexito"><div>${one}</div><div>$ ${two}</div></li>
     <li class="flexito"><div>${three}</div><div>$ ${four}</div></li>
     <li class="flexito"><div>${five}</div><div>$ ${six}</div></li>
-    <li class="flexito"><div>${seven}</div><div$ >${eight}</div></li>
+    <li class="flexito"><div>${seven}</div><div>$ ${eight}</div></li>
     <li class="flexito"><div>${nine}</div><div>$ ${ten}</div></li>
 </ul> `  }     
 

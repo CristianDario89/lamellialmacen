@@ -19,7 +19,7 @@
   position: fixed;
   width: 40px;
   height: 30px;
-  background-color:skyblue;color: whitesmoke;
+  background-color:BLACK;color: whitesmoke;
   bottom:82px;
   right: 85px;
 opacity: 0.6;
@@ -72,7 +72,7 @@ right: 25px;
 }
 /*---------------------------------*/
 @media screen and (max-width: 792px) { 
-    .gotopbtn{ bottom:83px; right: 85px;   } 
+    .gotopbtn{ bottom:33px; right: 85px;   } 
     .redondo{ transform: translateX(-70px) translateY(-50px); 
         position: absolute; 
     }
