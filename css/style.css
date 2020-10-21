@@ -30,12 +30,9 @@
   position: absolute;
   z-index: 3;
   width: 100%; 
-  top: 21%;
+  top: 29%;
   
-  text-align: center;
-  top: 31%;
-  
-  text-align: center;
+  text-align: center; 
 }
  
 /*---------------------*/
@@ -45,7 +42,7 @@
   margin: 0;
   padding: 0;
   font-family: "Playfair Display", serif;
-  font-size: 150px;
+  font-size: 11rem;
   font-weight: 700;
   font-style: italic;
   color: #fff;
@@ -57,17 +54,16 @@
 }
 @media screen and (max-width: 992px) {
   #fh5co-home .flexslider .fh5co-text h1 {
-    font-size: 50px;
-      
-  }
-    #fh5co-home .flexslider .fh5co-text {top: 31%;  } 
+    font-size: 4rem; }
+    
+    #fh5co-home .flexslider .fh5co-text {top: 30%;  } 
 }
 #fh5co-home .flexslider .fh5co-text h2 {
   margin: 0;
   padding: 0;
   font-family: "Merriweather", serif;  text-shadow: 2px 2px 2px black;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 3rem;
   letter-spacing: 2px;
   color: skyblue;
   -webkit-transition: 0.3s;
@@ -253,9 +249,7 @@
   background: #130d08 url(../images/wood_1.png) repeat;
 }
 @media screen and (max-width: 1200px) {
-  #fh5co-about .fh5co-text {
-    padding: 1em;
-  }
+ 
 }
 #fh5co-about .fh5co-text .btn {
   color: #fff;
